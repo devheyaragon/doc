@@ -747,7 +747,7 @@ Um diese für Aragon auszuschliessen, kann eine Blacklist angelegt werden, welch
 
 Im Aragon V2.0 Mainflow ist dazu folgende Gruppe angeboten:
 
-![blacklist.JPG]./_images/blacklist.JPG)
+![blacklist.JPG](./_images/blacklist.JPG)
 
 Kopieren Sie diese Gruppe in einen neuen Flow und editieren Sie den Funktionsblock mit der JSON Datei.
 
