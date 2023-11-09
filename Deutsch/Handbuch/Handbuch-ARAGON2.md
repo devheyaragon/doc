@@ -1,7 +1,7 @@
 # ARAGON 2
-![Logo.png](https://www.dropbox.com/scl/fi/dtzjrpslmhgqhuuf0t4to/Logo.png?rlkey=jnuurmnidkw14s4z0at8jyt8n&dl=0&raw=1)
+![Logo.png](./_images/Logo.png)
 
-![PROKNX_coul.png](https://www.dropbox.com/scl/fi/q7cdqknft1kxgghxsrqek/PROKNX_coul.png?rlkey=v2tsxxln08ribzdy6zhhgasex&dl=0&raw=1)
+![PROKNX_coul.png](./_images/PROKNX_coul.png)
 
 ***
 # INHALT
@@ -131,7 +131,7 @@ Achten Sie bei der Wahl des Aufstellungsortes darauf, dass sich keine Lautsprech
 Bei der Wahl des Einbauortes ist zu beachten, dass sich möglichst kein Lautsprecher in unmittelbarer Nähe befindet (nicht näher als 2m). Bei Verwendung von mehreren Aragon Satelliten ist der Abstand zueinander möglichst groß zu wählen, damit ein Ansprechen von gleichzeitig zwei Geräten vermieden wird. Ein sehr gut geeigneter Einbauort ist vielfach die Mitte der Zimmerdecke, da der Abstand zum Sprechenden in der Regel klein ist. Direkt neben der Zimmertür (z.B. neben dem Lichtschalter) ist dagegen oft nicht zu empfehlen, da dann bei offener Tür der ARAGON des Nachbarzimmers auch mit dem Wakewort aktiviert werden könnte.
 Das Gerät wird mittels Schraubklemmen an ein CAT5, CAT6 oder CAT7 angeschlossen. Der Farbcode der Bezeichnungen entspricht wie folgt:
 
-> ![poe.png](https://www.dropbox.com/scl/fi/kr1n0eg19cfmkjfulq6zt/poe.png?rlkey=6m58enoezvon6stxs9hc12kvu&dl=0&raw=1)
+> ![poe.png](./_images/poe.png)
 
 Die Klemme X ist nicht verwendet. 
 Der Aragon wird über den einfachen PoE Standard betrieben, also IEEE 802.3af mit 48VDC / ca. 13W nutzbare Leistung. Die Leistungsaufnahme beträgt ca. 10W.
@@ -147,7 +147,7 @@ Nach kurzer Zeit wird der Link (die IP- Adresse) des Aragon Master angezeigt, de
 Das Fenster der Master Konfigurationsoberfläche ermöglicht die Inbetriebnahme Schritt für Schritt. Zunächst sind jedoch Voreinstellungen vorzunehmen, die insbesondere die Benutzersprache und das verwendete Gateway zur Prozessankopplung betreffen. Auch wird empfohlen, zu diesem Zeitpunkt Systemupdates durchzuführen. 
 Diese Voreinstellungen sind über diverse Menüpunkte dieser Seite direkt zu erreichen:
 
-![menu.png](https://www.dropbox.com/scl/fi/fc7ntqkkioy0365afyvup/menu.png?rlkey=etrt9nyw7k6dvuij6mahdufkz&dl=0&raw=1)
+![menu.png](./_images/menu.png)
 
 <h2 id="sprache">Einstellung der Sprache</h2>
 
@@ -160,12 +160,12 @@ Bitte achten Sie auch darauf, dass eine eventuell aktivierte automatische Übers
 
 Aragon erwartet die Definition eines Standardgateways, über welches es mit der Gebäudeautomation arbeitet. Das aktuell eingestellte Gateway ist auf dem ersten Bild der  Konfigurationsseite zu sehen, zB:
 
-![gira.png](https://www.dropbox.com/scl/fi/sg1hs8frvn4h78g5whqkc/gira.png?rlkey=mbyvi2cs3vkilbj1iig2jtr0y&dl=0&raw=1)
+![gira.png](./_images/gira.png)
 
 Sollte dieses Gateway nicht mit dem in Ihrer Installation verwendeten Gerät übereinstimmen, stellen Sie bitte das korrekte Gateway für Ihren Aragon ein.  Gehen Sie dazu auf den Menüpunkt „ÜBER“
 Hier finden Sie die Zeile:
 
-![gatewyAendern-de.jpg](https://www.dropbox.com/scl/fi/4jas2r43zm5aw2obgvxwq/gatewyAendern-de.jpg?rlkey=e5fs1crgrdwvadg17od90eiao&dl=0&raw=1)
+![gatewyAendern-de.jpg](./_images/gatewyAendern-de.jpg)
 
 Das sich daraufhin öffnende Fenster ermöglicht die Installation eines der von uns unterstützten Gateways, bzw. Servers. Eine Auflistung der Server, deren Beschreibung und die jeweils unterstützten Funktionen sind im [Anhang 1: Server und Gateways](#Anhang1) beschrieben.
 
@@ -174,12 +174,12 @@ Das sich daraufhin öffnende Fenster ermöglicht die Installation eines der von 
 Der Menüpunkt „ÜBER“ ermöglicht ebenso ein Update verschiedener Pakete des Aragon Masters durchzuführen.
 Wenn nicht anders vereinbart empfehlen wir, die folgenden drei Updatevorgänge durchzuführen:
 
-![ueber-de_.jpg](https://www.dropbox.com/scl/fi/gij4kg0p3tnwg4pekivj1/ueber-de_.jpg?rlkey=m8kcjtm9ad777i849rte4nkno&dl=0&raw=1)
+![ueber-de_.jpg](./_images/ueber-de_.jpg)
 
 **1. Update Aragon System Software**
 Das erste der hier genannten drei Updates aktualisiert die Systemsoftware von Aragon Master. Dies betifft die folgenden hier genannaten Versionen:
 
-![versionen-de.jpg](https://www.dropbox.com/scl/fi/gdqrd9g1s78bnv7ps1tsm/versionen-de.jpg?rlkey=n1wslddfj12cp4j4u6w69quq3&dl=0&raw=1)
+![versionen-de.jpg](./_images/versionen-de.jpg)
 
 **2. Update / Installation Sprachanwendung**
 Diese Schaltfläche installiert, bzw aktualisiert den NodeRed Flow „ARAGON V2,0“ welcher für den Betrieb von Aragon zwingend erforderlich ist. Er übernimmt neben der Kommunikation mit dem entsprechenden Gateway (Datenbeschaffung, Adressierung der Datenunkte…) auch die Analyse des erkannten Befehls und vieles mehr.
@@ -188,7 +188,7 @@ Diese Schaltfläche installiert, bzw aktualisiert den NodeRed Flow „ARAGON V2,
 
 Eine Versionskontrolle ist direkt in einer der Gruppierungen dieses Hauptflows ersichtlich:
 
-![flowVersion-de.jpg](https://www.dropbox.com/scl/fi/km5q0ugm2yrw2gk6d7uk4/flowVersion-de.jpg?rlkey=tqfrnszfqugp7js06spypvpbw&dl=0&raw=1)
+![flowVersion-de.jpg](./_images/flowVersion-de.jpg)
 
 **3. Update / Installation Sprachassistent**
 
@@ -199,7 +199,7 @@ Sollten Änderungen im Verstehen bestimmter Satzstellungen gewünscht werden, k�
 
 <h2 id="konfiggate">Kofiguration des Gateways</h2>
 
-![konfiguration-de.jpg](https://www.dropbox.com/scl/fi/8dlbqx7oxjpj00m482z23/konfiguration-de.jpg?rlkey=n5khj1m4ln1denbkzwnyki4tv&dl=0&raw=1)
+![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
 - Der Dialog **„Gateway Konfiguration“** stellt sich je nach eingestelltem Gateway unterschiedlich dar. Details hierzu sind im [Anhang 1: Server und Gateways](#Anhang1) für jedes Gateway separat aufgeführt.
 Die ersten beiden Häkchen müssen grün werden. Damit wird angezeigt, dass die Verbindung zwischen Aragon Master und Gateway korrekt initialisiert ist, und die Kommunikation besteht.
@@ -211,12 +211,12 @@ Die ersten beiden Häkchen müssen grün werden. Damit wird angezeigt, dass die 
 
 <h2 id="konfigsat">Kofiguration der Satelliten</h2>
 
-![satellite-de.jpg](https://www.dropbox.com/scl/fi/v3y97r4nf25xmo1kpkufu/satellite-de.jpg?rlkey=4j0tgyfddgsjspof0ddppan7l&dl=0&raw=1)
+![satellite-de.jpg](./_images/satellite-de.jpg)
 
 Nach Betätigung der Schaltfläche **"Satellitensuche"** werden innerhalb kurzer Zeit im darunterliegenden Pull-down Menü die IP Adressen der gefundenen Satelliten angezeigt.
 Jetzt eine der Adressen auswählen und die Schaltfläche **"...mehr dazu"** betätigen.
 
-![konfigsat-de.jpg](https://www.dropbox.com/scl/fi/g8a6mv06wjf388ld2mvce/konfigsat-de.jpg?rlkey=gks9a57m31lc2qid1o02qdtms&dl=0&raw=1)
+![konfigsat-de.jpg](./_images/konfigsat-de.jpg)
 
 - Bei Betätigung der Schaltfläche **"Testsignal ausgeben"** wird der Satellite mit der angezeigten IP Adresse einen Ton ausgeben.
 - Jetzt in der Zeile **"Raum"** den entsprechenden  Raum auswählen, wo dieser Aragon installiert ist.
@@ -298,7 +298,7 @@ Der Titelsprung funkioniert nur bei laufender Playlist
 
 <h2 id="proServ">proServ by ProKNX</h2>
 
-![proserv.jpg](https://www.dropbox.com/scl/fi/2cdlxq989ku0gs0mpnu2t/proserv.jpg?rlkey=b316ucwlnlwry9bjzl0pw3cd0&dl=0&raw=1)
+![proserv.jpg](./_images/proserv.jpg)
 
 Wir gehen davon aus, dass vor Inbetriebnahme der Sprachsteuerung der proServ zur Visualisierung bereits konfiguriert und getestet wurde. Es ist zu beachten, dass nicht alle vom proServ angebotenen Funktionen auch für die Sprachsteuerung und -abfrage verwendet werden können. Hier eine Auflistung der möglichen Funktionen:
 
@@ -344,12 +344,12 @@ Dies ist die einzige Funktion, welche die Steuerung und -abfrage eines Raumtempe
 
 <h2 id="x1">X1 by Gira</h2>
 
-![GIRA_X1.jpg](https://www.dropbox.com/scl/fi/u83tg459rcz5hp4f65wxj/GIRA_X1.jpg?rlkey=ot0vrpdj469pflpp4q5t6m3qi&dl=0&raw=1)
+![GIRA_X1.jpg](./_images/GIRA_X1.jpg)
 
 **Vorbereitungen am X1:**
 - Im **Gira Projekt Assistenten** (GPA) ist in der Benutzerverwaltung ein "fester Benutzer" mit dem Namen "Administrator" und der Rolle "Administrator" anzulegen. 
 
-![GPA-benutzer-de.jpg](https://www.dropbox.com/scl/fi/c3izl1kynlsxpijs7rxog/GPA-benutzer-de.jpg?rlkey=3vqmp2rmqb3cugg21v5gg1mf0&dl=0&raw=1)
+![GPA-benutzer-de.jpg](./_images/GPA-benutzer-de.jpg)
 
 - Da **Sonderzeichen** nicht gesprochen werden, müssen diese im GPA entfernt werden. Dazu gehören insbesondere Klammern, Punkte, Gedankenstriche und Schrägstriche. Umlaute sind möglich.
 - **Abkürzungen** vermeiden, da diese per Sprache nicht ausgesprochen werden (z.B. statt "HWR" -> "Hauswirtschaftsraum") 
@@ -360,7 +360,7 @@ Nach ca. 2 Minuten Hochlauf kann ARAGON Master im Netzwerk mittels Browser gesuc
 
 Die Konfigurationsoberfläche wird über die gefundene IP-Adresse erreicht.
 
-![konfiguration-de.jpg](https://www.dropbox.com/scl/fi/8dlbqx7oxjpj00m482z23/konfiguration-de.jpg?rlkey=n5khj1m4ln1denbkzwnyki4tv&dl=0&raw=1)
+![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
 Die Schaltfläche "Gateway Konfiguration" öffnet einen Dialog, der die Eingabe der IP-Adresse des X1 ermöglicht. Bei erstmaliger Inbetriebnahme findet Aragon Master diese Adresse selbstständig.
 Im gleichen Fenster ist das im GPA festgelegte Administrator Passwort einzugeben.
@@ -369,7 +369,7 @@ Nach dem Schliessen dieses Dialogs versucht Aragon Master eine Verbindung zum Gi
 
 **Folgende Funktionen** des X1 werden für die Steuerung und Abfrage per Sprache unterstützt:
 
-![schalter-x1-de.jpg](https://www.dropbox.com/scl/fi/1g4aavkszearkmvuu6mxa/schalter-x1-de.jpg?rlkey=98al2et8w10jaocvyq5oyf57m&dl=0&raw=1)
+![schalter-x1-de.jpg](./_images/schalter-x1-de.jpg)
 
 Funktion wird zum Schalten für Licht interpretiert (z.B. *"schalte das Licht im Wohnzimmer ein/aus"*). 
 
@@ -377,41 +377,41 @@ Funktion wird zum Schalten für Licht interpretiert (z.B. *"schalte das Licht im
 
 > **Achtung:** Diese Funktion nicht verwenden, sofern Aggregate oder schaltbare Steckdosen bedient werden sollen, da diese dann mit dem Befehl "Schalte das Licht ein/aus" ebenfalls ein/ausgeschaltet würden. Hierzu die Funktion **"Taster"** verwenden!
 
-![dimmer-x1-de.jpg](https://www.dropbox.com/scl/fi/58tq6vijv02d95flg3oc6/dimmer-x1-de.jpg?rlkey=2l75b2pz2675ne2cxa1c9f8y2&dl=0&raw=1)
+![dimmer-x1-de.jpg](./_images/dimmer-x1-de.jpg)
 
 Funktion wird für das Dimmen des Lichts verwendet. Der Sprachbefehl ermöglicht *schalten*, *relatives dimmen* (z.B. *"mach es heller"*), *absolutes dimmen auf einen bestimmten Wert* (z.B. *"stelle das Licht auf 50%"*), und *Abfragen des Zustandes* (z.B. *"wie ist das Licht?"*). 
 
 > **Hinweis:** - Der Name des Lichtes wird exklusiv für die ganze Installation erkannt, d.h. man muss den Raumnamen nicht dazusagen, sofern es das Gerät nur einmal in der Installation gibt.
 
-![taster-x1-de.jpg](https://www.dropbox.com/scl/fi/5bbme6e5vj0g0h9dmoz8j/taster-x1-de.jpg?rlkey=4ehgzu4mt6jq67skpgc2hjoyr&dl=0&raw=1)
+![taster-x1-de.jpg](./_images/taster-x1-de.jpg)
 
 Der Befehl ermöglicht die identischen Sprachbefehle wie der Befehl "Schalten". Der grosse Unterschied liegt allerdings darin, dass diese Funktion nicht mit dem Oberbegriff "Licht" interpretiert wird. Beispiel: *"Schalte das Kinderzimmer aus"* wird alle Funktionen *"Schalten"* und *"Dimmen"* ausschalten, nicht jedoch eine "Taster" Funktion!
 
-![shutter-x1-de.jpg](https://www.dropbox.com/scl/fi/7ugbs25p5ufm33dm2dk06/shutter-x1-de.jpg?rlkey=q28z8m7fx0hkc0pfu3ndwimj1&dl=0&raw=1)
+![shutter-x1-de.jpg]./_images/shutter-x1-de.jpg)
 
 Diese Funktion ermöglicht die Steuerung und -abfrage einer Jalousie per Sprache. Die Funktion setzt voraus, dass der Aktor für die Positionierung und die Rückmeldung der Position konfiguriert wurde und die entsprechenden Gruppenadressen im GPA deklariert wurden! Die Adressen für Start und Stop werden für die Sprache nicht verwendet.
 
-![heizen-x1-de.jpg](https://www.dropbox.com/scl/fi/98ij1i7f4cpv38sqbmo2x/heizen-x1-de.jpg?rlkey=h3a6h7jlwo8mrdqh2c8kwmz4p&dl=0&raw=1)
+![heizen-x1-de.jpg](./_images/heizen-x1-de.jpg)
 
 Diese Funktion ermöglicht die Steuerung und -abfrage eines Raumtemperaturreglers per Sprache. Unabhängig vom festgelegten Namen der Funktion kann abgefragt werden *"wie ist der Thermostat"* oder *"wie ist die Temperatur"*. Als Antwort wird sowohl Ist- wie auch die augenblickliche Solltemperatur angesagt.Ebenso kann die Solltemperatur eingestellt werden, sowohl absolut wie auch relativ (z.B. *"erhöhe die Temperatur ein wenig"* oder *"stelle den Thermostat auf 21 grad ein"*)
 
-![szene-x1-de.jpg](https://www.dropbox.com/scl/fi/7o5bcn4etfn61rmnlcyc9/szene-x1-de.jpg?rlkey=tz2f28lph5sb3wc7z1scj2ame&dl=0&raw=1)
+![szene-x1-de.jpg](./_images/szene-x1-de.jpg)
 
 Szenen sind sehr leistungsfähige Funktionen. Sie ermöglichen die Zuordnung einer Szenennummer zu einem Szenennamen. Bei gesprochenem Szenenname wird die entsprechende Nummer (KNX konform "-1") auf den Bus geschrieben. Es ist kein gesprochener "Zusatz" erforderlich, es genügt den Namen wie festgelegt auszusprechen (z.B. *"Hole den Aufzug"*, *"aktiviere gelb"* oder *"gute Nacht"*)
 
-![statusdez-x1-de.jpg](https://www.dropbox.com/scl/fi/ztdhgr76hwljhgg168e0n/statusdez-x1-de.jpg?rlkey=dn4aevifkcw7vx4zebwz426kj&dl=0&raw=1)
+![statusdez-x1-de.jpg](./_images/statusdez-x1-de.jpg)
 
 Diese Funktion ermöglicht die Abfrage des Wertes per Sprache. Die angegebene Einheit wird dabei ebenfalls angesagt. Eine mögliche Abfrage wäre: *"Wie ist der Status der Luftfeuchte?"*, oder *"wie ist die Temperatur?"*. Es werden sowohl 2Byte float wie auch 4Byte float Werte unterstützt.
 
-![statusmitvz-x1-de.jpg](https://www.dropbox.com/scl/fi/0xt5ebd1or4zhwbq91y1r/statusmitvz-x1-de.jpg?rlkey=ylg2zmvbaigy5hklbcnodizos&dl=0&raw=1)
+![statusmitvz-x1-de.jpg](./_images/statusmitvz-x1-de.jpg)
 
 Diese Funktion ermöglicht die Abfrage des Wertes per Sprache. Die angegebene Einheit wird dabei ebenfalls angesagt. Eine mögliche Abfrage wäre: *"Wie ist der Energieverbrauch?"*
 
-![statusohnevz-x1-de.jpg](https://www.dropbox.com/scl/fi/if1rtv7j3g9273asrj8s0/statusohnevz-x1-de.jpg?rlkey=92frck8qhn9602lf85m2rw8j4&dl=0&raw=1)
+![statusohnevz-x1-de.jpg](./_images/statusohnevz-x1-de.jpg)
 
 Diese Funktion ermöglicht die Abfrage des Wertes per Sprache. Die angegebene Einheit wird dabei ebenfalls angesagt. Eine mögliche Abfrage wäre: *"Wie ist der Status des Wasserzähler?"*
 
-![prozentwertgeber-x1-de.jpg](https://www.dropbox.com/scl/fi/zmlhc7opq7x17493p1gtu/prozentwertgeber-x1-de.jpg?rlkey=8shms4yeqxssyff58dvihge7w&dl=0&raw=1)
+![prozentwertgeber-x1-de.jpg](./_images/prozentwertgeber-x1-de.jpg)
 
 Mit dieser Funktion kann ein im GPA hinterlegter Vorgabewert auf eine Gruppenadresse gesendet werden. z.B. *"Aktiviere den Standardwert"*
 
@@ -424,16 +424,16 @@ Falls eine Fehlermeldung wegen verwendeter Sonderzeichen erscheint, bitte diese 
 
 <h2 id="homeserver">Homeserver by Gira</h2>
 
-![GIRA_Homeserver_.jpg](https://www.dropbox.com/scl/fi/3f4890jffo0px9s7gwax9/GIRA_Homeserver_.jpg?rlkey=6er8x2jlkvey7mzwoqppg1zzt&dl=0&raw=1)
+![GIRA_Homeserver_.jpg](./_images/GIRA_Homeserver_.jpg)
 
 **Vorbereitungen am Homeserver:**
 - Im **Gira Experten** ist in der Benutzerverwaltung ein Benutzer mit dem Namen "Administrator"  anzulegen. 
 
-![Experte.jpg](https://www.dropbox.com/scl/fi/8ixwbamg2agy5a3dnva7y/Experte.jpg?rlkey=dba5cfmw8jvhrgbuwmt9pm253&dl=0&raw=1)
+![Experte.jpg](./_images/Experte.jpg)
 
 Im **QuadClient** ist ein Benutzer für Aragon anzulegen. **Es ist die Option "Für IoT-Dienst bereitstellen" anzuwählen**
 
-![QC_benutzer.jpg](https://www.dropbox.com/scl/fi/ec2xuv9bwqqvy45q1bhdm/QC_benutzer.jpg?rlkey=aspzfecw74j0iw11fe7rdjos9&dl=0&raw=1)
+![QC_benutzer.jpg](./_images/QC_benutzer.jpg)
 
 - Da **Sonderzeichen** nicht gesprochen werden, müssen diese im QC entfernt werden. Dazu gehören insbesondere Klammern, Punkte, Gedankenstriche und Schrägstriche. Umlaute sind möglich.
 - **Abkürzungen** vermeiden, da diese per Sprache nicht ausgesprochen werden (z.B. statt "HWR" -> "Hauswirtschaftsraum") 
@@ -444,7 +444,7 @@ Nach ca. 2 Minuten Hochlauf kann ARAGON Master im Netzwerk mittels Browser gesuc
 
 Die Konfigurationsoberfläche wird über die gefundene IP-Adresse erreicht.
 
-![konfiguration-de.jpg](https://www.dropbox.com/scl/fi/8dlbqx7oxjpj00m482z23/konfiguration-de.jpg?rlkey=n5khj1m4ln1denbkzwnyki4tv&dl=0&raw=1)
+![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
 Die Schaltfläche "Gateway Konfiguration" öffnet einen Dialog, der die Eingabe der IP-Adresse des Homeservers ermöglicht. 
 Im gleichen Fenster ist das im Experten festgelegte Administrator Passwort einzugeben.
@@ -497,7 +497,7 @@ Falls eine Fehlermeldung wegen verwendeter Sonderzeichen erscheint, bitte diese 
 
 <h2 id="allknx">all-KNX</h2>
 
-![knx-logo_.jpg](https://www.dropbox.com/scl/fi/99jp0jdc7fhgsojyda1hp/knx-logo_.jpg?rlkey=j7f8mb8szsb17junefi9gpwp7&dl=0&raw=1)
+![knx-logo_.jpg](./_images/knx-logo_.jpg)
 
 ARAGON Master kann so konfiguriert werden, dass die Befehle und Abfragen über eine KNX Net/IP Schnittstelle über Gruppenadressen erfolgen.
 
@@ -506,11 +506,11 @@ Die Konfiguration ist in einer Datei im JSON Format hinterlegt. Diese Datei kann
 **Anlegen oder Rücksichern der GDF Datei über Node-Red:**
 Die GDF-Datei kann in der jeweiligen Sprache (Englisch, Deutsch und Französisch) über NodeRed angelegt oder die gesicherte Datei wieder rückgesichert werden. Dazu Node-Red mit **"öffne flow Editor"** und dem Benutzer **"user"** sowie dem auf Gerät aufgedruckten Passwort öffnen.
 
-![gdf-nodered_.jpg](https://www.dropbox.com/scl/fi/kest34xkfeajxpl23j13z/gdf-nodered_.jpg?rlkey=vxz0gd1k44havj33xgkn9ergo&dl=0&raw=1)
+![gdf-nodered_.jpg](./_images/gdf-nodered_.jpg)
 
 Durch Anwahl des Knotens **"German"** kann die JSON Datei lesbar angezeigt und auch editiert werden. 
 
-![gdf-beispiel.png](https://www.dropbox.com/scl/fi/qkz9rl3cpm5yk0ptptdqx/gdf-beispiel.png?rlkey=512h7y7xaudl7snm6g99gmc4e&dl=0&raw=1)
+![gdf-beispiel.png](./_images/gdf-beispiel.png)
 
 Vorgenommene Änderungen werden durch die Schaltfläche **"Übernahme (deploy)"** oben rechts gespeichert.
 Erst nach Betätigen der manuellen Injezierung (kleine blaue Fläche links im Knoten) ist die Datei aktiv und überschreibt die letzte Konfiguration. 
@@ -531,7 +531,7 @@ Die so definierten Namen müssen durch ARAGON noch trainiert werden. Dies erfolg
 
 Der GDF Editor zeigt das Abbild der aktiven Variablendeklaration. Die gesicherte GDF-Datei kann in den "German" Knoten kopiert werden, und ermöglicht damit eine Rücksicherung.
 
-![gdf-sichern-de.JPG](https://www.dropbox.com/scl/fi/aa95td3cmwvhxsagyviwk/gdf-sichern-de.JPG?rlkey=clvp4lmgfm0zwxxwn13zdd598&dl=0&raw=1)
+![gdf-sichern-de.JPG](./_images/gdf-sichern-de.JPG)
 
 **Datenpunkttypen für die Sprachsteuerung**
 
@@ -559,7 +559,7 @@ Sensoren können nur abgefragt werden. Hinterlegt wird neben der Gruppenadresse 
 
 <h2 id="svs">SVS by Jung</h2>
 
-![svs.jpg](https://www.dropbox.com/scl/fi/odl1x4jofchpcp7ymjst8/svs.jpg?rlkey=bmxh9cm1sbqsud6mbcby0f69k&dl=0&raw=1)
+![svs.jpg](./_images/svs.jpg)
 
 Bitte die Inbetriebsetzung des SVS gemäß der Anleitung des Herstellers vornehmen. 
 
@@ -580,7 +580,7 @@ Nach ca. 2 Minuten Hochlauf kann ARAGON Master im Netzwerk mittels Browser gesuc
 
 Die Konfigurationsoberfläche wird über die gefundene IP-Adresse erreicht.
 
-![konfiguration-de.jpg](https://www.dropbox.com/scl/fi/8dlbqx7oxjpj00m482z23/konfiguration-de.jpg?rlkey=n5khj1m4ln1denbkzwnyki4tv&dl=0&raw=1)
+![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
 Die Schaltfläche **"Gateway Konfiguration"** öffnet einen Dialog, der die Eingabe der IP-Adresse des SVS ermöglicht. Die Adresse wird bei Erstinbetriebnahme automatisch eingetragen sofern ein SVS im Netzwerk gefunden wird. 
 
@@ -700,7 +700,7 @@ Aragon bietet vier Superzenen an (hier eine Auflistung mit einigen Kommandoalter
 
 **Superszenen** können sehr einfach (auch durch den Endanwender) editiert werden. Es genügt den von Aragon verstandenden Befehl **im Klartext in eine der Kommandozeilen aufzuschreiben**. Es ist auch möglich, Aragon nach Aufruf der Superszene einen **Text sprechen zu lassen**. Hierfür ist in der Kommandozeile der Text `SAY` dem vorzulesenden Text voranzustellen
 
-![superscenekonfig-de.jpg](https://www.dropbox.com/scl/fi/mbcfadnzjdst6p478j9jw/superscenekonfig-de.jpg?rlkey=18vwv3nsd1g0tr4kz5gstwlgx&dl=0&raw=1)
+![superscenekonfig-de.jpg](./_images/superscenekonfig-de.jpg)
 
 > **Achtung**: Wenn die Verwendung von Superszenen aktiviert ist, haben diese Kommandos Vorrang zu gleichnamigen KNX Szenen.
 
@@ -708,11 +708,11 @@ Aragon bietet vier Superzenen an (hier eine Auflistung mit einigen Kommandoalter
 
 Viele KNX Applikationen verwenden bereits die Namen der Superszenen. Sofern die Superszenen dann deaktiviert werden sollen, nehmen Sie bitte folgende Modifikation im Main Flow unter NodeRed vor:
 
-![activate-ss.JPG](https://www.dropbox.com/scl/fi/tm5mliojx34i2m4n166nr/activate-ss.JPG?rlkey=s5l2znbdyaqgvm29cpmxajje8&dl=0&raw=1)
+![activate-ss.JPG](./_images/activate-ss.JPG)
 
-![pfeil.JPG](https://www.dropbox.com/scl/fi/y8kbsb3e8nex16gllcqx5/pfeil.JPG?rlkey=nofqx3gexywipbxapxm1j822z&dl=0&raw=1)
+![pfeil.JPG](./_images/pfeil.JPG)
 
-![deactivate-ss.JPG](https://www.dropbox.com/scl/fi/gpodp2omjgirqrkvhlyp4/deactivate-ss.JPG?rlkey=vfvxiclk28koeoc27wedgpxbx&dl=0&raw=1)
+![deactivate-ss.JPG](./_images/deactivate-ss.JPG)
 
 **Befehle für Szenen**
 Ausgenommen der globalen Superszenen bezieht sich das Kommando der Szene immer auf den Raum, zu dem der Satellite konfiguriert wurde.
@@ -734,7 +734,7 @@ Bei grossen Installationen (z.B. bei Einsatz eines Aragon Master für mehrere Wo
 
 Hierzu die folgende Gruppe in einen neuen Flow (Tab) kopieren und anschliessend den Wert des manuellen Inject Knotens auf "false" setzen. 
 
-![globalcmd.JPG](https://www.dropbox.com/scl/fi/c3cmaqa6ncoh3r5bkkf71/globalcmd.JPG?rlkey=9lk7t4j6t02momi8l21rykao2&dl=0&raw=1)
+![globalcmd.JPG](./_images/globalcmd.JPG)
 
 Jetzt noch das deploy ausführen!
 
@@ -747,7 +747,7 @@ Um diese für Aragon auszuschliessen, kann eine Blacklist angelegt werden, welch
 
 Im Aragon V2.0 Mainflow ist dazu folgende Gruppe angeboten:
 
-![blacklist.JPG](https://www.dropbox.com/scl/fi/pnaayu0vf0889nnygx5g9/blacklist.JPG?rlkey=dns5hu5oxhnykk2ab79p80heo&dl=0&raw=1)
+![blacklist.JPG]./_images/blacklist.JPG)
 
 Kopieren Sie diese Gruppe in einen neuen Flow und editieren Sie den Funktionsblock mit der JSON Datei.
 
@@ -759,7 +759,7 @@ Die folgenden Funktionen ermöglicht sowohl TV als auch Audio in einer Zone zu s
 
 Im Main-Flow von NodeRed steht dazu eine Gruppe **"CUSTOM MEDIA CONTROL"** zur Verfügung, die am Besten in einen neuen Flow kopiert werden kann.
 
-![media control.png](https://www.dropbox.com/scl/fi/q72mrv2i1ngls2cpuvc11/media-control.png?rlkey=lmm8wzciha38jftgcmg8h7o02&dl=0&raw=1)
+![media control.png](./_images/media-control.png)
 
 Folgende Befehle stehen für die Mediengeräte Steuerung zur Verfügung:
 
