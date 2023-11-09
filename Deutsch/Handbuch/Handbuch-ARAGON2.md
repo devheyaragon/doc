@@ -690,7 +690,7 @@ Die betroffenen Mitglieder (Aktorkanäle) einer KNX Szene (auch Nebenstellenszen
 Zur Laufzeit kann dann aber eingestellt werden, wie sich jeder Aktorkanal bei Aufruf einer Szenennummer zu verhalten hat. 
 Bei den meisten Aktoren kann in den Aktorparametern auch festgelegt werden, ob ein Aktorkanal überhaupt von der Szenennummer betroffen ist, selbst wenn er der Gruppenadresse der Szene zugeordnet ist.
 
-> [**Superszenen**](http://127.0.0.1/#vocalautomating)
+> [**Superszenen**](#vocalautomating)
 Aragon bietet vier Superzenen an (hier eine Auflistung mit einigen Kommandoalternativen):
 
 |Guten Morgen|Gute Nacht|Ich bin zu Hause|Ich verlasse das Haus|
