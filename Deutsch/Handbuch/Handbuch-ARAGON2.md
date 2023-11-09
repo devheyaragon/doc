@@ -759,7 +759,7 @@ Die folgenden Funktionen ermöglicht sowohl TV als auch Audio in einer Zone zu s
 
 Im Main-Flow von NodeRed steht dazu eine Gruppe **"CUSTOM MEDIA CONTROL"** zur Verfügung, die am Besten in einen neuen Flow kopiert werden kann.
 
-![media control.png](./_images/media-control.png)
+![media control.png](./_images/media_control.png)
 
 Folgende Befehle stehen für die Mediengeräte Steuerung zur Verfügung:
 
