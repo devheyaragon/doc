@@ -4,35 +4,35 @@
 ![PROKNX_coul.png](./_images/PROKNX_coul.png)
 
 ***
-# CONTENTS
+# INHALT
 
-[General](#general)
+[Allgemeines](#allgemeines)
 
-[Features](#features)
+[Eigenschaften](#eigenschaften)
 
-[Setup](#setup)
+[Aufstellung](#aufstellung)
 
-[Mechanical and Electrical Installation](#mechanical)
+[Mechanische und elektrische Installation](#mechanische)
 
-[Step-by-Step Commissioning](#commissioning)
+[Inbetriebnahme Schritt für Schritt](#inbetriebnahme)
 
-> [Aragon Master Configuration Interface](#connection)
+> [Konfigurationsoberfläche Aragon Master](#verbindung)
 
-> [Language Setting](#language)
+> [Einstellung der Sprache](#sprache)
 
-> [Gateway Setting](#gateway)
+> [Einstellung des Gateways](#gateway)
 
 > [Update](#update)
 
-> [Gateway Configuration](#gatewayconfig)
+> [Kofiguration des Gateways](#konfiggate)
 
-> [Satellite Configuration](#satelliteconfig)
+> [Kofiguration der Satelliten](#konfigsat)
 
-[Configuration for SONOS](#sonos)
+[Konfiguration für SONOS](#sonos)
 
-[Appendix 1: Server and Gateways](#appendix1)
+[Anhang 1: Server und Gateways](#Anhang1)
 
-> [proServ by ProKNX](#proserv)
+> [proServ by ProKNX](#proServ)
 
 > [X1 by Gira](#x1)
 
@@ -42,383 +42,382 @@
 
 > [SVS by Jung](#svs)
 
-[Appendix 2: What is Understood](#appendix2)
+[Anhang 2: Was verstanden wird](#Anhang2)
 
-> [Light Control](#lights)
+> [Lichtbedienung](#lights)
 
-> [Shutter Control](#shutter)
+> [Jalousiebedienung](#shutter)
 
-> [Scenes](#scenes)
+> [Szenen](#scenes)
 
-[Appendix 3: Helpful Settings](#appendix3)
+[Anhang 3: Hilfreiche Einstellungen](#Anhang3)
 
-> [Disable Global Commands](#globalcmd)
+> [Globale Befehle deaktivieren](#globalcmd)
 
-> [Blacklist Functions](#blacklist)
+> [Funktionen auf die Blacklist setzen](#blacklist)
 
-> [Using AV Control](#av-control)
+> [Verwendung von AV Control](#av-control)
 
 ***
 
-<h1 id="general">General</h1>
+<h1 id="allgemeines">Allgemeines</h1>
 
-## Description
+## Beschreibung
 
-**Aragon** is the first AI-powered voice control system that works without an internet connection. The speech recognition runs on the device - nothing is transmitted or recorded.
+**Aragon** est le premier système de commande vocale basé sur l'IA qui fonctionne sans connexion Internet. La reconnaissance vocale se fait sur l'appareil - rien n'est transmis ou enregistré.
 
-**Your privacy is guaranteed**
+**Votre vie privée est garantie**
 
-An Aragon installation consists of one (and only one) **Master** and **1 - 10 Satellites**. The Master is mandatory and responsible for most tasks, such as understanding voice commands and interacting with the home automation system. The Master works together with one or more Satellites. There are two versions of the Satellite:
+Une installation Aragon se compose d'un (et un seul) **Master** ainsi que de **1 à 10 satellites**. Le Master est obligatoire et est responsable de la plupart des tâches, telles que la compréhension des commandes vocales et l'interaction avec le système d'automatisation domestique. Le Master travaille en collaboration avec un ou plusieurs satellites. Il existe deux versions de satellites :
 - Satellite2 WL
-in a tabletop housing with RJ45 connection or Wi-Fi, and powered by a 5V USB power adapter
+dans un boîtier de table avec une connexion RJ45 ou Wi-Fi, ainsi qu'une alimentation via un adaptateur secteur USB 5V
 - Satellite2 PoE
-in a switch box format with PoE connection. It comes with a 55x55mm speaker front but without a frame. Three colors are available: White, Black, or Aluminum. LS front for LS990 and LS-Zero is also possible, please inquire separately.
+au format d'une boîte d'interrupteur avec une connexion PoE. Il est livré avec une façade d'enceinte de 55x55mm mais sans cadre. Trois couleurs sont disponibles : blanc, noir ou aluminium. Une façade d'enceinte pour LS990 et LS-Zero est également possible, veuillez demander séparément.
 
-Any combination of WL and PoE Satellite is possible. All Aragon devices must be installed in the same network.
+Chaque combinaison de WL et de satellite PoE est possible. Tous les appareils Aragon doivent être installés sur le même réseau.
 ***
 
-<h1 id="features">Features</h1>
+<h1 id="eigenschaften">Caractéristiques</h1>
 
-## Privacy
+## Confidentialité
 
-- The offline voice control system works even without an internet connection. What is said at home stays at home.
-- Spoken words are neither transmitted nor recorded.
-- Speech recognition and evaluation are performed on the device.
-- No internet account, no "skill" needs to be activated.
+- Le système de commande vocale hors ligne fonctionne même sans connexion Internet. Ce qui est dit à la maison reste à la maison.
+- Les paroles ne sont ni transmises ni enregistrées.
+- La reconnaissance vocale et l'analyse sont effectuées sur l'appareil.
+- Pas de compte Internet, pas de "skill" à activer.
 
-## Flexibility
+## Flexibilité
 
-- Fully customizable. Personal words and phrases can be easily learned and understood by the assistant.
-- Commands can be formulated in thousands of variations.
-- ProKNX can consider specific customer needs in the language repertoire.
-- The system is interoperable and can work with other systems.
-
-***
-
-<h1 id="installation">Installation</h1>
-
-The following points should be considered for the installation location of ARAGON Satellites:
-- There should be no speaker in close proximity (no closer than 2m).
-- When using multiple Aragon Satellites, the distance between them should be as large as possible to avoid triggering two devices simultaneously.
-- The use of multiple devices in one room is possible but should be coordinated with us (ProKNX) beforehand.
-- The distance to the speaker can be more than 7m in a quiet environment. Therefore, rooms with a length of 15m can be covered with one device if it is centrally positioned.
-- Ambient noise affects understanding. Simultaneous speakers are particularly disruptive.
-- It is possible to mute media devices after detecting the wake word. We provide a function for this in the NodeRed Flow. Sonos speakers are automatically muted if the installation room is the same as the SONOS Zone.
+- Entièrement personnalisable. Les mots et les phrases personnelles peuvent être facilement appris et compris par l'assistant.
+- Les commandes peuvent être formulées de milliers de façons différentes.
+- ProKNX peut prendre en compte les besoins spécifiques des clients dans le vocabulaire vocal.
+- Le système est interopérable et peut fonctionner avec d'autres systèmes.
 
 ***
 
-<h1 id="mechanical">Mechanical and Electrical Installation</h1>
+<h1 id="aufstellung">Installation</h1>
+
+Pour l'emplacement d'installation des satellites ARAGON, les points suivants doivent être pris en compte :
+- Il ne devrait y avoir aucun haut-parleur à proximité (pas plus près que 2m).
+- Lors de l'utilisation de plusieurs satellites Aragon, la distance entre eux doit être aussi grande que possible pour éviter d'activer simultanément deux appareils.
+- L'utilisation de plusieurs appareils dans une pièce est possible, mais doit être coordonnée au préalable avec nous (ProKNX).
+- La distance par rapport à la personne qui parle peut être supérieure à 7m dans un environnement calme. Ainsi, les pièces d'une longueur de 15m peuvent être couvertes par un appareil s'il est placé au centre.
+- Les bruits ambiants affectent la compréhension. Les orateurs simultanés sont particulièrement gênants.
+- Il est possible de mettre en sourdine les appareils multimédias après la détection du mot de réveil. Nous proposons une fonction dans le flux NodeRed à cet effet. Les haut-parleurs Sonos sont automatiquement mis en sourdine si la pièce d'installation est identique à la zone SONOS choisie.
+
+***
+
+<h1 id="mechanische">Installation mécanique et électrique</h1>
 
 ## Aragon Master
 
-(Art. No. 139)
+(Art. Nr. 139)
 
-ARAGON Master is intended for installation in a network cabinet. It must be powered with 5VDC, and the power supply (included in the package) provides a maximum current of 3A and is connected to the USB-C port of the Master. In addition, a network connection must be established using the RJ45 output labeled as "LAN".
+ARAGON Master est conçu pour être installé dans une armoire réseau. Il doit être alimenté en 5VDC, l'alimentation (fournie) fournit un courant maximal de 3A et est connectée au port USB-C du Master. De plus, une connexion réseau doit être établie avec la sortie RJ45 appelée "LAN".
 
-## Aragon Satellite2 WL
+## Aragon Satellite2 WL 
 
-(Art. No. 185)
+(Art. Nr. 185)
 
-Aragon Satellite2 WL can be placed on a table. Alternatively, it can also be mounted on the wall or ceiling using the adapter plate. 
-To detach the adapter plate from the device, rotate it clockwise. 
-When placed on a table, the four included rubber feet can now be inserted into the recesses of the screw connections.
-When choosing the installation location, make sure that there are no speakers nearby (no closer than 2m). When using multiple ARAGON devices, the distance between them should be as large as possible to avoid two devices understanding the wake word simultaneously.
+Aragon Satellite2 WL peut être utilisé comme appareil de table. Alternativement, il peut également être fixé au mur ou au plafond à l'aide de la plaque d'adaptation. 
+Retirez la plaque d'adaptation de l'appareil en la tournant dans le sens des aiguilles d'une montre. 
+Lorsqu'il est utilisé comme appareil de table, les quatre pieds en caoutchouc fournis peuvent maintenant être insérés dans les encoches des vis de fixation.
+Lors du choix de l'emplacement de mise en place, veillez à ce qu'il n'y ait pas de haut-parleurs à proximité immédiate (pas plus près que 2 m). Lors de l'utilisation de plusieurs appareils ARAGON, la distance entre eux doit être aussi grande que possible afin d'éviter que deux appareils comprennent simultanément le mot d'activation.
 
-## Aragon Satellite2 PoE
+## Aragon Satellite2 PoE 
 
-(Art. No. 184)
+(Art. Nr. 184)
 
-When choosing the installation location, make sure that there are no speakers nearby (no closer than 2m). When using multiple Aragon Satellites, it is recommended to keep a large distance between them to avoid triggering two devices simultaneously. A very suitable installation location is often the center of the ceiling, as the distance to the speaker is usually small. However, placing it directly next to the room door (e.g., next to the light switch) is often not recommended, as the ARAGON device in the neighboring room could be activated with the wake word when the door is open.
-The device is connected to a CAT5, CAT6, or CAT7 using screw terminals. The color code of the labels is as follows:
+Lors du choix de l'emplacement d'installation, veillez à ce qu'il n'y ait pas de haut-parleur à proximité immédiate (pas plus près que 2 m). Lors de l'utilisation de plusieurs satellites Aragon, la distance entre eux doit être aussi grande que possible pour éviter que deux appareils ne soient activés simultanément. Un emplacement d'installation très approprié est souvent le centre du plafond de la pièce, car la distance par rapport à la personne qui parle est généralement courte. En revanche, il n'est souvent pas recommandé de le placer directement à côté de la porte de la pièce (par exemple, à côté de l'interrupteur de lumière), car dans ce cas, lorsque la porte est ouverte, l'ARAGON de la pièce voisine pourrait également être activé avec le mot de réveil.
+L'appareil est connecté à l'aide de bornes à vis à un câble CAT5, CAT6 ou CAT7. Le code couleur des désignations est le suivant :
 
 > ![poe.png](./_images/poe.png)
 
-Terminal X is not used. 
-The Aragon is powered by the standard PoE, specifically IEEE 802.3af with 48VDC / approximately 13W usable power. The power consumption is approximately 10W.
+La borne X n'est pas utilisée. 
+L'Aragon fonctionne avec la norme PoE simple, c'est-à-dire IEEE 802.3af avec une tension de 48VDC / une puissance utilisable d'environ 13W. La consommation électrique est d'environ 10W.
 
 ***
 
-<h1 id="inbetriebnahme">Step-by-Step Setup</h1>
+<h1 id="inbetriebnahme">Mise en service étape par étape</h1>
 
-<h2 id="verbindung">Aragon Master Configuration Interface</h2>
+<h2 id="verbindung">Interface de configuration Aragon Master</h2>
 
-Starting the Aragon Master takes about 2 minutes. Simply apply the operating voltage. After that, it can be found on the network using a browser (Firefox, Chrome...) by entering the address <http://find.heyaragon.com>. In the input field of the opening window, the subnet of the network must be specified, e.g., "192.168.1."
-After a short time, the link (the IP address) of the Aragon Master will be displayed, which can be clicked on. A specific port specification is not required, as the Master is accessed via port 80.
-The window of the Master configuration interface allows for step-by-step setup. However, some initial settings need to be made, particularly regarding the user language and the gateway used for process coupling. It is also recommended to perform system updates at this time. 
-These initial settings can be accessed directly through various menu items on this page.
+Le démarrage de l'Aragon Master prend environ 2 minutes. Il suffit de lui fournir une alimentation électrique. Ensuite, vous pouvez le trouver dans le réseau à l'aide d'un navigateur (Firefox, Chrome...) en entrant l'adresse <http://find.heyaragon.com>. Dans le champ de saisie de la fenêtre qui s'ouvre, vous devez spécifier le sous-réseau du réseau, par exemple "192.168.1."
+Après un court laps de temps, le lien (l'adresse IP) de l'Aragon Master est affiché, que vous pouvez simplement cliquer. Aucune spécification de port spéciale n'est requise car le Master est accessible via le port 80.
+La fenêtre de l'interface de configuration du Master permet une mise en service étape par étape. Cependant, des paramètres par défaut doivent être configurés au préalable, notamment la langue de l'utilisateur et la passerelle utilisée pour le couplage de processus. Il est également recommandé de procéder à des mises à jour système à ce stade. 
+Ces paramètres par défaut peuvent être atteints directement via diverses options de menu de cette page :
 
 ![menu.png](./_images/menu.png)
 
-<h2 id="language">Language Setting</h2>
+<h2 id="sprache">Setting the Language</h2>
 
 Please make sure to first set the device language correctly (menu item "LANGUAGE").
 
 > **Attention:** The language set here not only changes the language of the displayed user interface but also affects an update and the updating of the system software. 
 Please also make sure that any activated automatic translation of the browser window in the browser you are using is deactivated.
 
-<h2 id="gateway">Gateway Setting</h2>
+<h2 id="gateway">Setting the Gateway</h2>
 
-Aragon expects the definition of a default gateway through which it works with building automation. The currently set gateway can be seen on the first image of the configuration page, for example:
+Aragon expects the definition of a default gateway through which it works with building automation. The currently set gateway can be seen in the first image on the configuration page, for example:
 
 ![gira.png](./_images/gira.png)
 
-If this gateway does not match the device used in your installation, please set the correct gateway for your Aragon. Go to the menu item "ABOUT".
+If this gateway does not match the device used in your installation, please set the correct gateway for your Aragon. Go to the "ABOUT" menu item.
 Here you will find the line:
 
-![changeGateway-en.jpg](./_images/changeGateway-en.jpg)
+![gatewyAendern-de.jpg](./_images/gatewyAendern-de.jpg)
 
-The window that opens afterwards allows you to install one of the gateways or servers supported by us. A list of the servers, their description, and the supported functions are described in [Appendix 1: Servers and Gateways](#Appendix1).
+The window that opens allows you to install one of the gateways or servers supported by us. A list of the servers, their description, and the supported functions are described in [Appendix 1: Servers and Gateways](#Anhang1).
 
 <h2 id="update">Update</h2>
 
-The menu item "ABOUT" also allows you to update various packages of the Aragon Masters.
+The "ABOUT" menu item also allows you to update various packages of the Aragon Masters.
 Unless otherwise agreed, we recommend performing the following three update operations:
 
-![about-en_.jpg](./_images/about-en_.jpg)
+![ueber-de_.jpg](./_images/ueber-de_.jpg)
 
 **1. Update Aragon System Software**
 The first of the three updates mentioned here updates the system software of Aragon Master. This affects the following versions mentioned here:
 
-![versions-en.jpg](./_images/versions-en.jpg)
+![versionen-de.jpg](./_images/versionen-de.jpg)
 
 **2. Update / Installation Language Application**
-This button installs or updates the NodeRed Flow "ARAGON V2.0", which is mandatory for the operation of Aragon. It takes care of communication with the corresponding gateway (data acquisition, addressing of data points, etc.) as well as the analysis of the recognized command and much more.
+This button installs or updates the NodeRed Flow "ARAGON V2.0", which is essential for the operation of Aragon. It takes care of communication with the corresponding gateway (data acquisition, addressing of data points, etc.) as well as the analysis of the recognized command and much more.
 
-> **Attention:** If you have made any changes to this flow, they will be deleted and the default settings will be restored. If you want to keep your changes, you must manually save them before.
+> **Attention:** Si vous avez apporté des modifications à ce flux, elles seront supprimées et la configuration par défaut sera rétablie. Si vous souhaitez conserver vos modifications, vous devez les sauvegarder manuellement avant.
 
-A version control is directly visible in one of the groupings of this main flow:
+Un contrôle de version est directement visible dans l'un des groupes de ce flux principal :
 
-![flowVersion-en.jpg](./_images/flowVersion-en.jpg)
+![flowVersion-de.jpg](./_images/flowVersion-de.jpg)
 
-**3. Update / Installation of Voice Assistant**
+**3. Mise à jour / Installation de l'assistant vocal**
 
-The third entry installs the voice assistant. It determines how the understood words should be interpreted.
-> **Attention:** The assistant is installed depending on the language set in the user interface.
+La troisième entrée installe l'assistant vocal. Il définit comment les mots compris doivent être interprétés.
+> **Attention:** L'assistant est installé en fonction de la langue de l'interface utilisateur configurée.
 
-If you want to make changes to the understanding of certain sentence structures, you can inform us. After making adjustments on our side, the installation of the modified assistant will activate it.
+Si vous souhaitez apporter des modifications à la compréhension de certaines structures de phrases, veuillez nous les communiquer. Après notre adaptation, l'installation de l'assistant modifié l'activera.
 
-<h2 id="gatewayconfig">Configuration of the Gateway</h2>
-
-![configuration-en.jpg](./_images/configuration-en.jpg)
-
-- The **"Gateway Configuration"** dialog appears differently depending on the selected gateway. Details for each gateway are listed separately in [Appendix 1: Servers and Gateways](#Appendix1).
-The first two checkboxes must turn green. This indicates that the connection between Aragon Master and the gateway is correctly initialized and communication is established.
-
-- The **"Voice"** button offers various voices in a dialog, which generate offline speech output using an internal TTS (Text-to-Speech) system.
-> **Attention:** Generating the speech file is computationally intensive. As a rule of thumb, the processing time is estimated to be one-third of the duration of the spoken text.
-
-- **Training new words** is required after any changes to the configuration of the data read through the gateway. The "ASR" (Automatic Speech Recognition) needs to be informed about the words listed in the dictionary, which will eventually be understood after a completed training run.
-
-<h2 id="satelliteconfig">Configuration of the Satellites</h2>
-
-![satellite-de.jpg](./_images/satellite-de.jpg)
-
-After pressing the **"Satellite Search"** button, the IP addresses of the found satellites will be displayed in the dropdown menu below.
-Now, select one of the addresses and press the **"...more about it"** button.
-
-![konfigsat-de.jpg](./_images/konfigsat-de.jpg)
-
-- Pressing the **"Output Test Signal"** button will make the satellite with the displayed IP address emit a sound.
-- Now, select the corresponding room in the **"Room"** line where this Aragon is installed.
-- The **"Sensitivity"** setting allows you to adjust the activation sensitivity of the wake word. A lower sensitivity means that Aragon will not be easily awakened, and the wake word must be spoken very accurately.
-- The improved **"Wake Word System"** allows for a greater selection of wake words.
-- The selected **"Wake Word"** should match the specified language of the selected language, as wake words are only recognized when pronounced correctly in the corresponding language. The satellites can be configured with different wake words.
-- The **"Wi-Fi"** button is only available for Aragon WL. In the dialog that opens, the corresponding access point can be selected from the list of Wi-Fi SSIDs. After entering the Wi-Fi password, the connection will be established, and the network cable can be unplugged.
-    > **Attention:** Only 2.4 GHz Wi-Fi is supported.
-
-    > The SSID name must not contain special characters or spaces.
-
-    > After connecting to the Wi-Fi network, the satellite will receive a new IP address.
-
-- **"Open the App"** opens a new browser window with the satellite's IP address.
-- **"Restart the App"** restarts the application on the satellite.
-- **"Restart"** performs a restart of the satellite.
-- **"Power Off"** shuts down the satellite. A restart is only possible through a power cycle.
-- **"Update"** performs an update of the satellite.
-- **"Get Wake Words"** loads the current collection of wake words onto the device.
-- The **"Audio Test"** allows for testing the microphone, in particular.
-- The **"DeepFilterNet Noise Cancellation"** is a powerful digital filter that can effectively suppress ambient noise. "Foreign voices" cannot be eliminated well, as they cannot be well distinguished from the user's data. The filter should not be activated in low ambient noise conditions.
-
-***
-
-<h1 id="sonos">Configuration for SONOS</h1>
-
-Integration of a SONOS music system is done by **setting the name of the SONOS Zone identical to the name of a satellite room**.
-
-The following functionalities are then enabled:
-
-> **When the activation word is detected, the SONOS Zone is muted**
-This has the advantage that the spoken command is better understood by ARAGON afterwards, as the ambient noise is reduced.
-
-> **Playlists, music tracks, and radio stations can be started by name**
-However, this function requires that the corresponding music tracks, lists, or stations are saved as SONOS favorites. In the SONOS app, it is possible to assign a custom name to these favorites (preferably in German) to make them easier for ARAGON to understand. After setting the favorites, a training run of the words needs to be performed.
-
-> **The voice output of the ARAGON satellites can be redirected to the respective SONOS Zone**
-upon request
-
-Functions:
-
-- **Start music**
-*play music in the living room*, *turn on the radio in the kitchen*, *play "my music"* (with the favorite title as "my music"), *play something*
-
-- **Pause music**
-*turn off the music*, *turn off the radio*, *stop the music in the kitchen*
-
-- **Adjust volume**
-*make the music louder*, *turn the volume down*, *make it a bit quieter*, *lower the volume in the kitchen*, *set the volume in the living room to 30%*
-
-- **Track skip**
-Track skip only works with a running playlist
-*next track*, *play the next song*, *play the following track*, *play the last track*, *repeat the last piece*
-
-- **Shazam**
-*what's the name of the song*, *what's the name of the singer*
-
-***
-***
-
-<h1 id="Anhang1">Appendix 1: Servers and Gateways</h1>
-
-
-| Gateway | Description |
-| ------ | ------ |
-|[proServ by ProKNX](#proServ)|A gateway that allows the entire configuration of voice control via ETS. Operation of the KNX installation via app and voice can thus be done solely through an ETS configuration|
-|[X1 by Gira](#x1)|The configuration of a network-accessible Gira X1 is read out and can be operated with voice|
-|[Homeserver by Gira](#homeserver)|The configuration of a network-accessible Gira Homeserver (from version 4.10) with a configured Quadclient is read out and can be operated with voice|
-|Philips HUE|The building and functional structure of a HUE Bridge is read out and can be operated by voice|
-|KNX IoT|Any device that supports the KNX 3rd Party IoT protocol can be read out and operated|
-|[all-KNX](#allknx)|If there is no KNX server listed here in your installation, communication between Aragon and the KNX bus can also be done with a standard KNXNet/IP interface|
-|Generic Gateway|Allows communication between Aragon and other devices to be defined according to a rule (RestfulAPI, HTTP commands, etc.)|
-|YOUVI by PEAKnx|Supports operation of the YOUVI visualization by voice|
-|[SVS by Jung](#svs)|Supports operation of the Smart Visu Server by Jung via voice|
-|LUXORliving by Theben|Supports operation and querying of a LUXORliving installation by Theben via voice (KNX installation without ETS)|
-|Option ENOCEAN|This option allows the use of sensors and actuators that support the Enocean standard in addition to one of the standard gateways defined above|
-
-***
-
-## proServ by ProKNX
-
-![proserv.jpg](./_images/proserv.jpg)
-
-We assume that before starting the voice control, the proServ for visualization has already been configured and tested. Note that not all functions offered by proServ can be used for voice control and querying. Here is a list of possible functions:
-
-- **Switching**
-This function is interpreted as switching the lights (e.g. "turn on/off the living room light").
-
-    > **Note:** - The name of the light is recognized exclusively for the entire installation, so you don't have to mention the room name if there is only one device in the installation.
-
-    > **Caution:** Do not use this function if you want to operate aggregates or switchable sockets, as they would also be turned on/off with the command "Turn on/off the light". Use the "AUX" function for this purpose!
-
-- **Dimming**
-This function is used for dimming the lights. The voice command allows for *switching*, *relative dimming* (e.g. "make it brighter"), *absolute dimming to a specific value* (e.g. "set the light to 50%"), and *querying the status* (e.g. "what is the light like?").
-
-    > **Note:** - The name of the light is recognized exclusively for the entire installation, so you don't have to mention the room name if there is only one device in the installation.
-
-- **Blind with byte feedback**
-This is the only function that allows controlling and querying a blind by voice. The function assumes that the actuator for positioning and position feedback has been configured! The communication objects for start and stop are not used for voice control.
-
-- **AUX - Switching - toggling**
-This command allows for the same voice commands as the "Switching" command. The big difference, however, is that this function is not interpreted with the general term "light". For example, "Turn off the children's room" will turn off all "Switching" and "Dimming" functions, but not an AUX function!
-
-- **Status - 2-byte floating-point value**
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the humidity status?" or "What is the temperature?"
-
-- **Status - 4-byte unsigned**
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the water meter status?"
-
-- **Status - 4-byte signed**
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the energy consumption?"
-
-- **Status - 4-byte floating-point value**
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the current status of the current?"
-
-- **RTR with 1-bit operating mode**
-This is the only function that allows controlling and querying a room temperature controller by voice. Regardless of the set function name, you can ask "What is the thermostat?" or "What is the temperature?" As a response, both the actual and the current set temperature will be announced. The set temperature can also be adjusted, either absolutely or relatively (e.g., "increase the temperature a bit" or "set the thermostat to 21 degrees").
-
-- **Scenes**
-...are very powerful functions. They allow assigning a scene number to a scene name. When the spoken scene name is recognized, the corresponding number (KNX compliant "-1") is written to the bus. No spoken "addition" is required, simply pronounce the name as defined (e.g., "Call the elevator", "activate yellow", or "good night").
-
-> **Attention:** After changing the configuration of the proServ via ETS, the new data must be read from the ARAGON Master, and the words must be "trained" afterwards. This process is triggered by restarting NodeRed **(select Reset Node-Red -> Restart in the NODE-RED menu)**. This takes approximately 90 seconds.
-
-***
-
-<h2 id="x1">X1 by Gira</h2>
-
-![GIRA_X1.jpg](./_images/GIRA_X1.jpg)
-
-**Preparations on the X1:**
-- In the **Gira Project Assistant** (GPA), create a "fixed user" named "Administrator" with the role "Administrator" in the user management.
-
-![GPA-benutzer-de.jpg](./_images/GPA-benutzer-de.jpg)
-
-- Special characters should be removed in the GPA since they are not spoken. This includes parentheses, periods, dashes, and slashes. Umlauts are allowed.
-- Avoid using **abbreviations** as they are not pronounced in speech (e.g., instead of "HWR" -> "Hauswirtschaftsraum").
-- Avoid using **enumerations** (e.g., instead of "Kinderzimmer 1", "Kinderzimmer 2"... use "Max", "Moritz"). Spell out numbers (Bad 1, Bad 2 -> "Bad eins", "Bad zwei").
-
-Connect the ARAGON Master only after configuring a GIRA X1 in the network. 
-After approximately 2 minutes of startup, the ARAGON Master can be searched in the network using a browser: http://find.heyaragon.com. 
-
-The configuration interface is accessed through the discovered IP address.
+<h2 id="konfiggate">Configuration de la passerelle</h2>
 
 ![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
-The "Gateway Configuration" button opens a dialog that allows entering the IP address of the X1. During initial setup, Aragon Master will automatically find this address.
-In the same window, enter the administrator password set in the GPA.
+- Le dialogue **"Configuration de la passerelle"** est différent en fonction de la passerelle configurée. Les détails sont indiqués dans [l'Annexe 1: Serveurs et passerelles](#Anhang1) pour chaque passerelle séparément. Les deux premières cases à cocher doivent devenir vertes. Cela indique que la connexion entre Aragon Master et la passerelle est correctement initialisée et que la communication est établie.
 
-After closing this dialog, Aragon Master attempts to establish a connection to the Gira X1. The "Connection Status" checkbox should now turn green.
+- Le bouton **"Voix"** propose une variété de voix dans une boîte de dialogue, dont la sortie vocale est générée hors ligne par un TTS interne.
+> **Attention:** La génération du fichier vocal est très intensive en calcul. En règle générale, on peut estimer que le temps de calcul représente un tiers de la durée du texte parlé.
 
-The following **functions** of the X1 are supported for control and voice query:
+- La **formation de nouveaux mots** est nécessaire après chaque modification de la configuration des données importées via la passerelle. Le "ASR" (Automatic Speech Recognition) doit être informé des mots répertoriés dans le dictionnaire qui seront finalement compris après une exécution réussie de la formation.
+
+<h2 id="konfigsat">Configuration des satellites</h2>
+
+![satellite-de.jpg](./_images/satellite-de.jpg)
+
+Après avoir cliqué sur le bouton **"Recherche de satellites"**, les adresses IP des satellites trouvés seront affichées dans le menu déroulant ci-dessous en peu de temps.
+Maintenant, sélectionnez l'une des adresses et cliquez sur le bouton **"...en savoir plus"**.
+
+![konfigsat-de.jpg](./_images/konfigsat-de.jpg)
+
+- En cliquant sur le bouton **"Émettre un signal de test"**, le satellite avec l'adresse IP affichée émettra un son.
+- Maintenant, sélectionnez la pièce correspondante dans la ligne **"Pièce"** où cet Aragon est installé.
+- Avec le réglage **"Sensibilité"**, vous pouvez ajuster la sensibilité de déclenchement du mot de déclenchement. Une sensibilité plus faible signifie qu'Aragon ne sera pas facilement réveillé et que le mot de déclenchement doit être prononcé très précisément.
+- Le **"Système de mot de déclenchement amélioré"** permet en particulier un plus grand choix de mots de déclenchement.
+- Le **"Mot de déclenchement"** sélectionné doit correspondre à la langue indiquée de la langue sélectionnée, car les mots de déclenchement ne sont reconnus que s'ils sont prononcés correctement dans la langue correspondante. Les satellites peuvent être configurés avec des mots de déclenchement différents.
+- Le bouton **"Wi-Fi"** n'est disponible que sur un Aragon WL. Dans la boîte de dialogue qui s'ouvre, vous pouvez sélectionner le point d'accès Wi-Fi dans la liste des SSID Wi-Fi. Après avoir saisi le mot de passe Wi-Fi, la connexion sera établie et le câble réseau pourra être débranché.
+    > **Attention :** Seuls les réseaux Wi-Fi 2,4 GHz sont pris en charge.
+
+    > Le nom du SSID ne doit contenir aucun caractère spécial ni espace.
+
+    > Après s'être connecté au réseau Wi-Fi, le satellite obtiendra une nouvelle adresse IP.
+
+- **"Ouvrir l'application"** ouvre une nouvelle fenêtre de navigateur avec l'adresse IP du satellite.
+- **"Redémarrer l'application"** redémarre l'application sur le satellite.
+- **"Redémarrer"** redémarre le satellite.
+- **"Éteindre"** éteint le satellite. Un redémarrage n'est possible qu'en effectuant un cycle d'alimentation.
+- **"Mise à jour"** met à jour le satellite.
+- **"Obtenir les mots de déclenchement"** charge la collection actuelle de mots de déclenchement sur l'appareil.
+- Le **"Test audio"** permet notamment de tester le microphone.
+- La **"Réduction du bruit DeepFilterNet"** est un filtre numérique puissant qui peut efficacement supprimer les bruits ambiants. Les "voix étrangères" ne peuvent pas être bien éliminées car elles ne peuvent pas être bien distinguées des données utiles. Si le bruit ambiant est faible, le filtre ne doit pas être activé.
+
+***
+
+<h1 id="sonos">Configuration pour SONOS</h1>
+
+L'intégration d'un système musical SONOS se fait en **définissant le nom de la zone SONOS de manière identique au nom de la pièce d'un satellite**.
+
+Ensuite, les fonctionnalités suivantes sont disponibles :
+
+> **Lors de la détection du mot d'activation, la zone SONOS est mise en sourdine**
+Cela permet au commandes vocales d'être mieux comprises par ARAGON, car les bruits ambiants sont réduits.
+
+> **Il est possible de démarrer des listes de lecture, des titres de musique et des stations de radio par leur nom**
+Cette fonction nécessite cependant que les morceaux de musique, les listes ou les stations correspondantes soient enregistrés en tant que favoris SONOS. Dans l'application SONOS, il est possible de donner un nom personnalisé à ces favoris (de préférence en allemand) afin qu'ils soient plus facilement compris par ARAGON. Après avoir défini les favoris, il est nécessaire d'effectuer une séance d'entraînement des mots.
+
+> **La sortie vocale des satellites ARAGON peut être redirigée vers la zone SONOS correspondante**
+sur demande
+
+Fonctions :
+
+- **Démarrer la musique**
+*joue de la musique dans le salon*, *allume la radio dans la cuisine*, *mets "ma musique" en marche* (avec le titre favori "ma musique"), *joue quelque chose*
+
+- **Arrêter la musique**
+*éteins la musique*, *éteins la radio*, *arrête la musique dans la cuisine*
+
+- **Régler le volume**
+*augmente le volume de la musique*, *baisse le volume*, *diminue un peu le son*, *baisse le volume de la radio dans la cuisine*, *met le volume du salon à 30%*
+
+- **Saut de titre**
+Le saut de titre ne fonctionne que lorsque la liste de lecture est en cours
+*titre suivant*, *joue la chanson suivante*, *joue le titre suivant*, *joue le dernier titre*, *répète le dernier morceau*
+
+- **Shazam**
+*quel est le titre de la chanson*, *quel est le nom du chanteur*
+
+***
+***
+
+<h1 id="Anhang1">Annexe 1 : Serveurs et passerelles</h1>
+
+
+| Passerelle | Description |
+| ------ | ------ |
+|[proServ by ProKNX](#proServ)|Une passerelle qui permet de configurer entièrement la commande vocale via l'ETS. L'utilisation de l'installation KNX via une application et la voix peut donc être réalisée uniquement par une configuration ETS|
+|[X1 by Gira](#x1)|La configuration d'un Gira X1 accessible sur le réseau est lue et peut être contrôlée par la voix|
+|[Homeserver by Gira](#homeserver)|La configuration d'un Gira Homeserver (à partir de la version 4.10) accessible sur le réseau, avec un Quadclient configuré, est lue et peut être contrôlée par la voix|
+|Philips HUE|La structure du bâtiment et des fonctions d'un pont HUE est lue et peut être contrôlée par la voix|
+|KNX IoT|Tout appareil prenant en charge le protocole KNX 3rd Party IoT peut être lu et contrôlé|
+|[all-KNX](#allknx)|Si votre installation ne dispose d'aucun des serveurs KNX répertoriés ici, la communication entre Aragon et le bus KNX peut également être effectuée via une interface KNXNet/IP standard|
+|Passerelle générique|Permet de définir la communication entre Aragon et d'autres appareils selon une règle (RESTful API, commandes HTTP, ...)|
+|YOUVI by PEAKnx|Prend en charge le contrôle de la visualisation YOUVI par la voix|
+|[SVS by Jung](#svs)|Prend en charge le contrôle du serveur Smart Visu de Jung par la voix|
+|LUXORliving by Theben|Prend en charge le contrôle et la consultation d'une installation LUXORliving de Theben par la voix (installation KNX sans ETS)|
+|Option ENOCEAN|Cette option permet, en plus d'une des passerelles standard définies ci-dessus, d'utiliser des capteurs et des actionneurs prenant en charge la norme Enocean|
+
+***
+
+<h2 id="proServ">proServ par ProKNX</h2>
+
+![proserv.jpg](./_images/proserv.jpg)
+
+Nous supposons que le proServ a été configuré et testé pour la visualisation avant d'être mis en service pour la commande vocale. Il convient de noter que toutes les fonctionnalités proposées par le proServ ne peuvent pas être utilisées pour la commande et l'interrogation vocales. Voici une liste des fonctions possibles :
+
+- **Allumer/Éteindre**
+La fonction est interprétée comme une commande pour allumer ou éteindre la lumière (par exemple, *"allume/éteins la lumière du salon"*).
+
+    > **Remarque :** - Le nom de la lumière est reconnu exclusivement pour toute l'installation, donc il n'est pas nécessaire de mentionner le nom de la pièce, à moins qu'il n'y ait qu'un seul appareil dans l'installation.
+
+    > **Attention :** Ne pas utiliser cette fonction si vous souhaitez commander des groupes ou des prises commutables, car elles seraient également allumées ou éteintes avec la commande "Allume/Éteins la lumière". Utilisez plutôt la fonction "AUX" à cet effet !
+
+- **Variation d'intensité**
+La fonction est utilisée pour la variation de l'intensité lumineuse. La commande vocale permet de *commuter*, de *diminuer relativement* (par exemple, *"rendre plus lumineux"*), de *diminuer absolument à une valeur spécifique* (par exemple, *"régler la lumière à 50%"*) et d'*interroger l'état* (par exemple, *"comment est la lumière ?"*).
+
+    > **Remarque :** - Le nom de la lumière est reconnu exclusivement pour toute l'installation, donc il n'est pas nécessaire de mentionner le nom de la pièce, à moins qu'il n'y ait qu'un seul appareil dans l'installation.
+
+- **Volet avec retour d'information en octets**
+C'est la seule fonction qui permet de contrôler et d'interroger un volet par commande vocale. La fonction suppose que l'actionneur pour le positionnement et le retour d'information de la position a été configuré ! Les objets de communication pour le démarrage et l'arrêt ne sont pas utilisés pour la commande vocale.
+
+- **AUX - Allumer/Éteindre - Basculer**
+La commande permet les mêmes commandes vocales que la commande "Allumer/Éteindre". La grande différence réside dans le fait que cette fonction n'est pas interprétée avec le terme générique "lumière". Par exemple : *"Éteins la chambre des enfants"* éteindra toutes les fonctions *"Allumer/Éteindre"* et *"Variation d'intensité"*, mais pas une fonction AUX !
+
+- **Statut - Valeur flottante sur 2 octets**
+Cette fonction permet d'interroger la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quel est le statut de l'humidité de l'air ?"*, ou *"quelle est la température ?"*
+
+- **Statut - Valeur non signée sur 4 octets**
+Cette fonction permet d'interroger la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quel est le statut du compteur d'eau ?"*
+
+- **Statut - Valeur signée sur 4 octets**
+Cette fonction permet d'interroger la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quelle est la consommation d'énergie ?"*
+
+- **Statut - Valeur flottante sur 4 octets**
+Cette fonction permet d'interroger la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quel est le statut de l'intensité du courant ?"*
+
+- **RTR avec mode de fonctionnement sur 1 bit**
+C'est la seule fonction qui permet le contrôle et l'interrogation d'un régulateur de température de pièce par la voix. Indépendamment du nom de la fonction défini, on peut demander *"quel est le thermostat"* ou *"quelle est la température"*. La réponse inclut à la fois la température réelle et la consigne instantanée. Il est également possible de régler la consigne de température, soit absolument soit relativement (par exemple, *"augmente légèrement la température"* ou *"régle le thermostat sur 21 degrés"*)
+
+- **Scènes**
+...sont des fonctions très puissantes. Elles permettent d'associer un numéro de scène à un nom de scène. Lorsque le nom de la scène est prononcé, le numéro correspondant (conforme KNX "-1") est écrit sur le bus. Aucun "ajout" parlé n'est nécessaire, il suffit de prononcer le nom tel qu'il a été défini (par exemple, *"appelle l'ascenseur"*, *"active le jaune"* ou *"bonne nuit"*)
+
+> **Attention :** Après avoir modifié la configuration du proServ via l'ETS, les nouvelles données doivent être lues par le maître ARAGON, puis les mots doivent être "entraînés". Cette opération est déclenchée par un redémarrage de NodeRed **(à sélectionner dans le menu NODE-RED : Réinitialiser Node-Red -> Redémarrer)**. Cela prend environ 90 secondes.
+
+***
+
+<h2 id="x1">X1 par Gira</h2>
+
+![GIRA_X1.jpg](./_images/GIRA_X1.jpg)
+
+**Préparatifs sur le X1 :**
+- Dans **l'Assistant de projet Gira** (GPA), créer un "utilisateur fixe" avec le nom "Administrateur" et le rôle "Administrateur" dans la gestion des utilisateurs.
+
+![GPA-benutzer-de.jpg](./_images/GPA-benutzer-de.jpg)
+
+- Comme les **caractères spéciaux** ne sont pas prononcés, ils doivent être supprimés dans le GPA. Cela inclut notamment les parenthèses, les points, les tirets et les barres obliques. Les umlauts sont autorisés.
+- Éviter les **abréviations**, car elles ne sont pas prononcées à voix haute (par exemple, au lieu de "HWR" -> "Hauswirtschaftsraum").
+- Éviter les **listes à puces** (au lieu de "Chambre d'enfant 1", "Chambre d'enfant 2"... préférer "Max", "Moritz"). Écrire les nombres en toutes lettres (Salle de bain 1, Salle de bain 2 -> "Salle de bain un", "Salle de bain deux")
+
+Connectez ARAGON Master uniquement après avoir configuré un GIRA X1 sur le réseau.
+Après environ 2 minutes de démarrage, ARAGON Master peut être recherché sur le réseau à l'aide d'un navigateur : http://find.heyaragon.com.
+
+L'interface de configuration est accessible via l'adresse IP trouvée.
+
+![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
+
+Le bouton "Configuration de la passerelle" ouvre une boîte de dialogue permettant de saisir l'adresse IP du X1. Lors de la première mise en service, Aragon Master trouve automatiquement cette adresse.
+Dans la même fenêtre, entrez le mot de passe administrateur défini dans le GPA.
+
+Après avoir fermé cette boîte de dialogue, Aragon Master tente d'établir une connexion avec le Gira X1. La coche "État de la connexion" devrait maintenant devenir verte.
+
+Les **fonctions suivantes** du X1 sont prises en charge pour le contrôle et la requête vocale :
 
 ![schalter-x1-de.jpg](./_images/schalter-x1-de.jpg)
 
-The function is interpreted as switching the lights (e.g., *"turn on/off the lights in the living room"*). 
+La fonction est interprétée comme une commande pour allumer/éteindre la lumière (par exemple, *"allume/éteins la lumière dans le salon"*).
 
-> **Note:** - The name of the light is recognized exclusively for the entire installation, so you don't have to mention the room name if there is only one device in the installation.
+> **Remarque :** - Le nom de la lumière est reconnu exclusivement pour toute l'installation, il n'est donc pas nécessaire de mentionner le nom de la pièce, à condition qu'il n'y ait qu'un seul appareil dans l'installation.
 
-> **Caution:** Do not use this function if you want to operate aggregates or switchable sockets, as they would also be turned on/off with the command "Turn on/off the lights". Use the **"Button"** function for this purpose!
+> **Attention :** Ne pas utiliser cette fonction si vous souhaitez commander des groupes ou des prises commutables, car ils seraient également allumés/éteints avec la commande "Allume/Éteins la lumière". Utilisez la fonction **"Interrupteur"** à cet effet !
 
-![dimmer-x1-en.jpg](./_images/dimmer-x1-en.jpg)
+![dimmer-x1-de.jpg](./_images/dimmer-x1-de.jpg)
 
-This function is used for dimming the light. The voice command allows *switching*, *relative dimming* (e.g. *"make it brighter"*), *absolute dimming to a specific value* (e.g. *"set the light to 50%"*), and *querying the state* (e.g. *"what is the light like?"*).
+La fonction est utilisée pour la variation de la lumière. La commande vocale permet de *allumer*, *diminuer relativement* (par exemple, *"rendre plus lumineux"*), *diminuer absolument à une valeur spécifique* (par exemple, *"régler la lumière à 50%"*) et *interroger l'état* (par exemple, *"comment est la lumière?"*).
 
-> **Note:** - The name of the light is recognized exclusively for the entire installation, meaning you don't have to mention the room name unless there is only one device in the installation.
+> **Remarque :** - Le nom de la lumière est reconnu exclusivement pour toute l'installation, c'est-à-dire qu'il n'est pas nécessaire de mentionner le nom de la pièce, à condition que l'appareil ne soit présent qu'une seule fois dans l'installation.
 
-![taster-x1-en.jpg](./_images/taster-x1-en.jpg)
+![taster-x1-de.jpg](./_images/taster-x1-de.jpg)
 
-The command allows the same voice commands as the "Switch" command. The big difference, however, is that this function is not interpreted with the general term "light". For example, *"Turn off the children's room"* will turn off all functions of "Switch" and "Dim", but not a "Button" function!
+La commande permet les mêmes commandes vocales que la commande "Allumer". La grande différence réside dans le fait que cette fonction n'est pas interprétée avec le terme générique "Lumière". Par exemple : *"Éteins la chambre des enfants"* éteindra toutes les fonctions *"Allumer"* et *"Dimmer"*, mais pas une fonction "Taster" !
 
-![shutter-x1-en.jpg]./_images/shutter-x1-en.jpg)
+![shutter-x1-de.jpg]./_images/shutter-x1-de.jpg)
 
-This function allows control and querying of a shutter by voice. The function assumes that the actuator for positioning and position feedback has been configured and the corresponding group addresses have been declared in the GPA! The addresses for start and stop are not used for voice control.
+Cette fonction permet de contrôler et d'interroger un volet roulant par la voix. La fonction suppose que l'actionneur pour le positionnement et le retour de position a été configuré et que les adresses de groupe correspondantes ont été déclarées dans le GPA ! Les adresses de départ et d'arrêt ne sont pas utilisées pour la voix.
 
-![heizen-x1-en.jpg](./_images/heizen-x1-en.jpg)
+![heizen-x1-de.jpg](./_images/heizen-x1-de.jpg)
 
-This function allows control and querying of a room temperature controller by voice. Regardless of the predefined name of the function, you can query *"how is the thermostat"* or *"what is the temperature"*. The response will include both the current actual temperature and the set temperature. The set temperature can also be adjusted, both absolutely and relatively (e.g. *"increase the temperature a bit"* or *"set the thermostat to 21 degrees"*).
+Cette fonction permet de contrôler et d'interroger un régulateur de température de pièce par la voix. Indépendamment du nom de la fonction défini, il est possible de demander *"comment est le thermostat"* ou *"quelle est la température"*. La réponse comprend à la fois la température réelle et la consigne instantanée. Il est également possible de régler la consigne de température, à la fois de manière absolue et relative (par exemple, *"augmente légèrement la température"* ou *"règle le thermostat à 21 degrés"*).
 
-![szene-x1-en.jpg](./_images/szene-x1-en.jpg)
+![szene-x1-de.jpg](./_images/szene-x1-de.jpg)
 
-Scenes are very powerful functions. They allow assigning a scene number to a scene name. When the spoken scene name is recognized, the corresponding number (KNX compliant "-1") is written to the bus. No spoken "addition" is required, simply pronounce the name as defined (e.g. *"Call the elevator"*, *"activate yellow"* or *"good night"*)
+Les scènes sont des fonctions très puissantes. Elles permettent d'associer un numéro de scène à un nom de scène. Lorsque le nom de la scène est prononcé, le numéro correspondant (conforme KNX "-1") est écrit sur le bus. Aucun "ajout" parlé n'est nécessaire, il suffit de prononcer le nom tel qu'il a été défini (par exemple, *"Appelle l'ascenseur"*, *"active le jaune"* ou *"bonne nuit"*).
 
 ![statusdez-x1-de.jpg](./_images/statusdez-x1-de.jpg)
 
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the humidity status?" or "What is the temperature?" Both 2-byte float and 4-byte float values are supported.
+Cette fonction permet de récupérer la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quel est l'état de l'humidité de l'air ?"*, ou *"quelle est la température ?"*. Les valeurs de type float sur 2 octets et 4 octets sont prises en charge.
 
 ![statusmitvz-x1-de.jpg](./_images/statusmitvz-x1-de.jpg)
 
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the energy consumption?"
+Cette fonction permet de récupérer la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quelle est la consommation d'énergie ?"*
 
 ![statusohnevz-x1-de.jpg](./_images/statusohnevz-x1-de.jpg)
 
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: "What is the water meter status?"
+Cette fonction permet de récupérer la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quel est l'état du compteur d'eau ?"*
 
 ![prozentwertgeber-x1-de.jpg](./_images/prozentwertgeber-x1-de.jpg)
 
-With this function, a default value stored in the GPA can be sent to a group address. For example, "Activate the default value."
+Cette fonction permet d'envoyer une valeur prédéfinie stockée dans le GPA sur une adresse de groupe. Par exemple : *"Active la valeur par défaut"*
 
-> **Attention:** After changing the configuration of the X1, the new data must be read from the ARAGON Master, and the words must be "trained" afterwards. This process is triggered by restarting NodeRed **(select Reset Node-Red -> Restart in the NODE-RED menu)**. This takes about 90 seconds.
+> **Attention :** Après avoir modifié la configuration du X1, les nouvelles données doivent être lues par le maître ARAGON, puis les mots doivent être "entraînés". Cette opération est déclenchée par un redémarrage de NodeRed **(à sélectionner dans le menu NODE-RED : Réinitialiser Node-Red -> Redémarrer)**. Cela prend environ 90 secondes.
 
-> **Error Messages**
-If an error message appears due to special characters used, please delete them in the GPA configuration. The "Train new words" button in the "Gateway Configuration" section allows listing all read words. Special characters can be quickly located here.
+> **Messages d'erreur**
+Si un message d'erreur apparaît en raison de caractères spéciaux utilisés, veuillez les supprimer dans la configuration du GPA. Le bouton "Entraîner de nouveaux mots" dans la section "Configuration de la passerelle" permet de répertorier tous les mots lus. Les caractères spéciaux peuvent être rapidement localisés ici.
 
 ***
 
@@ -426,71 +425,71 @@ If an error message appears due to special characters used, please delete them i
 
 ![GIRA_Homeserver_.jpg](./_images/GIRA_Homeserver_.jpg)
 
-**Preparations on the Homeserver:**
-- In **Gira Expert**, create a user named "Administrator" in the user management.
+**Préparatifs sur le Homeserver :**
+- Dans **Gira Experten**, créer un utilisateur avec le nom "Administrateur" dans la gestion des utilisateurs.
 
 ![Experte.jpg](./_images/Experte.jpg)
 
-In the **QuadClient**, create a user for Aragon. **Select the option "Provide for IoT service."**
+Dans **QuadClient**, créer un utilisateur pour Aragon. **Sélectionner l'option "Disponible pour le service IoT"**
 
 ![QC_benutzer.jpg](./_images/QC_benutzer.jpg)
 
-- Since **special characters** are not spoken, they must be removed in the QC. This includes parentheses, periods, dashes, and slashes. Umlauts are allowed.
-- Avoid **abbreviations** as they are not pronounced in speech (e.g., instead of "HWR" -> "Hauswirtschaftsraum").
-- Avoid **enumerations** (e.g., instead of "Kinderzimmer 1", "Kinderzimmer 2"... use "Max", "Moritz"). Spell out numbers (Bad 1, Bad 2 -> "Bad eins", "Bad zwei").
+- Since **special characters** are not pronounced, they must be removed in QC. This includes parentheses, periods, dashes, and slashes. Umlauts are allowed.
+- Avoid **abbreviations** as they are not pronounced in speech (e.g. instead of "HWR" -> "Hauswirtschaftsraum").
+- Avoid **enumerations** (e.g. instead of "Kinderzimmer 1", "Kinderzimmer 2"... use "Max", "Moritz"). Spell out numbers (Bad 1, Bad 2 -> "Bad eins", "Bad zwei").
 
-ARAGON Master should only be connected to a configured GIRA Homeserver on the network. 
-After approximately 2 minutes of startup, ARAGON Master can be searched on the network using a browser: http://find.heyaragon.com.
+ARAGON Master should only be connected to a configured GIRA Homeserver in the network.
+After approximately 2 minutes of startup, ARAGON Master can be searched in the network using a browser: http://find.heyaragon.com.
 
-The configuration interface is accessed via the discovered IP address.
+The configuration interface is accessed through the discovered IP address.
 
 ![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
-The "Gateway Configuration" button opens a dialog that allows entering the IP address of the Homeserver. 
+The "Gateway Configuration" button opens a dialog that allows entering the IP address of the Homeserver.
 In the same window, enter the administrator password set by the expert.
 
-After closing this dialog, Aragon Master attempts to establish a connection to the Gira Homeserver. The "Connection Status" checkbox should now turn green.
+After closing this dialog, Aragon Master attempts to establish a connection to the Gira Homeserver. The checkmark "Connection Status" should now turn green.
 
-The following **function templates** of the QC are supported for control and query by voice:
+The following **function templates** of QC are supported for control and query by voice:
 
 **Switch plus**
 
-This function is interpreted as switching for lights (e.g., *"turn on/off the light in the living room"*).
+This function is interpreted as switching for lights (e.g. *"turn on/off the light in the living room"*).
 
-> **Note:** - The name of the light is recognized exclusively for the entire installation, so you don't have to mention the room name unless there is only one device in the installation.
+> **Note:** - The name of the light is recognized exclusively for the entire installation, so you don't have to mention the room name if there is only one device in the installation.
 
 > **Caution:** Do not use this function if you want to operate aggregates or switchable sockets, as they would also be turned on/off with the command "Turn on/off the light". Use the function template **"Button plus"** for this purpose!
 
 **Dimmer plus**
 
-This function is used for dimming the light. The voice command allows *switching*, *relative dimming* (e.g., *"make it brighter"*), *absolute dimming to a specific value* (e.g., *"set the light to 50%"*), and *querying the state* (e.g., *"how is the light?"*).
+This function is used for dimming the light. The voice command allows *switching*, *relative dimming* (e.g. *"make it brighter"*), *absolute dimming to a specific value* (e.g. *"set the light to 50%"*), and *querying the state* (e.g. *"how is the light?"*).
 
-> **Note:** - The name of the light is recognized exclusively for the entire installation, meaning you don't have to mention the room name if there is only one device in the installation.
+> **Note:** - Le nom de la lumière est reconnu exclusivement pour toute l'installation, c'est-à-dire qu'il n'est pas nécessaire de mentionner le nom de la pièce, à condition que l'appareil ne soit présent qu'une seule fois dans l'installation.
 
-**Button plus**
+**Bouton plus**
 
-This command allows the same voice commands as the "Switch plus" command. The main difference, however, is that this function template is not interpreted with the term "light". For example, *"Turn off the kids' room"* will turn off all "Switch plus" and "Dim plus" functions, but not a "Button plus" function!
+La commande permet les mêmes commandes vocales que la commande "Switch plus". La grande différence réside cependant dans le fait que ce modèle de fonction n'est pas interprété avec le terme générique "lumière". Par exemple : *"Éteins la chambre des enfants"* éteindra toutes les fonctions *"Switch plus"* et *"Dim plus"*, mais pas une fonction *"Bouton plus"* !
 
-**Roller shutter awning skylight**
+**Volet Store Fenêtre de toit**
 
-This function template allows the control and querying of a roller shutter by voice. The function assumes that the actuator for positioning and position feedback has been configured and the corresponding group addresses have been declared! The addresses for start and stop are not used for voice control.
+Ce modèle de fonction permet le contrôle et la récupération d'un volet roulant par la voix. La fonction suppose que l'actionneur pour le positionnement et le retour de position a été configuré et que les adresses de groupe correspondantes ont été déclarées ! Les adresses de démarrage et d'arrêt ne sont pas utilisées pour la voix.
 
-**Heating plus**
+**Chauffage plus**
 
-This function allows the control and querying of a room temperature controller by voice. Regardless of the predefined function name, you can ask *"what is the thermostat like"* or *"what is the temperature"*. The response will include both the current and the set temperature. You can also set the desired temperature, either absolutely or relatively (e.g. *"increase the temperature a bit"* or *"set the thermostat to 21 degrees"*).
+Cette fonction permet le contrôle et la récupération d'un régulateur de température de pièce par la voix. Indépendamment du nom de fonction défini, il est possible de demander *"quelle est la température du thermostat"* ou *"quelle est la température"*. La réponse indiquera à la fois la température actuelle et la consigne instantanée. Il est également possible de régler la consigne de température, à la fois de manière absolue et relative (par exemple, *"augmente légèrement la température"* ou *"régle le thermostat à 21 degrés"*).
 
-**Scene plus / Trigger**
+**Scène plus / Déclencheur**
 
-Scenes are very powerful functions. They allow assigning a scene number to a scene name. When the spoken scene name is recognized, the corresponding number (KNX compliant "-1") is written to the bus. No spoken "addition" is required, just pronounce the name as defined (e.g. *"Call the elevator"*, *"activate yellow"*, or *"good night"*).
+Les scènes sont des fonctions très puissantes. Elles permettent d'associer un numéro de scène à un nom de scène. Lorsque le nom de la scène est prononcé, le numéro correspondant (conforme KNX "-1") est écrit sur le bus. Aucun "ajout" parlé n'est nécessaire, il suffit de prononcer le nom tel qu'il a été défini (par exemple, *"Appelle l'ascenseur"*, *"active le jaune"* ou *"bonne nuit"*).
 
-**Sensor with threshold**
+**Capteur avec seuil**
 
-This function allows querying the value by voice. The specified unit is also announced. A possible query would be: *"What is the humidity status?"*, or *"what is the temperature?"*, *"What is the energy consumption?"*, *"What is the water meter status?"*
+Cette fonction permet de récupérer la valeur par la voix. L'unité spécifiée est également annoncée. Une requête possible serait : *"Quel est l'état de l'humidité de l'air ?"*, ou *"quelle est la température ?"*, *"Quelle est la consommation d'énergie ?"*, *"Quel est l'état du compteur d'eau ?"*.
 
-> **Attention:** After changing the configuration of the QC, the new data must be read from the ARAGON Master, and the words must then be "trained". This process is triggered by restarting NodeRed **(select Reset Node-Red -> Restart in the NODE-RED menu)**. This takes approximately 90 seconds.
+> **Attention:** Après avoir modifié la configuration du QC, les nouvelles données doivent être extraites du maître ARAGON, puis les mots doivent être "entraînés". Cette opération est déclenchée par un redémarrage de NodeRed **(à sélectionner dans le menu NODE-RED : Réinitialiser Node-Red -> Redémarrer)**. Cela prend environ 90 secondes.
 
-> **Error Messages**
-If an error message appears due to the use of special characters, please delete them in the GPA configuration. The button "Train new words" in the "Gateway Configuration" section allows for a list of all imported words. Here, the special characters can be quickly identified.
+> **Messages d'erreur**
+Si un message d'erreur apparaît en raison de caractères spéciaux utilisés, veuillez les supprimer dans la configuration GPA. Le bouton "Entraîner de nouveaux mots" dans la section "Configuration de la passerelle" permet de répertorier tous les mots lus. Les caractères spéciaux peuvent être rapidement localisés ici.
 
 ***
 
@@ -498,126 +497,126 @@ If an error message appears due to the use of special characters, please delete 
 
 ![knx-logo_.jpg](./_images/knx-logo_.jpg)
 
-ARAGON Master can be configured to send commands and queries via a KNX Net/IP interface using group addresses.
+Le maître ARAGON peut être configuré pour que les commandes et les requêtes soient effectuées via une interface KNX Net/IP à l'aide d'adresses de groupe.
 
-The configuration is stored in a JSON format file. This file can be manually created and is relatively easy to read as a text file. We refer to this file as the GDF (Gateway Description File).
+La configuration est stockée dans un fichier au format JSON. Ce fichier peut être créé manuellement et est relativement lisible en tant que fichier texte. Nous appelons ce fichier GDF (Gateway Description File).
 
-**Creating or restoring the GDF file via Node-Red:**
-The GDF file can be created or restored using NodeRed in the respective language (English, German, and French). To do this, open Node-Red with **"open flow editor"** and log in with the user **"user"** and the password printed on the device.
+**Création ou restauration du fichier GDF via Node-Red :**
+Le fichier GDF peut être créé dans la langue respective (anglais, allemand et français) via NodeRed ou le fichier sauvegardé peut être restauré. Pour cela, ouvrez Node-Red avec **"ouvrir l'éditeur de flux"** et connectez-vous avec l'utilisateur **"user"** et le mot de passe imprimé sur l'appareil.
 
 ![gdf-nodered_.jpg](./_images/gdf-nodered_.jpg)
 
-By selecting the **"German"** node, the JSON file can be displayed in a readable format and can also be edited.
+En sélectionnant le nœud **"German"**, le fichier JSON peut être affiché de manière lisible et édité.
 
 ![gdf-beispiel.png](./_images/gdf-beispiel.png)
 
-Changes made are saved by clicking the **"Deploy"** button in the top right corner.
-Only after manually injecting (small blue area on the left side of the node) is the file active and overwrites the previous configuration.
+Les modifications apportées sont enregistrées en cliquant sur le bouton **"Déployer"** en haut à droite.
+Ce n'est qu'après avoir activé l'injection manuelle (petite zone bleue à gauche du nœud) que le fichier est actif et remplace la dernière configuration.
 
-The defined names must now be trained. This is done through the menu item **"Master" -> "Train new words"**.
+Les noms définis doivent maintenant être entraînés. Cela se fait via le menu **"Master" -> "Entraîner de nouveaux mots"**.
 
-> **Alternatively to the method described above for creating the configuration, which requires knowledge of JSON syntax, we recommend using the GDF Editor.**
+> **En alternative à la méthode décrite ci-dessus pour la création de la configuration, qui nécessite des connaissances en syntaxe JSON, nous recommandons l'utilisation de l'éditeur GDF.**
 
-**The GDF Editor**
+**L'éditeur GDF**
 
-The GDF Editor can be accessed through the Node-Red Dashboard. The link can be found under the tab **"NodeRed" -> "Open Dashboard"**.
+L'éditeur GDF est accessible via le tableau de bord Node-Red. Le lien se trouve sous l'onglet **"NodeRed" -> "Ouvrir le tableau de bord"**.
 
-After making changes, they must be applied by clicking the **"SAVE AND APPLY"** button at the bottom of this page.
+Après avoir effectué des modifications, celles-ci doivent être appliquées en utilisant le bouton **"ENREGISTRER ET APPLIQUER"** en bas de cette page.
 
-The names defined in this way must be trained by ARAGON. This can be done through the menu item **"Master" -> "Train New Words"**.
+Les noms ainsi définis doivent être entraînés par ARAGON. Cela se fait via le menu **"Master" -> "Entraîner de nouveaux mots"**.
 
-> **IMPORTANT:** Please save these settings permanently as part of the project documentation. Although they are stored "non-volatile" on the device, they will be overwritten if the "Speech Application (Action & Logic)" is reinstalled under the "About" tab. The file can be saved using the link **"Download active gatewayDescriptionFile.json"** located below the **"SAVE AND APPLY"** button.
+> **IMPORTANT :** Veuillez sauvegarder ces paramètres de manière permanente dans le cadre de la documentation du projet. Bien qu'ils soient stockés de manière "non volatile" sur l'appareil, ils seront écrasés si l'application "Action & Logique de la langue" est réinstallée sous l'onglet "À propos". Le fichier peut être sauvegardé en utilisant le lien **"Télécharger le fichier gatewayDescriptionFile.json actif"** situé en dessous du bouton **"ENREGISTRER ET APPLIQUER"**.
 
-The GDF Editor displays the representation of the active variable declaration. The saved GDF file can be copied into the "German" node, allowing for a restoration.
+L'éditeur GDF affiche la représentation de la déclaration de variables active. Le fichier GDF sauvegardé peut être copié dans le nœud "German" pour permettre une restauration.
 
 ![gdf-sichern-de.JPG](./_images/gdf-sichern-de.JPG)
 
-**Data Point Types for Voice Control**
+**Types de points de données pour la commande vocale**
 
-The GDF Editor offers the following data point types:
+L'éditeur GDF propose les types de points de données suivants :
 
 - **lights**
-These are switched devices that respond to the name "Licht" (light). They can be operated binary with ON/OFF and also have a binary feedback (DPT 1.001).
+Ce sont des appareils commutés qui écoutent le nom "Lumière". Ils sont contrôlés de manière binaire avec ON/OFF et ont également un retour binaire (DPT 1.001).
 - **dimmers**
-These are devices that respond to the name "Licht" (light). They can be switched binary (DPT 1.001) or set to a value (DPT 5.001). The feedback is sufficient with the value (DPT 5.001).
+Ce sont des appareils qui écoutent le nom "Lumière". Ils peuvent être commutés de manière binaire (DPT 1.001) ou réglés sur une valeur (DPT 5.001). Le retour se fait par la valeur (DPT 5.001).
 - **blinds**
-These are devices that respond to the name "Rollladen" (blinds). They can only be set to a value (DPT 5.001). For feedback, a value (DPT 5.001) is also required.
+Ce sont des appareils qui écoutent le nom "Volet roulant". Ils ne peuvent être réglés que sur une valeur (DPT 5.001). Un retour est également nécessaire avec une valeur (DPT 5.001).
 - **heating**
-These are devices that respond to the name "Thermostat". Three data points are required:
-Current Temperature: Current room temperature (DPT 9.001)
-Target Temperature: Desired temperature (DPT 9.001)
-Actual Target Temperature: Current desired temperature (DPT 9.001)
+Ce sont des appareils qui écoutent le nom "Thermostat". Trois points de données sont nécessaires :
+Température actuelle : Température ambiante actuelle (DPT 9.001)
+Température cible : Température souhaitée (DPT 9.001)
+Température cible réelle : Température souhaitée actuelle (DPT 9.001)
 - **scenes**
-Scenes are defined by a name, which, when activated, sends a value (scene number) from 1...64 (DPT 17.001) to a group address.
+Les scènes sont définies par un nom qui, lorsqu'il est activé, envoie une valeur (numéro de scène) de 1 à 64 (DPT 17.001) à une adresse de groupe.
 - **sensor**
-Sensors can only be queried. In addition to the group address, the DPT type and unit are stored. To determine the DPT type, it is best to consult the ETS, as the type is displayed there for the used group address.
+Les capteurs ne peuvent être interrogés que. En plus de l'adresse de groupe, le type de DPT et l'unité sont enregistrés. Pour déterminer le type de DPT, il est préférable d'utiliser ETS, car le type est affiché pour l'adresse de groupe utilisée.
 - **aux**
-.... These are devices or functions that should not respond to the name "Licht" (light) but can still be switched. Binary data points can be created as DPT 1.001, which are operated with switching instructions (On/Off). However, it is also possible to exclude switching the data point by always sending a fixed value (On or Off) with the command. The voice command is then similar to activating a scene.
+... Ce sont des appareils ou des fonctions qui ne doivent pas écouter le nom "Lumière" mais qui peuvent être commutés. Des points de données binaires peuvent être créés en tant que DPT 1.001, qui sont contrôlés par des instructions de commutation (Marche/Arrêt). Cependant, il est également possible d'exclure la commutation du point de données en envoyant toujours une valeur fixe (Marche ou Arrêt) avec la commande. La commande vocale est alors similaire à une scène qui est "activée".
 
 ***
 
-<h2 id="svs">SVS by Jung</h2>
+<h2 id="svs">SVS par Jung</h2>
 
 ![svs.jpg](./_images/svs.jpg)
 
-Please perform the commissioning of the SVS according to the manufacturer's instructions.
+Veuillez effectuer la mise en service du SVS conformément aux instructions du fabricant.
 
-**Update of JUNG SVS**
+**Mise à jour du JUNG SVS**
 
-If your Jung SVS has a firmware version number of 1.2.1650 or older, you need to update it.
+Si votre Jung SVS a un numéro de version du micrologiciel inférieur ou égal à 1.2.1650, vous devez le mettre à jour.
 
-1. Backup the configuration of your SVS in the JUNG configuration interface (Settings -> System -> Backup).
-2. Go to the settings and select the "Start" button in the "Update" section.
-3. -> The update takes 5 - 10 minutes.
-4. -> The system will automatically restart.
-5. Go to the user management.
-6. Create at least one administrator.
-7. **Activate the https protocol** (communication with the SVS cannot be established without https!).
+1. Sauvegardez la configuration de votre SVS dans l'interface de configuration JUNG (Paramètres -> Système -> Sauvegarde)
+2. Accédez aux paramètres et sélectionnez le bouton "Démarrer" dans la section "Mise à jour"
+3. -> La mise à jour prendra 5 à 10 minutes
+4. -> Le système redémarrera automatiquement
+5. Accédez à la gestion des utilisateurs
+6. Créez au moins un administrateur
+7. **Activez le protocole https** (sans https, aucune communication ne peut être établie avec le SVS !)
 
-Connect ARAGON Master to the network only after configuring the SVS. 
-After approximately 2 minutes of startup, ARAGON Master can be searched on the network using a browser: http://find.heyaragon.com.
+Connectez ARAGON Master uniquement après avoir configuré le SVS sur le réseau.
+Après environ 2 minutes de démarrage, ARAGON Master peut être recherché sur le réseau à l'aide d'un navigateur : http://find.heyaragon.com.
 
-The configuration interface is accessed through the discovered IP address.
+L'interface de configuration est accessible via l'adresse IP trouvée.
 
 ![konfiguration-de.jpg](./_images/konfiguration-de.jpg)
 
-The **"Gateway Configuration"** button opens a dialog that allows entering the IP address of the SVS. The address is automatically entered during initial commissioning if an SVS is found on the network.
+Le bouton **"Configuration de la passerelle"** ouvre une boîte de dialogue qui permet de saisir l'adresse IP du SVS. L'adresse est automatiquement enregistrée lors de la première mise en service si un SVS est trouvé sur le réseau.
 
-Please enter the "Administrator Password" as the **password**. This is set using the JUNG project software in the "User Management" section.
+Veuillez entrer le **mot de passe** "Mot de passe administrateur". Celui-ci est défini dans le logiciel de conception JUNG dans la section "Gestion des utilisateurs".
 
-The following **functions** of the SVS are currently supported for offline voice commands:
+Les **fonctions** suivantes du SVS sont actuellement prises en charge pour les commandes vocales hors ligne :
 
-- Switch/Dimmer
-- Switch
-- On/off (not processed as "light," so it is not considered in global commands like "turn off the light in the room")
-- Dimmer
-- Dimmer/switch
-- Motor
-- Roller/Shutter/Awning
-- Venetian Blind (Slider + Button)
-- Heating
-- Base Setpoint
-- Scene
-- Activate scene
-- Value/State
-- Display 2Byte float
-- Display 2Byte lux
-- Display 4Byte float
-- Display 4Byte unsigned integer
-- Display 4Byte signed integer
-- Value transmitter
-- Send 1Byte (0-100%)
+- Interrupteur/Gradateur
+- Interrupteur
+- Marche/Arrêt (non traité comme "lumière", donc non pris en compte dans les commandes globales telles que "éteins la lumière dans la pièce")
+- Gradateur
+- Gradateur/Interrupteur
+- Moteur
+- Volet roulant/Store/Store banne
+- Store vénitien (Curseur + Bouton)
+- Chauffage
+- Consigne de base
+- Scène
+- Activer la scène
+- Valeur/État
+- Affichage flottant sur 2 octets
+- Affichage lux sur 2 octets
+- Affichage flottant sur 4 octets
+- Affichage entier non signé sur 4 octets
+- Affichage entier signé sur 4 octets
+- Émetteur de valeur
+- Envoyer 1 octet (0-100%)
 
-> Pay attention to ensure that the voice control is enabled in the respective function of the SVS.
+> Please make sure that the voice control is enabled in the respective SVS function.
 
 **Error Messages**
 
-If an error message appears due to the use of special characters, please delete them in the configuration. Do not use abbreviations in the names. Spell out numbers ("Kinderzimmer 2" -> "Kinderzimmer zwei").
+If an error message appears due to special characters used, please delete them in the configuration. Do not use abbreviations in the names. Spell out numbers ("Kinderzimmer 2" -> "Kinderzimmer zwei").
 
 ***
 ***
 
-<h1 id="Appendix2">Appendix 2: What is understood</h1>
+<h1 id="Anhang2">Appendix 2: What is understood</h1>
 
 The language allows for different ways to express a command. The so-called NLU (Natural Language Understanding) enables the computer to interpret these different sentence structures and expressions.
 
@@ -634,77 +633,77 @@ All these combinations should be understood unambiguously!
 
 For this purpose, the commands are assigned to so-called INTENTs. The following intents are implemented:
 
-<h2 id="lights">Light Control</h2>
+<h2 id="lights">Light control</h2>
 
 Operating individual light circuits:
-- *Schalte die/den/das {FUNCTION} in {ZONE} ein/aus* (Turn on/off the {FUNCTION} in {ZONE}) -> Controls the light circuit named {FUNCTION} in the room named {ZONE}
-- *Stelle die/den/das {FUNCTION} in {ZONE} auf 50%* (Set the {FUNCTION} in {ZONE} to 50%) -> Sets the light circuit named {FUNCTION} in the room named {ZONE} to 50%
-- *Mach die/den/das {FUNCTION} heller* (Make the {FUNCTION} brighter) -> Increases the brightness of the light circuit named {FUNCTION} in the zone associated with the satellite by 20%
+- *Schalte die/den/das {FUNKTION} in {ZONE} ein/aus* (Turn on/off the {FUNCTION} in {ZONE}) -> The light circuit with the name {FUNCTION} in the room with the name {ZONE} is operated.
+- *Stelle die/den/das {FUNKTION} in {ZONE} auf 50%* (Set the {FUNCTION} in {ZONE} to 50%) -> The light circuit with the name {FUNCTION} in the room with the name {ZONE} is set to 50%.
+- *Mach die/den/das {FUNKTION} heller* (Make the {FUNCTION} brighter) -> The light circuit with the name {FUNCTION} associated with the satellite zone is increased by 20% brightness.
 
 Operating multiple light circuits:
-- *Schalte das Licht ein/aus* (Turn on/off the lights) -> Controls all light circuits in the configured zone of the satellite
-- *Schalte das Licht in {ZONE} ein/aus* (Turn on/off the lights in {ZONE}) -> Controls all light circuits in the specified zone
-- *Schalte das Licht überall (oder "im ganzen Haus", "in der Wohnung") ein/aus* (Turn on/off the lights everywhere) -> Controls the light circuits in the entire installation
-- *Mach das Licht heller* (Make the lights brighter) -> Increases the brightness of all light circuits in the configured zone of the satellite by 20%
-- *Stell das Licht auf 50%* (Set the lights to 50%) -> Sets the brightness of all light circuits in the configured zone of the satellite to 50%
-- *Schalte die {Zone} aus* (Turn off the {Zone}) -> Turns off all light circuits in the corresponding room
+- *Schalte das Licht ein/aus* (Turn on/off the light) -> All light circuits in the configured zone of the satellite are operated.
+- *Schalte das Licht in {ZONE} ein/aus* (Turn on/off the light in {ZONE}) -> All light circuits in the mentioned zone are operated.
+- *Schalte das Licht überall (oder "im ganzen Haus", "in der Wohnung") ein/aus* (Turn on/off the light everywhere or "in the whole house", "in the apartment") -> The light circuits in the entire installation are operated.
+- *Mach das Licht heller* (Make the light brighter) -> All light circuits in the configured zone of the satellite are increased by 20% brightness.
+- *Stell das Licht auf 50%* (Set the light to 50%) -> All light circuits in the configured zone of the satellite are set to 50%.
+- *Schalte die {Zone} aus* (Turn off the {Zone}) -> All light circuits of the corresponding room are turned off.
 
-> **Unique Name Recognition:** In the case of lighting (and only here), name recognition is extended to the entire installation. So, if the name is unique, the name of the room does not need to be mentioned. However, if there are multiple lighting circuits with the same name in the installation, all of these lighting circuits will be operated.
+> **Reconnaissance de noms uniques:** Pour la lumière (et seulement pour celle-ci), la reconnaissance des noms est étendue à l'ensemble de l'installation. Donc, si le nom est unique, le nom de la pièce n'a pas besoin d'être mentionné. Cependant, si plusieurs circuits lumineux portent le même nom dans l'installation, tous ces circuits lumineux seront contrôlés.
 
-> **Wildcard**: The names "Licht" (light), "Beleuchtung" (illumination), "Lampen" (lamps) are placeholders for all light functions (switched and dimmed) in the room or house. So, "Licht ein" (turn on the light) searches for all lighting circuits in the room and turns them on. Therefore, it does not make sense to name a lighting circuit with one of the wildcard names, as it cannot be addressed individually.
+> **Joker**: Les noms "Lumière", "Éclairage", "Lampes" sont des substituts pour toutes les fonctions d'éclairage (allumées et atténuées) dans la pièce ou dans la maison. Ainsi, "Allumer la lumière" recherche tous les circuits lumineux dans la pièce et les allume. Il n'est donc pas judicieux de nommer un circuit lumineux avec l'un des noms de joker, car il ne peut pas être adressé individuellement.
 
-> **Global commands** can be deactivated (see here: [Disable Global Commands](#globalcmd))
-
-***
-
-<h2 id="shutter">Shutter Control</h2>
-
-Control of individual shutters:
-
-- *Öffne/Schliesse den Rollladen* (Open/Close the roller blind) -> The fabric with the name "Rollladen" in the zone assigned to the satellite is moved to the respective end position.
-- *Fahre die Markiese im Aussenbereich aus* (Extend the awning in the outdoor area) -> The fabric with the name "Markiese" in the "Aussenbereich" (outdoor area) zone is extended.
-- *Öffne/Schliesse die Jalousie ein wenig* (Open/Close the blind a little) -> The fabric with the name "Jalousie" in the zone assigned to the satellite is opened/closed by 20%.
-- *Positioniere/fahre die/den/das {FUNKTION} in {ZONE} auf 20%* (Position/Move the {FUNCTION} in {ZONE} to 20%) -> The addressed fabric in the specified room is set to 20%. (100% means fully closed)
-
-Control of multiple shutters:
-
-- *Öffne/Schliesse die Rollladen* (Open/Close the roller blinds) -> All functions defined as fabric in the zone assigned to the satellite are moved to the respective end position.
-- *Öffne/Schliesse die Jalousien im ganzen Haus* (Open/Close the blinds throughout the house) -> All functions defined as fabric in the entire installation are moved to the respective end position.
-- *Schliesse die {Zone}* (Close the {Zone}) -> All functions defined as fabric in the corresponding room are closed.
-
-> **Wildcard**: The names "Rollladen" (roller blinds), "Jalousien" (blinds), "Rollos" (only in plural) are placeholders for all motorized drives in the room or house. So, "Alle Rollladen hochfahren" (Raise all roller blinds) searches for all fabric functions in the room and raises them to the upper end position. If there are both roller blinds and motorized insect screens in a room, this command would open both systems.
-
-> **Doors, gates, motorized screens**: These devices are not addressed with wildcard names.
-
-> **Global commands** can be disabled (see here: [Disable global commands](#globalcmd))
+> **Commandes globales** peuvent être désactivées (voir ici: [Désactiver les commandes globales](#globalcmd))
 
 ***
 
-<h2 id="scenes">Scenes</h2>
+<h2 id="shutter">Commande des volets</h2>
 
-Scenes are universally applicable commands. They can be distinguished as follows:
-> **KNX Scenes**
-The affected members (actor channels) of a KNX scene (also known as a secondary scene) must already be configured in the ETS.
-At runtime, however, it can be set how each actor channel should behave when a scene number is called.
-In most actors, it can also be specified in the actor parameters whether an actor channel is affected by the scene number, even if it is assigned to the scene's group address.
+Commande des volets individuels:
 
-> [**Super scenes**](#vocalautomating)
-Aragon offers four super scenes (here is a list with some command alternatives):
+- *Ouvre/Ferme le volet roulant* -> Le store avec le nom "Volet roulant" dans la zone associée au satellite est déplacé jusqu'à sa position finale respective.
+- *Déploie le store extérieur* -> Le store avec le nom "Store extérieur" dans la zone "Extérieur" est déployé.
+- *Ouvre/Ferme légèrement le volet* -> Le store avec le nom "Volet" dans la zone associée au satellite est ouvert/fermé de 20%.
+- *Positionne/déplace le/la/les {FONCTION} dans {ZONE} à 20%* -> Le store concerné est réglé à 20% dans la pièce spécifiée. (100% signifie complètement fermé)
 
-|Good morning|Good night|I'm home|I'm leaving the house|
+Commande de plusieurs volets:
+
+- *Ouvre/Ferme les volets roulants* -> Toutes les fonctions de store définies en tant que stores dans la zone associée au satellite sont déplacées jusqu'à leur position finale respective.
+- *Ouvre/Ferme tous les volets dans la maison* -> Toutes les fonctions de store définies en tant que stores dans toute l'installation sont déplacées jusqu'à leur position finale respective.
+- *Ferme la {ZONE}* -> Toutes les fonctions de store définies en tant que stores de la pièce correspondante sont fermées.
+
+> **Joker**: Les noms "Volet roulant", "Volets", "Stores" (seulement au pluriel) sont des substituts pour tous les dispositifs d'entraînement motorisés dans la pièce ou dans la maison. Ainsi, "Monter tous les volets roulants" recherche toutes les fonctions de store dans la pièce et les monte en position haute. Si une pièce contient à la fois des volets roulants et une protection contre les moustiques motorisée, cette commande ouvrira les deux systèmes.
+
+> **Portes, portails, écrans motorisés**: Ces appareils ne sont pas contrôlés par les noms génériques.
+
+> Les **commandes globales** peuvent être désactivées (voir ici : [Désactiver les commandes globales](#globalcmd))
+
+***
+
+<h2 id="scenes">Scènes</h2>
+
+Les scènes sont des commandes universelles. Il convient de distinguer :
+> **Scènes KNX**
+Les membres concernés (canaux d'actionneurs) d'une scène KNX (également appelée scène secondaire) doivent déjà être configurés dans l'ETS.
+À l'exécution, il est possible de définir le comportement de chaque canal d'actionneur lors de l'appel d'un numéro de scène.
+Dans la plupart des actionneurs, il est également possible de spécifier dans les paramètres de l'actionneur si un canal d'actionneur est affecté ou non par le numéro de scène, même s'il est associé à l'adresse de groupe de la scène.
+
+> [**Super scènes**](#vocalautomating)
+Aragon propose quatre super scènes (voici une liste avec quelques alternatives de commandes) :
+
+|Bonjour|Bonne nuit|Je suis à la maison|Je quitte la maison|
 |-----|-----|-----|-----|
-|Morning|Sleep well|I'm back|Goodbye|
-|Hi|See you tomorrow|We're back|Bye bye|
+|Morning|Bonne nuit|Je suis de retour|Au revoir|
+|Salut|À demain|Nous sommes de retour|Bye bye|
 
-**Super scenes** can be easily edited (even by the end user). It is sufficient to write the command understood by Aragon **in plain text in one of the command lines**. It is also possible to have Aragon **speak a text** after calling the super scene. For this purpose, the text `SAY` must be prefixed to the text to be read in the command line.
+Les **super scènes** peuvent être très facilement éditées (y compris par l'utilisateur final). Il suffit d'écrire la commande **comprise par Aragon en clair dans l'une des lignes de commande**. Il est également possible de demander à Aragon de **prononcer un texte** après l'appel de la super scène. Pour cela, le texte à lire doit être précédé de la commande `SAY` dans la ligne de commande.
 
 ![superscenekonfig-de.jpg](./_images/superscenekonfig-de.jpg)
 
-> **Attention**: If the use of super scenes is enabled, these commands take precedence over scenes with the same name.
+> **Attention** : Si l'utilisation des super scènes est activée, ces commandes ont la priorité sur les scènes KNX portant le même nom.
 
-**Disabling super scenes:**
+**Désactivation des super scènes :**
 
-Many KNX applications already use the names of the super scenes. If the super scenes are to be disabled, please make the following modification in the main flow in NodeRed:
+De nombreuses applications KNX utilisent déjà les noms des super scènes. Si vous souhaitez désactiver les super scènes, veuillez effectuer la modification suivante dans le flux principal de NodeRed :
 
 ![activate-ss.JPG](./_images/activate-ss.JPG)
 
@@ -712,63 +711,63 @@ Many KNX applications already use the names of the super scenes. If the super sc
 
 ![deactivate-ss.JPG](./_images/deactivate-ss.JPG)
 
-**Commands for scenes**
-Except for the global super scenes, the scene command always refers to the room to which the satellite is configured.
-In addition, scenes have the property that the scene name alone triggers the execution of the command. This allows for the generation of very specific commands.
+**Commandes pour les scènes**
+Sauf pour les super scènes globales, la commande de la scène fait toujours référence à la pièce pour laquelle le satellite a été configuré.
+De plus, les scènes ont la particularité que le nom de la scène prononcé seul déclenche l'exécution de la commande. Cela permet également de générer des commandes très spécifiques :
 
-*Call the elevator* in front of the satellite on floor 1 would trigger scene number 1, for example.
+*Appeler l'ascenseur* devant le satellite à l'étage 1 déclencherait par exemple le numéro de scène 1.
 
-*Call the elevator* in front of the satellite on floor 2 would trigger scene number 2, for example.
+*Appeler l'ascenseur* devant le satellite à l'étage 2 déclencherait par exemple le numéro de scène 2.
 
 
 ***
 ***
 
-<h1 id="Appendix3">Appendix 3: Helpful Settings</h1>
+<h1 id="Anhang3">Annexe 3: Paramètres utiles</h1>
 
-<h2 id="globalcmd">Disable Global Commands</h2>
+<h2 id="globalcmd">Désactiver les commandes globales</h2>
 
-In large installations (e.g., when using an Aragon Master for multiple residential units), it may be necessary to disable global commands.
+Dans de grandes installations (par exemple, lors de l'utilisation d'un Aragon Master pour plusieurs unités résidentielles), il peut être nécessaire de désactiver les commandes globales.
 
-To do this, copy the following group into a new flow (tab) and then set the value of the manual inject node to "false".
+Pour cela, copiez le groupe suivant dans un nouveau flux (onglet) et définissez la valeur du nœud d'injection manuel sur "false".
 
 ![globalcmd.JPG](./_images/globalcmd.JPG)
 
-Now, execute the deploy!
+Maintenant, exécutez le déploiement !
 
 ***
 
-<h2 id="blacklist">Set Functions to the Blacklist</h2>
+<h2 id="blacklist">Mettre des fonctions sur liste noire</h2>
 
-Especially in very large installations, hundreds of functions are often read from the KNX server. Many of them are not intended for voice control or should not be operated by voice.
-To exclude these functions from Aragon, a blacklist can be created listing the names of the functions that should not be operated.
+En particulier dans de très grandes installations, des centaines de fonctions sont souvent extraites du serveur KNX. Beaucoup d'entre elles ne sont pas destinées à être utilisées par la commande vocale ou ne doivent pas être utilisées avec la voix.
+Pour les exclure d'Aragon, une liste noire peut être créée, qui répertorie les noms des fonctions qui ne doivent pas être utilisées.
 
-In the Aragon V2.0 main flow, the following group is offered:
+Dans le flux principal Aragon V2.0, le groupe suivant est proposé :
 
 ![blacklist.JPG](./_images/blacklist.JPG)
 
-Copy this group into a new flow and edit the function block with the JSON file.
+Copiez ce groupe dans un nouveau flux et modifiez le bloc de fonction avec le fichier JSON.
 
 ***
 
-<h2 id="av-control">Using AV Control</h2>
+<h2 id="av-control">Utilisation du contrôle AV</h2>
 
-The following functions allow you to control both TV and audio in a zone where ARAGON is also located.
+Les fonctions suivantes permettent de contrôler à la fois la télévision et l'audio dans une zone où Aragon est également installé.
 
-In the main flow of NodeRed, there is a group called **"CUSTOM MEDIA CONTROL"** available, which is best copied into a new flow.
+Dans le flux principal de NodeRed, un groupe **"CUSTOM MEDIA CONTROL"** est disponible, qui peut être copié dans un nouveau flux.
 
 ![media control.png](./_images/media_control.png)
 
-The following commands are available for controlling media devices:
+Les commandes suivantes sont disponibles pour le contrôle des appareils multimédias :
 
--	Increase volume (relative)
--	Decrease volume (relative)
--	Set volume (absolute, 0 – 100%)
--	AV system start (power on/play)
--	AV system stop (power off/stop)
--	Next title/channel
--	Previous title/channel
--	Query what is playing (SONOS only)
--	Select channel/title by name
+- Augmenter le volume (relatif)
+- Diminuer le volume (relatif)
+- Régler le volume (absolu, de 0 à 100%)
+- Démarrer le système AV (allumer/lire)
+- Arrêter le système AV (éteindre/pause)
+- Titre/canal suivant
+- Titre/canal précédent
+- Demander ce qui est en train de jouer (uniquement pour SONOS)
+- Sélection du titre/canal par nom
 
-Now open the filter node and comment out line 4 to activate it.
+Maintenant, ouvrez le nœud de filtre et commentez la ligne 4 pour l'activer.
