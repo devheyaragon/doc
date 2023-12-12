@@ -2,7 +2,7 @@
 ## Example Commands for ProKNX:turnOnLights
  - Turn on the lights in the Kitchen
  - Switch on the lights in the Living room
- - Put on the lights in the Bedroom. 
+ - Put on the lights in the Bedroom
  - Turn on the light in the Bathroom
  - Switch on the light in the Garage
  - Put on the light in the Office
@@ -131,7 +131,7 @@
  - Open the shutters in the entire apartment to 45 percent
  - Set the shutters in the whole house to 55 percent open
  - Open the shutters in the flat to 65 percent
- - 
+
 ## Example Commands for ProKNX:shiftUpShutters
  - Raise the shutters a bit more in the Bedroom by 25 percent
  - Open the window slightly in the Kitchen by 75 percent
@@ -173,7 +173,7 @@
  - Open the shutters a little bit in the house
  - Raise the shutters a bit more in the entire flat
  - Open the shutters slightly in the whole apartment
- - 
+
 ## Example Commands for ProKNX:closeSetShutters
  - Close the shutters in the Bedroom
  - Lower the window in the Kitchen
