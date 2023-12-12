@@ -1,0 +1,9 @@
+Comment utiliser la commande vocale Aragon🕓
+Par exemple, dites Hey Aragon, "allume les lumières !" 🕓 ou "OK Aragon 🕓 quel est l'état des lumières du jardin ?"
+🕓🕓🕓
+'Hey Aragon' est le mot d'éveil standard.
+'OK Aragon' fonctionne aussi ! 🕓
+'allume les lumières !' est une commande.🕓
+"Quel est l'état des lumières du jardin ?" est une requête.🕓
+Pour un meilleur résultat, utilisez un court délai, 1 seconde, entre le mot d'éveil et la commande ou la requête.🕓
+Vous pouvez changer le mot d'éveil depuis la boîte de dialogue des paramètres du satellite.

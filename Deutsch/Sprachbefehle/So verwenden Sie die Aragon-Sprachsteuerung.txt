@@ -1,0 +1,9 @@
+So verwendest Du die Aragon-Sprachsteuerung🕓
+Sagen Sie zum Beispiel: 'Hey Aragon,🕓 schalte das Licht ein!' 🕓 oder 'OK Aragon,🕓 ist das Licht im Garten eingeschaltet?'
+🕓🕓🕓
+'Hey Aragon' ist das Standard-Wakeword.🕓 
+'OK Aragon' funktioniert auch!🕓 Sie können das Wakeword im Dialogfeld Satelliteneinstellungen ändern.🕓 
+'Schalte das Licht ein!' ist der Befehl.🕓 
+und 'ist das Licht im Garten eingeschaltet?' ist eine Abfrage.🕓🕓 
+Um gut verstanden zu werden, mach eine kurze Pause von 1 Sekunde zwischen dem Wakeword und dem Befehl bzw der Abfrage.
+

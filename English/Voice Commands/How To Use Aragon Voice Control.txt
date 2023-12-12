@@ -1,0 +1,9 @@
+How to use Aragon voice control🕓
+For example, say Hey Aragon, "turn on the lights!" 🕓 or "OK Aragon 🕓 what's the status of the Garden lights?"
+🕓🕓🕓
+'Hey Aragon' is the standard wakeword.
+'OK Aragon' works as well ! 🕓 
+'turn on the lights!' is a command.🕓
+"What's the status of the Garden lights?" is a query.🕓
+For the best result, use a short delay, 1 second, between the wake word and Command or Query.🕓🕓
+You can change the wake word from the Satellite Settings dialog.
