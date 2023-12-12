@@ -1,0 +1,260 @@
+
+## Example Commands for ProKNX:turnOnLights
+ - Turn on the lights in the Kitchen
+ - Switch on the lights in the Living room
+ - Put on the lights in the Bedroom. 
+ - Turn on the light in the Bathroom
+ - Switch on the light in the Garage
+ - Put on the light in the Office
+ - Turn on all lights in the Kitchen
+ - Switch on all lights in the Living room
+ - Put on all lights in the Bedroom
+ - Turn on all lamps in the Bathroom
+ - Switch on all lamps in the Garage
+ - Put on all lamps in the Office
+ - Turn on the lights everywhere
+ - Switch on the lights in the whole house
+ - Put on the lights in the entire apartment
+ - Turn on the lights here
+ - Switch on the lights where I am
+ - Put on the lights in this room
+ - Turn on the lights in the flat
+ - Switch on the lights in the whole flat
+
+## Example Commands for ProKNX:turnOffLights
+ - Turn off the lights in the Kitchen
+ - Switch off the lights in the Living room
+ - Put off the lights in the Bedroom
+ - Turn off the light in the Bathroom
+ - Switch off the light in the Garage
+ - Put off the light in the Office
+ - Turn off all lights in the Kitchen
+ - Switch off all lights in the Living room
+ - Put off all lights in the Bedroom
+ - Turn off all lamps in the Bathroom
+ - Switch off all lamps in the Garage
+ - Put off all lamps in the Office
+ - Turn off the lights everywhere
+ - Switch off the lights in the whole house
+ - Put off the lights in the entire apartment
+ - Turn off the lights here
+ - Switch off the lights where I am
+ - Put off the lights in this room
+ - Turn off the lights in the flat
+ - Switch off the lights in the whole flat
+
+## Example Commands for ProKNX:setBrightnessLights
+ - Set the brightness of the light to 50 percent
+ - Set the light to 75 percent
+ - Set the brightness to 25 percent
+ - Set the brightness of the Ceiling light to 60 percent
+ - Set the Floor light to 80 percent
+ - Set the brightness of the Wall light in the Kitchen to 40 percent
+ - Set the light in the Living room to 70 percent
+ - Set the brightness of the light in the Bedroom to 30 percent
+ - Set the brightness of the light in the Bathroom to 55 percent
+ - Set the light in the Garage to 65 percent
+
+## Example Commands for ProKNX:shiftUpLights
+ - Brighten the light a bit
+ - Increase the brightness of the light by 10 percent
+ - Raise the brightness of the light slightly
+ - Brighten the light in the Kitchen a bit
+ - Increase the brightness of the light in the Living room by 15 percent
+ - Raise the brightness of the light in the Bedroom slightly
+ - Brighten the Ceiling light a bit
+ - Increase the brightness of the Floor light by 20 percent
+ - Raise the brightness of the Wall light slightly
+ - Brighten the light in the Bathroom a bit
+ - Raise the brightness of the light in the Office slightly
+ - Brighten the light in the Kitchen by 30 percent
+ - Increase the brightness of the light in the Living room slightly
+ - Raise the brightness of the light in the Bedroom by 35 percent
+ - Brighten the light in the Kitchen slightly
+
+## Example Commands for ProKNX:shiftDownLights
+ - Dim the light a bit
+ - Decrease the brightness of the light by 10 percent
+ - Lower the brightness of the light slightly
+ - Dim the light in the Kitchen a bit
+ - Decrease the brightness of the light in the Living room by 15 percent
+ - Lower the brightness of the light in the Bedroom slightly
+ - Dim the Ceiling light a bit
+ - Decrease the brightness of the Floor light by 20 percent
+ - Lower the brightness of the Wall light slightly
+ - Dim the light in the Bathroom a bit
+ - Lower the brightness of the light in the Office slightly
+ - Dim the light in the Kitchen by 30 percent
+ - Decrease the brightness of the light in the Living room slightly
+ - Lower the brightness of the light in the Bedroom by 35 percent
+ - Dim the light in the Bathroom by 40 percent
+ - Dim the light in the Kitchen slightly
+
+## Example Commands for ProKNX:openSetShutters
+ - Open the shutters in the Bedroom to 25 percent
+ - Raise the window in the Kitchen to 75 percent
+ - Open the awning in the Living room to 60 percent
+ - Set the shutter in the Bedroom to 25 percent open
+ - Open the blinds in the Kitchen to 75 percent
+ - Raise the shutters everywhere to 60 percent
+ - Set the awning in the whole house to 25 percent open
+ - Open the blinds in the entire apartment to 75 percent
+ - Raise the window in the flat to 60 percent
+ - Set the shutter in the entire house to 25 percent open
+ - Open the blinds in the whole apartment to 75 percent
+ - Raise the awning in the flat to 60 percent
+ - Set the shutters in the entire apartment to 25 percent open
+ - Open the window in the whole house to 75 percent
+ - Raise the shutter in the whole apartment to 60 percent
+ - Set the blinds in the whole house to 25 percent open
+ - Open the awning in the entire house to 75 percent
+ - Raise the window in the entire apartment to 60 percent
+ - Set the blinds in the whole house to 25 percent open
+ - Open the shutters in the entire apartment to 75 percent
+ - Open the shutters in the living room
+ - Raise the shutters in the entire house
+ - Open all shutters
+ - Open the shutters in this room
+ - Raise the shutters in the apartment
+ - Open the shutters in the house to 50 percent
+ - Set the shutters in the kitchen to 75 percent open
+ - Open the shutters in the bedroom to 30 percent
+ - Raise the shutters in the entire flat to 100 percent
+ - Open the shutters in the whole apartment to 60 percent
+ - Set the shutters in the dining room to 80 percent open
+ - Open the shutters in the bathroom to 90 percent
+ - Raise the shutters in the whole house to 70 percent
+ - Open the shutters in the entire flat to 40 percent
+ - Set the shutters in the entire house to 100 percent open
+ - Open the shutters in the whole apartment to 20 percent
+ - Raise the shutters in the house to 35 percent
+ - Open the shutters in the entire apartment to 45 percent
+ - Set the shutters in the whole house to 55 percent open
+ - Open the shutters in the flat to 65 percent
+ - 
+## Example Commands for ProKNX:shiftUpShutters
+ - Raise the shutters a bit more in the Bedroom by 25 percent
+ - Open the window slightly in the Kitchen by 75 percent
+ - Raise the awning a little bit in the Living room by 60 percent
+ - Open the shutter a bit more in the Bedroom by 25 percent
+ - Raise the blinds slightly in the Kitchen by 75 percent
+ - Open the shutters a little bit everywhere by 60 percent
+ - Raise the awning a bit more in the whole house by 25 percent
+ - Open the blinds slightly in the entire apartment by 75 percent
+ - Raise the window a little bit in the flat by 60 percent
+ - Open the shutter a bit more in the entire house by 25 percent
+ - Raise the blinds slightly in the whole apartment by 75 percent
+ - Open the awning a little bit in the flat by 60 percent
+ - Raise the window a bit more in the entire apartment by 25 percent
+ - Open the blinds slightly in the whole house by 75 percent
+ - Raise the shutters a little bit in the whole apartment by 60 percent
+ - Open the awning a bit more in the entire house by 25 percent
+ - Raise the window slightly in the whole house by 75 percent
+ - Open the shutter a little bit in the entire apartment by 60 percent
+ - Raise the blinds a bit more in the whole house by 25 percent
+ - Open the shutters slightly in the entire apartment by 75 percent
+ - Raise the shutters a bit in the living room
+ - Open the shutters slightly in the entire house
+ - Raise the shutters a little bit in the apartment
+ - Open the shutters a bit more in this room
+ - Raise the shutters slightly in the house
+ - Open the shutters a little bit in the entire flat
+ - Raise the shutters a bit more in the whole apartment
+ - Open the shutters slightly in the bedroom
+ - Raise the shutters a little bit in the kitchen
+ - Open the shutters a bit more in the dining room
+ - Raise the shutters slightly in the bathroom
+ - Open the shutters a little bit in the whole house
+ - Raise the shutters a bit more in the entire apartment
+ - Open the shutters slightly in the flat
+ - Raise the shutters a little bit in the whole flat
+ - Open the shutters a bit more in the entire house
+ - Raise the shutters slightly in the apartment
+ - Open the shutters a little bit in the house
+ - Raise the shutters a bit more in the entire flat
+ - Open the shutters slightly in the whole apartment
+ - 
+## Example Commands for ProKNX:closeSetShutters
+ - Close the shutters in the Bedroom
+ - Lower the window in the Kitchen
+ - Close the awning in the Living room
+ - Lower the shutter in the Bedroom
+ - Close the blinds in the Kitchen
+ - Lower the shutters everywhere
+ - Close the awning in the whole house
+ - Lower the blinds in the entire apartment
+ - Close the window in the flat
+ - Lower the shutter in the entire house
+ - Close the blinds in the whole apartment
+ - Lower the awning in the flat
+ - Close the shutters in the entire apartment
+ - Lower the window in the whole house
+ - Close the shutter in the whole apartment
+ - Lower the blinds in the whole house
+ - Close the awning in the entire house
+ - Lower the window in the entire apartment
+ - Close the blinds in the whole house
+ - Lower the shutters in the entire apartment
+ - Close the shutters in the Bedroom to 25 percent
+ - Lower the window in the Kitchen to 75 percent
+ - Close the awning in the Living room to 60 percent
+ - Set the shutter in the Bedroom to 25 percent closed
+ - Close the blinds in the Kitchen to 75 percent
+ - Lower the shutters everywhere to 60 percent
+ - Set the awning in the whole house to 25 percent closed
+ - Close the blinds in the entire apartment to 75 percent
+ - Lower the window in the flat to 60 percent
+ - Set the shutter in the entire house to 25 percent closed
+ - Close the blinds in the whole apartment to 75 percent
+ - Lower the awning in the flat to 60 percent
+ - Set the shutters in the entire apartment to 25 percent closed
+ - Close the window in the whole house to 75 percent
+ - Lower the shutter in the whole apartment to 60 percent
+ - Set the blinds in the whole house to 25 percent closed
+ - Close the awning in the entire house to 75 percent
+ - Lower the window in the entire apartment to 60 percent
+ - Set the blinds in the whole house to 25 percent closed
+ - Close the shutters in the entire apartment to 75 percent
+ - 
+## Example Commands for ProKNX:shiftDownShutters
+ - Lower the shutters a bit in the Bedroom
+ - Close the window slightly in the Kitchen
+ - Lower the awning a little bit in the Living room
+ - Close the shutter a bit more in the Bedroom
+ - Lower the blinds slightly in the Kitchen
+ - Close the shutters a little bit everywhere
+ - Lower the awning a bit more in the whole house
+ - Close the blinds slightly in the entire apartment
+ - Lower the window a little bit in the flat
+ - Close the shutter a bit more in the entire house
+ - Lower the blinds slightly in the whole apartment
+ - Close the awning a little bit in the flat
+ - Lower the window a bit more in the entire apartment
+ - Close the blinds slightly in the whole house
+ - Lower the shutters a little bit in the whole apartment
+ - Close the awning a bit more in the entire house
+ - Lower the window slightly in the whole house
+ - Close the shutter a little bit in the entire apartment
+ - Lower the blinds a bit more in the whole house
+ - Close the shutters slightly in the entire apartment
+ - Lower the shutters a bit in the Bedroom by 25 percent
+ - Close the window slightly in the Kitchen by 75 percent
+ - Lower the awning a little bit in the Living room by 60 percent
+ - Close the shutter a bit more in the Bedroom by 25 percent
+ - Lower the blinds slightly in the Kitchen by 75 percent
+ - Close the shutters a little bit everywhere by 60 percent
+ - Lower the awning a bit more in the whole house by 25 percent
+ - Close the blinds slightly in the entire apartment by 75 percent
+ - Lower the window a little bit in the flat by 60 percent
+ - Close the shutter a bit more in the entire house by 25 percent
+ - Lower the blinds slightly in the whole apartment by 75 percent
+ - Close the awning a little bit in the flat by 60 percent
+ - Lower the window a bit more in the entire apartment by 25 percent
+ - Close the blinds slightly in the whole house by 75 percent
+ - Lower the shutters a little bit in the whole apartment by 60 percent
+ - Close the awning a bit more in the entire house by 25 percent
+ - Lower the window slightly in the whole house by 75 percent
+ - Close the shutter a little bit in the entire apartment by 60 percent
+ - Lower the blinds a bit more in the whole house by 25 percent
+ - Close the shutters slightly in the entire apartment by 75 percent
+
