@@ -1,0 +1,14 @@
+"Hello, and welcome to our tutorial on using voice commands for home automation. Today, we're focusing on controlling lights. This video is designed for both professional installers and end users."🕓🕓🕓
+
+"Let's start with operating individual lighting circuits. Imagine you have a ceiling lamp in your living room. You can control this lamp by saying 'Switch on🕓 or turn off the ceiling lamp in the living room.' This command operates the lighting circuit named 'ceiling lamp' in the room named 'living room.'"🕓
+"Want to dim the lights? Just say 'Set the ceiling lamp in the living room to 50%.' This sets the lighting circuit to 50% brightness. 🕓If you want to make the lamp brighter, simply say 'Make the ceiling lamp brighter.' This will increase the brightness by 20%."🕓🕓🕓
+
+"Now, let's move on to operating multiple lighting circuits.
+You can control all the lights in a specific zone by saying 'Turn on🕓 or switch off the light.' This operates all lighting circuits in the configured zone of the satellite."
+"You can also specify a zone, like 'Turn on🕓 or switch off the light in the living room.' This operates all lighting circuits in the mentioned zone.🕓 If you want to control all the lights in your house, just say 'Switch on🕓 or turn off the light everywhere.'"🕓
+"To adjust the brightness of all lights in a zone, say 'Make the light brighter' to increase brightness by 20%, 🕓or 'Set the light to 50%' to set all lights to 50% brightness. 🕓To turn off all lights in a specific zone, say 'Turn off the living room.'"🕓🕓🕓
+
+"Unique name recognition is a special feature for lights. If the name of a light is unique across the entire installation, you don't need to mention the room name. But if there are several lighting circuits with the same name, all these circuits will be operated."🕓
+"Also, the names 'light', 'lighting', and 'lamps' are placeholders for all light functions in the room or house. So, 'Lights on' will switch on all lighting circuits in the room. 🕓It's not recommended to name a lighting circuit with one of these wildcard names, as it cannot be addressed individually."
+🕓🕓
+"That's it for this tutorial on controlling lights with voice commands in your home automation system.
