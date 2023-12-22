@@ -1,0 +1,15 @@
+"Hallo und willkommen zu unserem Tutorial zur Verwendung von Sprachbefehlen für die Hausautomation mit Aragon. Heute konzentrieren wir uns auf die Steuerung von Lichtern. Dieses Video richtet sich sowohl an professionelle Installateure als auch an Endbenutzer."🕓🕓🕓
+
+"Beginnen wir mit der Bedienung einzelner Lichtkreise. Stellen Sie sich vor, Sie haben eine Deckenlampe in Ihrem Wohnzimmer. Sie können diese Lampe steuern, indem Sie sagen: 'Schalte die Decke im Wohnzimmer ein 🕓 oder aus'. Dieser Befehl steuert den Lichtkreis mit dem Namen 'Decke' im Raum mit dem Namen 'Wohnzimmer'"🕓🕓
+"Möchten Sie das Licht dimmen? Sagen Sie einfach: 'Stelle die Decke im Wohnzimmer auf 50%'.🕓 Dies stellt den Lichtkreis auf 50% Helligkeit ein.🕓 Wenn Sie das Licht heller machen möchten, sagen Sie einfach: 'Mach die Decke heller'. Dies erhöht die Helligkeit um 20%"🕓🕓🕓
+
+"Nun zur Bedienung mehrerer Lichtkreise.
+Sie können alle Lichter in einer bestimmten Zone steuern, indem Sie sagen: 'Schalte das Licht aus'. Dies steuert alle Lichtkreise in der konfigurierten Zone des Satelliten."🕓
+"Sie können auch eine Zone angeben, wie zum Beispiel: 'Schalte das Licht im Wohnzimmer ein' Dies steuert alle Lichtkreise in der genannten Zone. Wenn Sie alle Lichter in Ihrem Haus steuern möchten, sagen Sie einfach: 'Schalte das Licht überall ein".🕓
+"Um die Helligkeit aller Lichter in einer Zone anzupassen, sagen Sie: 'Mach das Licht heller', um die Helligkeit um 20% zu erhöhen, oder 'Stell das Licht auf 50%', um alle Lichter auf 50% Helligkeit einzustellen. Um alle Lichter in einer bestimmten Zone auszuschalten, sagen Sie: 'Schalte das Wohnzimmer aus'"🕓🕓🕓
+
+"Die eindeutige Namenserkenntnis ist eine spezielle Funktion für Lichter. Wenn der Name eines Lichts einzigartig in der gesamten Installation ist, müssen Sie den Raumnamen nicht erwähnen.
+Aber wenn es mehrere Lichtkreise mit dem gleichen Namen gibt, werden alle diese Kreise bedient."🕓
+"Außerdem sind die Namen 'Licht', 'Beleuchtung' und 'Lampen' Platzhalter für alle Lichtfunktionen im Raum oder im Haus. Also, 'Licht ein' schaltet alle Lichtkreise im Raum ein.🕓 Es ist daher nicht ratsam, einen Lichtkreis mit einem dieser Wildcard-Namen zu benennen, da er nicht einzeln angesprochen werden kann."
+🕓🕓
+"Das war's für dieses Tutorial zur Steuerung von Lichtern mit Sprachbefehlen mit Aragon in Ihrem Hausautomationssystem."
