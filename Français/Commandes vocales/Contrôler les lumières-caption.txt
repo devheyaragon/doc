@@ -1,0 +1,15 @@
+"Bonjour et bienvenue dans notre tutoriel sur l'utilisation des commandes vocales pour la domotique avec Aragon. 🕓 Aujourd'hui, nous allons nous concentrer sur la commande des lumières. Cette vidéo est destinée aussi bien aux installateurs professionnels qu'aux utilisateurs finaux."🕓🕓🕓
+
+"Commençons par la commande de circuits d'éclairage individuels. Imaginez que vous ayez un plafonnier dans votre salon. Vous pouvez contrôler cette lampe en disant : 'Allume🕓 ou éteint le plafonnier dans le salon.' Cette commande contrôle le circuit de lumière nommé 'plafonnier' dans la pièce nommée 'salon'"🕓
+"Vous souhaitez diminuer l'intensité ? Dites simplement : 'Règle le plafonnier dans le salon à 50%.' Cela ajuste le circuit de lumière à une luminosité de 50%.🕓 Pour augmenter la luminosité, dites : 'Augmente la luminosité du plafonnier' Cela augmentera la luminosité de 20%."🕓🕓🕓
+
+"Passons maintenant à la commande de plusieurs circuits d'éclairage.
+Pour contrôler toutes les lumières d'une zone spécifique, dites : 'Allume 🕓ou éteint la lumière.' Cela contrôle tous les circuits d'éclairage de la zone configurée du satellite."
+"Vous pouvez également spécifier une zone en disant : 'Allume🕓 ou éteint la lumière dans le salon.' Cela contrôle tous les circuits d'éclairage de la zone mentionnée. Pour contrôler toutes les lumières de votre maison, dites : 'Allume ou éteint la lumière partout.'"🕓
+"Pour ajuster la luminosité de toutes les lumières d'une zone, dites : 'Augmente la luminosité' 🕓 pour augmenter la luminosité de 20%, ou 🕓'Règle la lumière à 50%' 🕓pour régler toutes les lumières à 50% de luminosité.🕓 Pour éteindre toutes les lumières d'une zone spécifique, dites : 'Éteint le salon.'"🕓🕓🕓
+
+"La reconnaissance unique des noms est une fonctionnalité spéciale pour les lumières. Si le nom d'une lumière est unique dans toute l'installation, il n'est pas nécessaire de mentionner le nom de la pièce.
+Mais s'il y a plusieurs circuits avec le même nom, tous ces circuits seront contrôlés."🕓
+"De plus, les termes 'Lumière', 'Éclairage' et 'Lampes' sont des jokers pour toutes les fonctions d'éclairage dans la pièce ou la maison. Ainsi, 'Allume la lumière' activera tous les circuits d'éclairage de la pièce.🕓 Il n'est donc pas recommandé de nommer un circuit de lumière avec l'un de ces noms de joker, car il ne pourra pas être adressé individuellement."🕓🕓🕓
+
+"C'est tout pour ce tutoriel sur la commande des lumières avec des commandes vocales avec Aragon  dans votre système de domotique."
