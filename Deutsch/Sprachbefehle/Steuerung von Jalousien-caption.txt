@@ -1,0 +1,12 @@
+"Hallo und willkommen zu unserem Tutorial zur Verwendung von Sprachbefehlen für die Hausautomation mit Aragon. Heute konzentrieren wir uns auf die Steuerung von Jalousien. Dieses Video richtet sich sowohl an professionelle Installateure als auch an Endbenutzer."🕓🕓🕓
+
+Um den Rollladen zu öffnen oder zu schließen, sagen Sie einfach "Öffne🕓 oder Schließe den Rollladen".🕓 Der Behang mit dem Namen "Rollladen" in der dem Satelliten zugeordneten Zone wird dann bis in die jeweilige Endlage bewegt.🕓
+Wenn Sie die Markise im Außenbereich ausfahren möchten, sagen Sie "Fahre die Markise im Außenbereich aus".🕓 Der Behang mit dem Namen "Markise" in der Zone "Außenbereich" wird dann ausgefahren.🕓
+Um die Jalousie ein wenig zu öffnen oder zu schließen, sagen Sie "Öffne die Jalousie ein wenig". Der Behang mit dem Namen "Jalousie" in der dem Satelliten zugeordneten Zone wird dann um 20% geöffnet oder geschlossen.🕓
+Um den 'Rollladen links' im Wohnzimmer auf 20% zu positionieren, sagen Sie "Positioniere oder fahre der 'Rollladen links' in Wohnzimmer auf 20%".🕓 Der angesprochene Behang in dem festgelegten Raum wird dann auf 20% gestellt. Beachten Sie, dass 100% vollständig geschlossen bedeutet.
+🕓🕓🕓
+Um alle Rollladen zu öffnen oder zu schließen, sagen Sie "Öffne🕓 oder Schließe die Rollladen". Alle als Behang definierten Funktionen in der dem Satelliten zugeordneten Zone werden dann bis in die jeweilige Endlage bewegt.🕓
+Um alle Jalousien im ganzen Haus zu öffnen oder zu schließen, sagen Sie "Öffne🕓 oder Schließe die Jalousien im ganzen Haus". Alle als Behang definierten Funktionen der gesamten Installation werden dann bis in die jeweilige Endlage bewegt.🕓
+Um alle Behänge in einer bestimmten Zone zu schließen, sagen Sie "Schließe das Schlafzimmer".🕓 Alle als Behang definierten Funktionen des entsprechenden Raumes werden dann geschlossen.🕓🕓🕓
+Die Namen "Rollladen", "Jalousien", "Rollos" sind Platzhalter für alle motorischen Antriebe im Raum oder im Haus. Der Befehl "Alle Rollladen hochfahren" sucht also alle Behang-Funktionen im Raum und fährt diese in die obere Endlage. Wenn es in einem Raum sowohl Rollladen als auch den motorisch angetriebenen Mückenschutz gibt, würden mit diesem Befehl beide Systeme geöffnet.🕓
+Bitte beachten Sie, dass Türen, Tore und motorische Leinwände nicht mit den Wildcard-Namen angesprochen werden.
