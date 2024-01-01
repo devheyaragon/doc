@@ -1,3 +1,172 @@
+# Video Reference
+# Title: Controlling lights with Aragon
+# Filename: https://doc.heyaragon.com/start/doc/English/Voice%20Commands/Controlling%20lights%20caption.mp4
+# Description: Tutorial on using Aragon voice commands for home automation focusing on controlling lights.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,735
+"Hello, and welcome to our tutorial on using voice
+
+2
+00:00:03,735 --> 00:00:07,635
+commands for home automation. Today, we're focusing on
+
+3
+00:00:07,635 --> 00:00:14,191
+controlling lights. This video is designed for both
+professional installers and end users."
+
+4
+00:00:15,691 --> 00:00:19,176
+"Let's start with operating individual lighting
+
+5
+00:00:19,176 --> 00:00:22,579
+circuits. Imagine you have a ceiling lamp in your
+
+6
+00:00:22,579 --> 00:00:25,898
+living room. You can control this lamp by saying
+
+7
+00:00:25,898 --> 00:00:29,468
+'Switch on or turn off the ceiling lamp in the
+
+8
+00:00:29,468 --> 00:00:32,954
+living room.' This command operates the lighting
+
+9
+00:00:32,954 --> 00:00:37,352
+circuit named 'ceiling lamp' in the room
+named 'living room.'"
+
+10
+00:00:37,852 --> 00:00:41,254
+"Want to dim the lights? Just say 'Set the ceiling
+
+11
+00:00:41,254 --> 00:00:44,325
+lamp in the living room to 50%.' This sets the
+
+12
+00:00:44,325 --> 00:00:48,310
+lighting circuit to 50% brightness. If you want to
+
+13
+00:00:48,310 --> 00:00:51,961
+make the lamp brighter, simply say 'Make the ceiling
+
+14
+00:00:51,961 --> 00:00:56,110
+lamp brighter.' This will increase the
+brightness by 20%."
+
+15
+00:00:57,610 --> 00:01:01,925
+"Now, let's move on to operating
+multiple lighting circuits.
+
+16
+00:01:01,925 --> 00:01:05,206
+You can control all the lights in a specific zone by
+
+17
+00:01:05,206 --> 00:01:08,674
+saying 'Turn on or switch off the light.' This
+
+18
+00:01:08,674 --> 00:01:13,516
+operates all lighting circuits in the configured zone
+of the satellite."
+
+19
+00:01:13,516 --> 00:01:16,906
+"You can also specify a zone, like 'Turn on or
+
+20
+00:01:16,906 --> 00:01:19,874
+switch off the light in the living room.' This
+
+21
+00:01:19,874 --> 00:01:23,077
+operates all lighting circuits in the mentioned
+
+22
+00:01:23,077 --> 00:01:26,779
+zone. If you want to control all the lights in your
+
+23
+00:01:26,779 --> 00:01:31,340
+house, just say 'Switch on or turn off the light
+everywhere.'"
+
+24
+00:01:31,840 --> 00:01:35,277
+"To adjust the brightness of all lights in a zone, say
+
+25
+00:01:35,277 --> 00:01:38,714
+'Make the light brighter' to increase brightness by
+
+26
+00:01:38,714 --> 00:01:43,431
+20%, or 'Set the light to 50%' to set all lights to
+50% brightness.
+
+27
+00:01:43,931 --> 00:01:48,696
+To turn off all lights in a specific zone, say 'Turn
+off the living room.'"
+
+28
+00:01:50,196 --> 00:01:54,023
+"Unique name recognition is a special
+feature for lights.
+
+29
+00:01:54,023 --> 00:02:00,740
+If the name of a light is unique across the entire
+installation, you don't need to mention the room name.
+
+30
+00:02:00,740 --> 00:02:07,301
+But if there are several lighting circuits with the
+same name, all these circuits will be operated."
+
+31
+00:02:07,801 --> 00:02:11,124
+"Also, the names 'light', 'lighting', and 'lamps' are
+
+32
+00:02:11,124 --> 00:02:14,230
+placeholders for all light functions in the room or
+
+33
+00:02:14,230 --> 00:02:17,264
+house. So, 'Lights on' will switch on all lighting
+
+34
+00:02:17,264 --> 00:02:20,870
+circuits in the room. It's not recommended to name a
+
+35
+00:02:20,870 --> 00:02:26,504
+lighting circuit with one of these wildcard names, as
+it cannot be addressed individually."
+
+36
+00:02:28,404 --> 00:02:34,689
+"That's it for this tutorial on controlling lights
+with voice commands in your home automation system.
+
+
+# Suggested Usage
+For a visual representation, please refer to the video file "video.mp4" located in the same folder as this text file.
+
+
+# Text
 "Hello, and welcome to our tutorial on using voice commands for home automation. Today, we're focusing on controlling lights. This video is designed for both professional installers and end users."🕓🕓🕓
 
 "Let's start with operating individual lighting circuits. Imagine you have a ceiling lamp in your living room. You can control this lamp by saying 'Switch on🕓 or turn off the ceiling lamp in the living room.' This command operates the lighting circuit named 'ceiling lamp' in the room named 'living room.'"🕓
