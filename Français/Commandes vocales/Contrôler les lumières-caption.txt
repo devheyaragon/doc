@@ -1,3 +1,185 @@
+# Video Reference
+# Title: Contrôler les lumières avec Aragon
+# Filename: https://doc.heyaragon.com/start/doc/Fran%C3%A7ais/Commandes%20vocales/Contr%C3%B4ler%20les%20lumi%C3%A8res%20caption.mp4
+# Description: Dans notre tutoriel sur l'utilisation des commandes vocales pour la domotique avec Aragon, nous nous concentrons sur la commande des lumières.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,006
+"Bonjour et bienvenue dans notre tutoriel sur
+
+2
+00:00:03,006 --> 00:00:06,327
+l'utilisation des commandes vocales pour la domotique
+
+3
+00:00:06,327 --> 00:00:09,441
+avec Aragon. Aujourd'hui, nous allons nous
+
+4
+00:00:09,441 --> 00:00:12,621
+concentrer sur la commande des lumières. Cette vidéo
+
+5
+00:00:12,621 --> 00:00:17,991
+est destinée aussi bien aux installateurs
+professionnels qu'aux utilisateurs finaux."
+
+6
+00:00:19,491 --> 00:00:22,671
+"Commençons par la commande de circuits d'éclairage
+
+7
+00:00:22,671 --> 00:00:25,992
+individuels. Imaginez que vous ayez un plafonnier dans
+
+8
+00:00:25,992 --> 00:00:28,960
+votre salon. Vous pouvez contrôler cette lampe en
+
+9
+00:00:28,960 --> 00:00:32,287
+disant : 'Allume ou éteint le plafonnier dans le
+
+10
+00:00:32,287 --> 00:00:38,505
+salon.' Cette commande contrôle le circuit de lumière
+nommé 'plafonnier' dans la pièce nommée 'salon'"
+
+11
+00:00:39,005 --> 00:00:41,761
+"Vous souhaitez diminuer l'intensité ? Dites
+
+12
+00:00:41,761 --> 00:00:44,658
+simplement : 'Règle le plafonnier dans le salon à
+
+13
+00:00:44,658 --> 00:00:47,272
+50%.' Cela ajuste le circuit de lumière à une
+
+14
+00:00:47,272 --> 00:00:50,740
+luminosité de 50%. Pour augmenter la luminosité,
+
+15
+00:00:50,740 --> 00:00:55,898
+dites : 'Augmente la luminosité du plafonnier' Cela
+augmentera la luminosité de 20%."
+
+16
+00:00:57,398 --> 00:01:01,638
+"Passons maintenant à la commande de plusieurs
+circuits d'éclairage.
+
+17
+00:01:01,638 --> 00:01:04,330
+Pour contrôler toutes les lumières d'une zone
+
+18
+00:01:04,330 --> 00:01:07,799
+spécifique, dites : 'Allume ou éteint la lumière.'
+
+19
+00:01:07,799 --> 00:01:12,563
+Cela contrôle tous les circuits d'éclairage de la zone
+configurée du satellite."
+
+20
+00:01:12,563 --> 00:01:15,670
+"Vous pouvez également spécifier une zone en disant :
+
+21
+00:01:15,670 --> 00:01:19,001
+'Allume ou éteint la lumière dans le salon.' Cela
+
+22
+00:01:19,001 --> 00:01:22,660
+contrôle tous les circuits d'éclairage
+de la zone mentionnée.
+
+23
+00:01:22,660 --> 00:01:28,459
+Pour contrôler toutes les lumières de votre maison,
+dites : 'Allume ou éteint la lumière partout.'"
+
+24
+00:01:28,959 --> 00:01:31,928
+"Pour ajuster la luminosité de toutes les lumières
+
+25
+00:01:31,928 --> 00:01:35,328
+d'une zone, dites : 'Augmente la luminosité' pour
+
+26
+00:01:35,328 --> 00:01:38,865
+augmenter la luminosité de 20%, ou 'Règle la lumière
+
+27
+00:01:38,865 --> 00:01:41,989
+à 50%' pour régler toutes les lumières à 50% de
+
+28
+00:01:41,989 --> 00:01:48,219
+luminosité. Pour éteindre toutes les lumières d'une
+zone spécifique, dites : 'Éteint le salon.'"
+
+29
+00:01:49,719 --> 00:01:54,828
+"La reconnaissance unique des noms est une
+fonctionnalité spéciale pour les lumières.
+
+30
+00:01:54,828 --> 00:01:57,383
+Si le nom d'une lumière est unique dans toute
+
+31
+00:01:57,383 --> 00:02:01,663
+l'installation, il n'est pas nécessaire de mentionner
+le nom de la pièce.
+
+32
+00:02:01,663 --> 00:02:06,344
+Mais s'il y a plusieurs circuits avec le même nom,
+tous ces circuits seront contrôlés."
+
+33
+00:02:06,844 --> 00:02:09,408
+"De plus, les termes 'Lumière', 'Éclairage' et
+
+34
+00:02:09,408 --> 00:02:14,282
+'Lampes' sont des jokers pour toutes les fonctions
+d'éclairage dans la pièce ou la maison.
+
+35
+00:02:14,282 --> 00:02:17,232
+Ainsi, 'Allume la lumière' activera tous les circuits
+
+36
+00:02:17,232 --> 00:02:19,976
+d'éclairage de la pièce. Il n'est donc pas
+
+37
+00:02:19,976 --> 00:02:22,797
+recommandé de nommer un circuit de lumière avec l'un
+
+38
+00:02:22,797 --> 00:02:26,773
+de ces noms de joker, car il ne pourra pas être
+adressé individuellement."
+
+39
+00:02:28,273 --> 00:02:30,838
+"C'est tout pour ce tutoriel sur la commande des
+
+40
+00:02:30,838 --> 00:02:35,326
+lumières avec des commandes vocales avec Aragon dans
+votre système de domotique."
+
+
+# Text
 "Bonjour et bienvenue dans notre tutoriel sur l'utilisation des commandes vocales pour la domotique avec Aragon. 🕓 Aujourd'hui, nous allons nous concentrer sur la commande des lumières. Cette vidéo est destinée aussi bien aux installateurs professionnels qu'aux utilisateurs finaux."🕓🕓🕓
 
 "Commençons par la commande de circuits d'éclairage individuels. Imaginez que vous ayez un plafonnier dans votre salon. Vous pouvez contrôler cette lampe en disant : 'Allume🕓 ou éteint le plafonnier dans le salon.' Cette commande contrôle le circuit de lumière nommé 'plafonnier' dans la pièce nommée 'salon'"🕓

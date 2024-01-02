@@ -1,3 +1,181 @@
+# Video Reference
+# Title: Steuerung von Lichtern mit Aragon
+# Filename: https://doc.heyaragon.com/start/doc/Deutsch/Sprachbefehle/Steuerung%20von%20Lichtern%20caption.mp4
+# Description: Tutorial zur Verwendung von Sprachbefehlen für die Hausautomation mit Aragon. Heute konzentrieren wir uns auf die Steuerung von Lichtern.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,665
+"Hallo und willkommen zu unserem Tutorial zur
+
+2
+00:00:03,665 --> 00:00:07,781
+Verwendung von Sprachbefehlen für die Hausautomation
+
+3
+00:00:07,781 --> 00:00:11,283
+mit Aragon. Heute konzentrieren wir uns auf die
+
+4
+00:00:11,283 --> 00:00:15,049
+Steuerung von Lichtern. Dieses Video richtet sich
+
+5
+00:00:15,049 --> 00:00:20,040
+sowohl an professionelle Installateure als auch an
+Endbenutzer."
+
+6
+00:00:21,540 --> 00:00:25,743
+"Beginnen wir mit der Bedienung einzelner Lichtkreise.
+
+7
+00:00:25,743 --> 00:00:29,509
+Stellen Sie sich vor, Sie haben eine Deckenlampe in
+
+8
+00:00:29,509 --> 00:00:33,274
+Ihrem Wohnzimmer. Sie können diese Lampe steuern,
+
+9
+00:00:33,274 --> 00:00:37,215
+indem Sie sagen: 'Schalte die Decke im Wohnzimmer ein
+
+10
+00:00:37,715 --> 00:00:41,568
+oder aus'. Dieser Befehl steuert den Lichtkreis mit
+
+11
+00:00:41,568 --> 00:00:45,508
+dem Namen 'Decke' im Raum mit dem Namen
+'Wohnzimmer'"
+
+12
+00:00:46,508 --> 00:00:50,186
+"Möchten Sie das Licht dimmen? Sagen Sie einfach:
+
+13
+00:00:50,186 --> 00:00:54,101
+'Stelle die Decke im Wohnzimmer auf 50%'. Dies
+
+14
+00:00:54,101 --> 00:00:58,366
+stellt den Lichtkreis auf 50% Helligkeit ein. Wenn
+
+15
+00:00:58,366 --> 00:01:01,782
+Sie das Licht heller machen möchten, sagen Sie
+
+16
+00:01:01,782 --> 00:01:06,860
+einfach: 'Mach die Decke heller'. Dies erhöht die
+Helligkeit um 20%"
+
+17
+00:01:08,360 --> 00:01:11,513
+"Nun zur Bedienung mehrerer Lichtkreise.
+
+18
+00:01:11,513 --> 00:01:18,413
+Sie können alle Lichter in einer bestimmten Zone
+steuern, indem Sie sagen: 'Schalte das Licht aus'.
+
+19
+00:01:18,413 --> 00:01:23,669
+Dies steuert alle Lichtkreise in der konfigurierten
+Zone des Satelliten."
+
+20
+00:01:24,169 --> 00:01:27,866
+"Sie können auch eine Zone angeben, wie zum Beispiel:
+
+21
+00:01:27,866 --> 00:01:34,190
+'Schalte das Licht im Wohnzimmer ein' Dies steuert
+alle Lichtkreise in der genannten Zone.
+
+22
+00:01:34,190 --> 00:01:41,419
+Wenn Sie alle Lichter in Ihrem Haus steuern möchten,
+sagen Sie einfach: 'Schalte das Licht überall ein".
+
+23
+00:01:41,919 --> 00:01:45,122
+"Um die Helligkeit aller Lichter in einer Zone
+
+24
+00:01:45,122 --> 00:01:48,900
+anzupassen, sagen Sie: 'Mach das Licht heller', um die
+
+25
+00:01:48,900 --> 00:01:52,432
+Helligkeit um 20% zu erhöhen, oder 'Stell das Licht
+
+26
+00:01:52,432 --> 00:01:56,539
+auf 50%', um alle Lichter auf 50% Helligkeit
+einzustellen.
+
+27
+00:01:56,539 --> 00:01:59,332
+Um alle Lichter in einer bestimmten Zone
+
+28
+00:01:59,332 --> 00:02:03,357
+auszuschalten, sagen Sie: 'Schalte das
+Wohnzimmer aus'"
+
+29
+00:02:04,857 --> 00:02:10,196
+"Die eindeutige Namenserkenntnis ist eine spezielle
+Funktion für Lichter.
+
+30
+00:02:10,196 --> 00:02:13,974
+Wenn der Name eines Lichts einzigartig in der gesamten
+
+31
+00:02:13,974 --> 00:02:18,163
+Installation ist, müssen Sie den
+Raumnamen nicht erwähnen.
+
+32
+00:02:18,163 --> 00:02:24,968
+Aber wenn es mehrere Lichtkreise mit dem gleichen
+Namen gibt, werden alle diese Kreise bedient."
+
+33
+00:02:25,468 --> 00:02:29,202
+"Außerdem sind die Namen 'Licht', 'Beleuchtung' und
+
+34
+00:02:29,202 --> 00:02:34,016
+'Lampen' Platzhalter für alle
+Lichtfunktionen im Raum oder im Haus.
+
+35
+00:02:34,016 --> 00:02:37,667
+Also, 'Licht ein' schaltet alle Lichtkreise im Raum
+
+36
+00:02:37,667 --> 00:02:41,818
+ein. Es ist daher nicht ratsam, einen Lichtkreis mit
+
+37
+00:02:41,818 --> 00:02:48,125
+einem dieser Wildcard-Namen zu benennen, da er nicht
+einzeln angesprochen werden kann."
+
+38
+00:02:50,025 --> 00:02:53,428
+"Das war's für dieses Tutorial zur Steuerung von
+
+39
+00:02:53,428 --> 00:02:58,739
+Lichtern mit Sprachbefehlen mit Aragon in Ihrem
+Hausautomationssystem."
+
+#Text
 "Hallo und willkommen zu unserem Tutorial zur Verwendung von Sprachbefehlen für die Hausautomation mit Aragon. Heute konzentrieren wir uns auf die Steuerung von Lichtern. Dieses Video richtet sich sowohl an professionelle Installateure als auch an Endbenutzer."🕓🕓🕓
 
 "Beginnen wir mit der Bedienung einzelner Lichtkreise. Stellen Sie sich vor, Sie haben eine Deckenlampe in Ihrem Wohnzimmer. Sie können diese Lampe steuern, indem Sie sagen: 'Schalte die Decke im Wohnzimmer ein 🕓 oder aus'. Dieser Befehl steuert den Lichtkreis mit dem Namen 'Decke' im Raum mit dem Namen 'Wohnzimmer'"🕓🕓

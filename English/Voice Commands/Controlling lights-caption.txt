@@ -162,10 +162,6 @@ it cannot be addressed individually."
 with voice commands in your home automation system.
 
 
-# Suggested Usage
-For a visual representation, please refer to the video file "video.mp4" located in the same folder as this text file.
-
-
 # Text
 "Hello, and welcome to our tutorial on using voice commands for home automation. Today, we're focusing on controlling lights. This video is designed for both professional installers and end users."🕓🕓🕓
 
