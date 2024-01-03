@@ -1,3 +1,60 @@
+# Video Reference
+# Title: Commande vocale avec Aragon
+# Filename: https://doc.heyaragon.com/start/doc/Fran%C3%A7ais/Commandes%20vocales/Comment%20utiliser%20le%20contr%C3%B4le%20vocal%20Aragon%20caption.mp4
+# Description: Introduction à l'utilisation de la commande vocale Aragon, du mot de réveil, des commandes et des requêtes.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,105
+Comment utiliser la commande vocale Aragon?
+
+2
+00:00:03,105 --> 00:00:06,637
+Par exemple, dites Hey Aragon, "allume
+les lumières !" ?
+
+3
+00:00:06,637 --> 00:00:10,093
+ou "OK Aragon ? quel est l'état des
+lumières du jardin ?"
+
+4
+00:00:10,293 --> 00:00:11,018
+???
+
+5
+00:00:11,218 --> 00:00:13,548
+'Hey Aragon' est le mot clé standard.
+
+6
+00:00:13,748 --> 00:00:16,201
+'OK Aragon' fonctionne aussi !
+
+7
+00:00:16,601 --> 00:00:18,529
+'Allume les lumières !
+
+8
+00:00:18,929 --> 00:00:20,706
+' est une commande.?
+
+9
+00:00:20,906 --> 00:00:24,663
+"Quel est l'état des lumières du jardin
+?" est une requête.?
+
+10
+00:00:24,663 --> 00:00:31,425
+Pour un meilleur résultat, utilisez un court délai, 1
+seconde, entre le mot clé et la commande ou la requête.
+
+11
+00:00:31,425 --> 00:00:36,213
+Vous pouvez changer le mot d'éveil depuis la boîte de
+dialogue des paramètres du satellite.
+
+
+# Text
 Comment utiliser la commande vocale Aragon🕓
 Par exemple, dites Hey Aragon, "allume les lumières !" 🕓 ou "OK Aragon 🕓 quel est l'état des lumières du jardin ?"
 🕓🕓🕓

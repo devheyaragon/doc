@@ -1,3 +1,81 @@
+# Video Reference
+# Title: Sprachsteuerung mit Aragon
+# Filename: https://doc.heyaragon.com/start/doc/Deutsch/Sprachbefehle/So%20verwenden%20Sie%20die%20Aragon-Sprachsteuerung%20caption.mp4
+# Description: Einführung in die Verwendung der Aragon-Sprachsteuerung, Weckwort, Befehle und Abfragen.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,552
+So verwendest Du die Aragon-Sprachsteuerung?
+
+2
+00:00:03,552 --> 00:00:06,194
+Sagen Sie zum Beispiel: 'Hey Aragon,?
+
+3
+00:00:06,394 --> 00:00:08,463
+schalte das Licht ein!
+
+4
+00:00:08,863 --> 00:00:09,528
+' ?
+
+5
+00:00:09,928 --> 00:00:11,666
+oder 'OK Aragon,?
+
+6
+00:00:11,866 --> 00:00:14,590
+ist das Licht im Garten eingeschaltet?
+
+7
+00:00:14,790 --> 00:00:15,373
+'
+
+8
+00:00:15,773 --> 00:00:16,520
+???
+
+9
+00:00:16,720 --> 00:00:19,692
+'Hey Aragon' ist das Standard-Wakeword.?
+
+10
+00:00:19,892 --> 00:00:22,704
+'OK Aragon' funktioniert auch!?
+
+11
+00:00:22,904 --> 00:00:28,105
+Sie können das Wakeword im Dialogfeld
+Satelliteneinstellungen ändern.?
+
+12
+00:00:28,305 --> 00:00:30,456
+'Schalte das Licht ein!
+
+13
+00:00:30,856 --> 00:00:32,594
+' ist der Befehl.?
+
+14
+00:00:32,794 --> 00:00:35,849
+und 'ist das Licht im Garten eingeschaltet?
+
+15
+00:00:36,049 --> 00:00:38,035
+' ist eine Abfrage.??
+
+16
+00:00:38,235 --> 00:00:41,950
+Um gut verstanden zu werden, mach eine kurze Pause von
+
+17
+00:00:41,950 --> 00:00:46,325
+1 Sekunde zwischen dem Wakeword und dem
+Befehl bzw der Abfrage.
+
+
+# Text
 So verwendest Du die Aragon-Sprachsteuerung🕓
 Sagen Sie zum Beispiel: 'Hey Aragon,🕓 schalte das Licht ein!' 🕓 oder 'OK Aragon,🕓 ist das Licht im Garten eingeschaltet?'
 🕓🕓🕓

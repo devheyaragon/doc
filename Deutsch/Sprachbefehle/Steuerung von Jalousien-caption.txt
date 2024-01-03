@@ -1,3 +1,179 @@
+# Video Reference
+# Title: Steuerung von Jalousien
+# Filename: https://doc.heyaragon.com/start/doc/Deutsch/Sprachbefehle/Steuerung%20von%20Jalousien%20caption.mp4
+# Description: Tutorial zur Verwendung von Sprachbefehlen für die Hausautomation mit Aragon. Heute konzentrieren wir uns auf die Steuerung von Jalousien.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,573
+"Hallo und willkommen zu unserem Tutorial zur
+
+2
+00:00:03,573 --> 00:00:07,577
+Verwendung von Sprachbefehlen für die Hausautomation
+
+3
+00:00:07,577 --> 00:00:10,985
+mit Aragon. Heute konzentrieren wir uns auf die
+
+4
+00:00:10,985 --> 00:00:14,734
+Steuerung von Jalousien. Dieses Video richtet sich
+
+5
+00:00:14,734 --> 00:00:19,590
+sowohl an professionelle Installateure als auch an
+Endbenutzer."
+
+6
+00:00:21,090 --> 00:00:24,753
+Um den Rollladen zu öffnen oder zu schließen, sagen
+
+7
+00:00:24,753 --> 00:00:28,832
+Sie einfach "Öffne oder Schließe den Rollladen".
+
+8
+00:00:29,332 --> 00:00:32,654
+Der Behang mit dem Namen "Rollladen" in der dem
+
+9
+00:00:32,654 --> 00:00:38,192
+Satelliten zugeordneten Zone wird dann bis in die
+jeweilige Endlage bewegt.
+
+10
+00:00:38,692 --> 00:00:42,100
+Wenn Sie die Markise im Außenbereich ausfahren
+
+11
+00:00:42,100 --> 00:00:46,019
+möchten, sagen Sie "Fahre die Markise im Außenbereich
+
+12
+00:00:46,019 --> 00:00:53,080
+aus". Der Behang mit dem Namen "Markise" in der Zone
+"Außenbereich" wird dann ausgefahren.
+
+13
+00:00:53,580 --> 00:01:00,395
+Um die Jalousie ein wenig zu öffnen oder zu schließen,
+sagen Sie "Öffne die Jalousie ein wenig".
+
+14
+00:01:00,395 --> 00:01:03,633
+Der Behang mit dem Namen "Jalousie" in der dem
+
+15
+00:01:03,633 --> 00:01:09,000
+Satelliten zugeordneten Zone wird dann um 20% geöffnet
+oder geschlossen.
+
+16
+00:01:09,500 --> 00:01:13,068
+Um den 'Rollladen links' im Wohnzimmer auf 20% zu
+
+17
+00:01:13,068 --> 00:01:17,159
+positionieren, sagen Sie "Positioniere oder fahre der
+
+18
+00:01:17,159 --> 00:01:21,053
+'Rollladen links' in Wohnzimmer auf 20%". Der
+
+19
+00:01:21,053 --> 00:01:26,535
+angesprochene Behang in dem festgelegten Raum wird
+dann auf 20% gestellt.
+
+20
+00:01:26,535 --> 00:01:30,973
+Beachten Sie, dass 100% vollständig
+geschlossen bedeutet.
+
+21
+00:01:33,373 --> 00:01:40,748
+Um alle Rollladen zu öffnen oder zu schließen, sagen
+Sie "Öffne oder Schließe die Rollladen".
+
+22
+00:01:40,748 --> 00:01:44,403
+Alle als Behang definierten Funktionen in der dem
+
+23
+00:01:44,403 --> 00:01:50,234
+Satelliten zugeordneten Zone werden dann bis in die
+jeweilige Endlage bewegt.
+
+24
+00:01:50,734 --> 00:01:54,302
+Um alle Jalousien im ganzen Haus zu öffnen oder zu
+
+25
+00:01:54,302 --> 00:02:00,198
+schließen, sagen Sie "Öffne oder Schließe die
+Jalousien im ganzen Haus".
+
+26
+00:02:00,198 --> 00:02:04,114
+Alle als Behang definierten Funktionen der gesamten
+
+27
+00:02:04,114 --> 00:02:08,726
+Installation werden dann bis in die
+jeweilige Endlage bewegt.
+
+28
+00:02:09,226 --> 00:02:13,229
+Um alle Behänge in einer bestimmten Zone zu schließen,
+
+29
+00:02:13,229 --> 00:02:17,297
+sagen Sie "Schließe das Schlafzimmer". Alle als
+
+30
+00:02:17,297 --> 00:02:23,563
+Behang definierten Funktionen des entsprechenden
+Raumes werden dann geschlossen.
+
+31
+00:02:25,063 --> 00:02:28,754
+Die Namen "Rollladen", "Jalousien", "Rollos" sind
+
+32
+00:02:28,754 --> 00:02:33,285
+Platzhalter für alle motorischen
+Antriebe im Raum oder im Haus.
+
+33
+00:02:33,285 --> 00:02:37,227
+Der Befehl "Alle Rollladen hochfahren" sucht also alle
+
+34
+00:02:37,227 --> 00:02:41,758
+Behang-Funktionen im Raum und fährt
+diese in die obere Endlage.
+
+35
+00:02:41,758 --> 00:02:45,281
+Wenn es in einem Raum sowohl Rollladen als auch den
+
+36
+00:02:45,281 --> 00:02:52,076
+motorisch angetriebenen Mückenschutz gibt, würden mit
+diesem Befehl beide Systeme geöffnet.
+
+37
+00:02:52,576 --> 00:02:56,267
+Bitte beachten Sie, dass Türen, Tore und motorische
+
+38
+00:02:56,267 --> 00:03:00,714
+Leinwände nicht mit den Wildcard-Namen
+angesprochen werden.
+
+
+# Text
 "Hallo und willkommen zu unserem Tutorial zur Verwendung von Sprachbefehlen für die Hausautomation mit Aragon. Heute konzentrieren wir uns auf die Steuerung von Jalousien. Dieses Video richtet sich sowohl an professionelle Installateure als auch an Endbenutzer."🕓🕓🕓
 
 Um den Rollladen zu öffnen oder zu schließen, sagen Sie einfach "Öffne🕓 oder Schließe den Rollladen".🕓 Der Behang mit dem Namen "Rollladen" in der dem Satelliten zugeordneten Zone wird dann bis in die jeweilige Endlage bewegt.🕓

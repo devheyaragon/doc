@@ -1,3 +1,54 @@
+# Video Reference
+# Title: How To Use Aragon Voice Control
+# Filename: https://doc.heyaragon.com/start/doc/English/Voice%20Commands/How%20To%20Use%20Aragon%20Voice%20Control%20caption.mp4
+# Description: Introduction to How to use Aragon voice control, wake word, commands and queries.
+
+# Captions
+1
+00:00:00,450 --> 00:00:02,761
+How to use Aragon voice control
+
+2
+00:00:03,461 --> 00:00:06,385
+For example, say "Hey Aragon, turn on the lights!"
+
+3
+00:00:06,885 --> 00:00:10,519
+or "OK Aragon, what's the status of
+the Garden lights?"
+
+4
+00:00:12,919 --> 00:00:15,217
+"Hey Aragon" is the standard wake word.
+
+5
+00:00:15,417 --> 00:00:17,449
+"OK Aragon" works as well !
+
+6
+00:00:19,249 --> 00:00:20,933
+"Turn on the lights!"
+
+7
+00:00:21,333 --> 00:00:22,669
+is a Command.
+
+8
+00:00:23,369 --> 00:00:26,433
+"What's the status of the Garden lights?" is a Query.
+
+9
+00:00:26,933 --> 00:00:32,225
+For the best result, use a short delay, 1 second,
+between the wake word and Command or Query.
+
+10
+00:00:32,225 --> 00:00:36,076
+You can change the wake word from the Satellite
+Settings dialog.
+
+
+# Text
 How to use Aragon voice control🕓
 For example, say Hey Aragon, "turn on the lights!" 🕓 or "OK Aragon 🕓 what's the status of the Garden lights?"
 🕓🕓🕓
