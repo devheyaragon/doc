@@ -1,0 +1,164 @@
+# Video Reference
+# Title: Controlling lights with Aragon
+# Filename: https://doc.heyaragon.com/start/doc/English/Voice%20Commands/Controlling%20blinds%20caption.mp4
+# Description: Tutorial on using Aragon voice commands for home automation focusing on controlling blinds.
+
+# Captions
+1
+00:00:00,250 --> 00:00:03,930
+"Hello and welcome to our tutorial on how to use voice
+
+2
+00:00:03,930 --> 00:00:11,123
+control system for home automation. Today, we'll focus
+on controlling blinds using voice commands."
+
+3
+00:00:12,623 --> 00:00:16,554
+"Let's start with operating individual blinds. To open
+
+4
+00:00:16,554 --> 00:00:20,317
+or close a roller shutter, simply say 'Open the roller
+
+5
+00:00:20,317 --> 00:00:23,997
+shutter' or 'Close the roller shutter'. Aragon will
+
+6
+00:00:23,997 --> 00:00:30,521
+move the hanging named 'roller shutter' in the current
+zone to the respective end position."
+
+7
+00:00:31,021 --> 00:00:34,450
+"To extend the awning in the outdoor area, use the
+
+8
+00:00:34,450 --> 00:00:37,879
+command 'Extend the awning in the outdoor area'.
+
+9
+00:00:37,879 --> 00:00:43,148
+Aragon will extend the hanging named 'awning' in the
+'outdoor area' zone."
+
+10
+00:00:43,648 --> 00:00:47,161
+"If you want to open or close the blind a little, say
+
+11
+00:00:47,161 --> 00:00:50,339
+'Open the blind a little' or 'Close the blind a
+
+12
+00:00:50,339 --> 00:00:56,528
+little'. Aragon will open or close the hanging named
+'blind' in the current zone by 20%."
+
+13
+00:00:57,028 --> 00:01:00,624
+"To position a hanging in a specific room to 20%, say
+
+14
+00:01:00,624 --> 00:01:03,969
+'Position the left blind in Living room to 20%'.
+
+15
+00:01:03,969 --> 00:01:07,900
+Aragon will set the left blind in the
+Living room to 20%."
+
+16
+00:01:08,400 --> 00:01:11,826
+"Now, let's move on to operating several blinds. To
+
+17
+00:01:11,826 --> 00:01:15,013
+open or close all roller shutters, say 'Open the
+
+18
+00:01:15,013 --> 00:01:18,360
+roller shutters' or 'Close the roller shutters'.
+
+19
+00:01:18,360 --> 00:01:25,291
+Aragon will move all functions defined as hanging in
+the assigned zone to the respective end position."
+
+20
+00:01:25,791 --> 00:01:29,137
+"To open or close all blinds in the house, say 'Open
+
+21
+00:01:29,137 --> 00:01:32,643
+the blinds in the whole house' or 'Close the blinds in
+
+22
+00:01:32,643 --> 00:01:35,910
+the whole house'. Aragon will move all functions
+
+23
+00:01:35,910 --> 00:01:41,248
+defined as hanging in the entire installation to the
+respective end position."
+
+24
+00:01:41,748 --> 00:01:45,253
+"To close all hangings in a specific room, say 'Close
+
+25
+00:01:45,253 --> 00:01:50,751
+the bedroom'. Aragon will close all functions defined
+as hanging in the bedroom."
+
+26
+00:01:51,251 --> 00:01:54,312
+"Note that the names 'shutters' and 'blinds' are
+
+27
+00:01:54,312 --> 00:01:57,447
+placeholders for all motor drives in the room or in
+
+28
+00:01:57,447 --> 00:02:00,881
+the house. So, 'Raise all roller shutters' will search
+
+29
+00:02:00,881 --> 00:02:05,734
+for all hanging functions in the room and move them to
+the upper end position."
+
+30
+00:02:06,234 --> 00:02:10,788
+"However, doors and gates are not addressed with these
+wildcard names."
+
+31
+00:02:11,288 --> 00:02:16,439
+"And that's how you control blinds using Aragon's
+offline voice control system."
+
+
+# Text
+"Hello and welcome to our tutorial on how to use voice control system for home automation. Today, we'll focus on controlling blinds using voice commands."🕓🕓🕓
+
+"Let's start with operating individual blinds. To open or close a roller shutter, simply say 'Open the roller shutter' or 'Close the roller shutter'. Aragon will move the hanging named 'roller shutter' in the current zone to the respective end position."🕓
+
+"To extend the awning in the outdoor area, use the command 'Extend the awning in the outdoor area'. Aragon will extend the hanging named 'awning' in the 'outdoor area' zone."🕓
+
+"If you want to open or close the blind a little, say 'Open the blind a little' or 'Close the blind a little'. Aragon will open or close the hanging named 'blind' in the current zone by 20%."🕓
+
+"To position a hanging in a specific room to 20%, say 'Position the left blind in Living room to 20%'. Aragon will set the left blind in the Living room to 20%."🕓
+
+"Now, let's move on to operating several blinds. To open or close all roller shutters, say 'Open the roller shutters' or 'Close the roller shutters'. Aragon will move all functions defined as hanging in the assigned zone to the respective end position."🕓
+
+"To open or close all blinds in the house, say 'Open the blinds in the whole house' or 'Close the blinds in the whole house'. Aragon will move all functions defined as hanging in the entire installation to the respective end position."🕓
+
+"To close all hangings in a specific room, say 'Close the bedroom'. Aragon will close all functions defined as hanging in the bedroom."🕓
+
+"Note that the names 'shutters' and 'blinds' are placeholders for all motor drives in the room or in the house. So, 'Raise all roller shutters' will search for all hanging functions in the room and move them to the upper end position."🕓
+
+"However, doors and gates are not addressed with these wildcard names."🕓
+
+"And that's how you control blinds using Aragon's offline voice control system."🕓
