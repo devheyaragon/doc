@@ -1,0 +1,142 @@
+1
+00:00:00,250 --> 00:00:03,600
+Bienvenue à cette vidéo explicative sur l'utilisation
+
+2
+00:00:03,600 --> 00:00:09,018
+d'Aragon, un système de contrôle vocal hors ligne pour
+l'automatisation de votre maison.
+
+3
+00:00:09,518 --> 00:00:14,508
+Aujourd'hui, nous allons nous concentrer sur la
+commande des volets et des stores.
+
+4
+00:00:15,508 --> 00:00:19,286
+Pour commencer, parlons de la commande
+de volets individuels.
+
+5
+00:00:19,286 --> 00:00:23,137
+Si vous dites "Ouvre ou Ferme le volet roulant",
+
+6
+00:00:23,137 --> 00:00:29,624
+le volet nommé "Volet roulant" dans la zone attribuée
+au satellite se déplacera jusqu'à sa position finale.
+
+7
+00:00:31,524 --> 00:00:38,155
+Vous pouvez également ajuster l'ouverture du store en
+disant "Ouvre ou Ferme un peu le store".
+
+8
+00:00:38,155 --> 00:00:41,363
+Cela ouvrira ou fermera le store nommé "Store" dans la
+
+9
+00:00:41,363 --> 00:00:44,857
+zone attribuée au satellite de 20%. Pour régler un
+
+10
+00:00:44,857 --> 00:00:50,346
+store à une position spécifique, vous pouvez dire
+"Ouvrir le volet dans la chambre sur 20%".
+
+11
+00:00:50,346 --> 00:00:53,625
+Le volet adressé dans la chambre sera
+alors réglé à 20%.
+
+12
+00:00:54,125 --> 00:00:56,834
+Notez que 100% signifie complètement fermé.
+
+13
+00:00:57,834 --> 00:01:01,113
+Passons maintenant à la commande de plusieurs volets.
+
+14
+00:01:01,113 --> 00:01:04,259
+Si vous dites "Ouvre ou Ferme les volets",
+
+15
+00:01:04,259 --> 00:01:06,895
+toutes les fonctions définies comme volets dans la
+
+16
+00:01:06,895 --> 00:01:09,716
+zone attribuée au satellite seront déplacées jusqu'à
+
+17
+00:01:09,716 --> 00:01:12,852
+leur position finale. De même, si vous dites "Ouvre
+
+18
+00:01:13,352 --> 00:01:15,999
+ou Ferme les stores dans toute la maison",
+
+19
+00:01:15,999 --> 00:01:18,819
+toutes les fonctions définies comme volets dans toute
+
+20
+00:01:18,819 --> 00:01:22,191
+l'installation seront déplacées jusqu'à
+leur position finale.
+
+21
+00:01:23,191 --> 00:01:28,219
+Vous pouvez également fermer tous les volets dans une
+zone spécifique en disant "Ferme le salon".
+
+22
+00:01:28,219 --> 00:01:32,082
+Toutes les fonctions définies comme volets du salon
+seront alors fermées.
+
+23
+00:01:32,582 --> 00:01:35,157
+Il est important de noter que les termes "Volets",
+
+24
+00:01:35,157 --> 00:01:38,794
+"Stores" et "Rideaux" (seulement au pluriel) sont
+
+25
+00:01:38,794 --> 00:01:42,963
+des jokers pour tous les entraînements motorisés dans
+la pièce ou dans la maison.
+
+26
+00:01:43,463 --> 00:01:45,749
+Par exemple, si vous dites "Monter tous les
+
+27
+00:01:45,749 --> 00:01:48,734
+volets", cela cherchera toutes les fonctions de volets
+
+28
+00:01:48,734 --> 00:01:51,973
+dans la pièce et les amènera à la position finale
+supérieure.
+
+29
+00:01:52,973 --> 00:01:55,704
+Enfin, veuillez noter que les portes, portails, et
+
+30
+00:01:55,704 --> 00:01:59,133
+écrans motorisés ne sont pas adressés avec les noms
+génériques.
+
+31
+00:01:59,633 --> 00:02:02,300
+Nous espérons que cette vidéo vous a été utile pour
+
+32
+00:02:02,300 --> 00:02:07,889
+comprendre comment utiliser les commandes vocales pour
+contrôler les volets et les stores avec Aragon.
+

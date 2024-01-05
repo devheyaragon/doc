@@ -1,5 +1,5 @@
 # Video Reference
-# Title: Controlling lights with Aragon
+# Title: Controlling blinds with Aragon
 # Filename: https://doc.heyaragon.com/start/doc/English/Voice%20Commands/Controlling%20blinds%20caption.mp4
 # Description: Tutorial on using Aragon voice commands for home automation focusing on controlling blinds.
 
