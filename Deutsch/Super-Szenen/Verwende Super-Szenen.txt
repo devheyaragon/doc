@@ -1,6 +1,6 @@
 # Video Reference
 # Title: Verwende Super-Szenen
-# Filename: https://doc.heyaragon.com/start/doc/Deutsch/Sprachbefehle/So%20verwenden%20Sie%20die%20Aragon-Sprachsteuerung%20caption.mp4
+# Filename: https://doc.heyaragon.com/start/doc/Deutsch/Super-Szenen/Verwende%20Super-Szenen%20caption.mp4
 # Description: Verwende Super-Szenen mit Aragon, um Deine täglichen Routinen zu vereinfachen und Dein Erlebnis mit der Heimautomatisierung zu verbessern.
 
 # Captions
