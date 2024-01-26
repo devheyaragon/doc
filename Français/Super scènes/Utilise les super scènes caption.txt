@@ -1,0 +1,167 @@
+# Video Reference
+# Title: utiliser les super scènes dans Aragon
+# Filename: https://doc.heyaragon.com/start/doc/Fran%C3%A7ais/Commandes%20vocales/Contr%C3%B4ler%20les%20lumi%C3%A8res%20caption.mp4
+# Description: Les super-scènes sont des commandes vocales personnalisables qui automatisent plusieurs actions dans votre maison.
+
+# Captions
+1
+00:00:00,250 --> 00:00:05,485
+Bienvenue dans notre tutoriel sur la manière de
+configurer et d'utiliser les super scènes dans Aragon.
+
+2
+00:00:05,485 --> 00:00:07,952
+Cette vidéo a pour but d'aider les installateurs
+
+3
+00:00:07,952 --> 00:00:12,525
+professionnels et les utilisateurs finaux à comprendre
+et à utiliser cet outil puissant.
+
+4
+00:00:12,525 --> 00:00:14,812
+Les super-scènes sont des commandes vocales
+
+5
+00:00:14,812 --> 00:00:18,603
+personnalisables qui automatisent plusieurs actions
+dans votre maison.
+
+6
+00:00:18,603 --> 00:00:21,190
+Elles peuvent être configurées pour répondre à des
+
+7
+00:00:21,190 --> 00:00:25,764
+phrases telles que "Bonjour", "Bonne nuit", "Je suis à
+la maison" ou "Je quitte la maison".
+
+8
+00:00:25,764 --> 00:00:28,532
+Chaque commande peut déclencher une série d'actions,
+
+9
+00:00:28,532 --> 00:00:31,360
+telles que l'allumage ou l'extinction des lumières, le
+
+10
+00:00:31,360 --> 00:00:34,669
+réglage du thermostat ou l'activation
+des systèmes de sécurité.
+
+11
+00:00:34,669 --> 00:00:37,497
+Pour configurer une super-scène, tu dois sélectionner
+
+12
+00:00:37,497 --> 00:00:40,205
+l'option 'Quand', et entrer jusqu'à trois commandes
+
+13
+00:00:40,205 --> 00:00:43,755
+vocales qui seront exécutées lorsque cette commande
+sera prononcée.
+
+14
+00:00:43,755 --> 00:00:48,088
+Tu peux même définir des variations de la commande en
+fonction du moment de la journée.
+
+15
+00:00:48,088 --> 00:00:50,512
+Par exemple, la commande "Je suis à la maison"
+
+16
+00:00:50,512 --> 00:00:53,255
+pourrait ouvrir les stores et démarrer la machine à
+
+17
+00:00:53,255 --> 00:00:56,062
+café pendant la journée, mais le soir, elle pourrait
+
+18
+00:00:56,062 --> 00:00:59,890
+appeler une scène lumineuse conviviale et diffuser une
+musique douce.
+
+19
+00:00:59,890 --> 00:01:05,376
+Aragon propose quatre super-scènes prédéfinies qui
+peuvent être facilement modifiées ou adaptées.
+
+20
+00:01:05,376 --> 00:01:10,991
+Pour cela, il suffit d'écrire en clair la commande
+comprise par Aragon dans l'une des lignes de commande.
+
+21
+00:01:10,991 --> 00:01:13,734
+N'oublie pas que la pièce dans laquelle la commande
+
+22
+00:01:13,734 --> 00:01:17,179
+doit être exécutée doit également être
+indiquée en texte clair.
+
+23
+00:01:17,179 --> 00:01:22,410
+Au lieu du nom de la pièce, il est bien sûr possible
+d'utiliser "partout" ou "dans toute la maison".
+
+24
+00:01:22,410 --> 00:01:25,345
+Tu peux également configurer Aragon pour qu'il dise un
+
+25
+00:01:25,345 --> 00:01:30,768
+texte dès qu'une super-scène est appelée, comme
+confirmation sonore de l'exécution de la commande.
+
+26
+00:01:30,768 --> 00:01:34,851
+Pour faire parler Aragon, entrez le mot-clé 'SAY',
+suivi du texte souhaité.
+
+27
+00:01:34,851 --> 00:01:38,594
+Les super-scènes sont conviviales et facilement
+personnalisables.
+
+28
+00:01:38,594 --> 00:01:41,132
+Que tu sois un installateur professionnel ou un
+
+29
+00:01:41,132 --> 00:01:46,081
+utilisateur final, tu peux adapter ces commandes à tes
+besoins et préférences spécifiques.
+
+30
+00:01:46,081 --> 00:01:48,937
+Utilise les super scènes avec Aragon pour simplifier
+
+31
+00:01:48,937 --> 00:01:52,807
+tes routines quotidiennes et améliorer ton expérience
+de la domotique.
+
+32
+00:01:53,007 --> 00:01:54,776
+Merci de nous regarder !
+
+# Text
+Bienvenue dans notre tutoriel sur la manière de configurer et d'utiliser les super scènes dans Aragon. Cette vidéo a pour but d'aider les installateurs professionnels et les utilisateurs finaux à comprendre et à utiliser cet outil puissant.
+
+Les super-scènes sont des commandes vocales personnalisables qui automatisent plusieurs actions dans votre maison. Elles peuvent être configurées pour répondre à des phrases telles que "Bonjour", "Bonne nuit", "Je suis à la maison" ou "Je quitte la maison".
+
+Chaque commande peut déclencher une série d'actions, telles que l'allumage ou l'extinction des lumières, le réglage du thermostat ou l'activation des systèmes de sécurité.
+
+Pour configurer une super-scène, tu dois sélectionner l'option 'Quand' et entrer jusqu'à trois commandes vocales qui seront exécutées lorsque cette commande sera prononcée. Tu peux même définir des variations de la commande en fonction du moment de la journée. Par exemple, la commande "Je suis à la maison" pourrait ouvrir les stores et démarrer la machine à café pendant la journée, mais le soir, elle pourrait appeler une scène lumineuse conviviale et diffuser une musique douce.
+
+Aragon propose quatre super-scènes prédéfinies qui peuvent être facilement modifiées ou adaptées. Pour cela, il suffit d'écrire en clair la commande comprise par Aragon dans l'une des lignes de commande. N'oublie pas que la pièce dans laquelle la commande doit être exécutée doit également être indiquée en texte clair. Au lieu du nom de la pièce, il est bien sûr possible d'utiliser "partout" ou "dans toute la maison".
+
+Tu peux également configurer Aragon pour qu'il dise un texte dès qu'une super-scène est appelée, comme confirmation sonore de l'exécution de la commande. Pour faire parler Aragon, entrez le mot-clé 'SAY' suivi du texte souhaité.
+
+Les super-scènes sont conviviales et facilement personnalisables. Que tu sois un installateur professionnel ou un utilisateur final, tu peux adapter ces commandes à tes besoins et préférences spécifiques.
+
+Utilise les super scènes avec Aragon pour simplifier tes routines quotidiennes et améliorer ton expérience de la domotique. Merci de nous regarder !
