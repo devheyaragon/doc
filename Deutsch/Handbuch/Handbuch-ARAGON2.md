@@ -1,3 +1,4 @@
+
 # ARAGON 2
 ![Logo.png](./_images/Logo.png)
 
@@ -34,6 +35,8 @@
 
 > [proServ by ProKNX](#proServ)
 
+> [LUXORliving by Theben](#luxorliving)
+
 > [X1 by Gira](#x1)
 
 > [Homeserver by Gira](#homeserver)
@@ -64,7 +67,7 @@
 
 ## Beschreibung
 
-**Aragon** ist das erste KI gestützte Sprachsteuerungssystem, das ohne Internetverbindung funktioniert. Die Spracherkennung läuft auf dem Gerät – es wird nichts übertragen oder aufgezeichnet.
+**Aragon** ist das erste KI gestützte Sprachsteuerungssystem, das ohne Internetverbindung funktioniert. Die Spracherkennung läuft auf dem Gerät – es wird nichts übertragen oder aufgezeichnet.
 
 **Deine Privatsphäre ist garantiert**
 
@@ -283,6 +286,7 @@ Der Titelsprung funkioniert nur bei laufender Playlist
 | Gateway | Beschreibung |
 | ------ | ------ |
 |[proServ by ProKNX](#proServ)|Ein Gateway, welches die gesamte Konfiguration der Sprachsteuerung über die ETS ermöglicht. Bedienung der KNX Installation über App und Sprache kann somit allein über eine ETS Konfiguration erfolgen|
+|[LUXORliving by Theben](#luxorliving)|Unterstützt die Bedienung und die Abfrage einer LUXORliving Installation von Theben per Sprache (KNX Installation ganz ohne ETS)|
 |[X1 by Gira](#x1)|Es wird die Konfiguration eines im Netzwerk zugänglichen Gira X1 ausgelesen und kann mit Sprache bedient werden|
 |[Homeserver by Gira](#homeserver)|Es wird die Konfiguration eines im Netzwerk zugänglichen Gira Homeservers (ab Vers. 4.10) mit konfiguriertem Quadclient ausgelesen und kann mit Sprache bedient werden|
 |Philips HUE|Die Gebäude- und Funktionsstruktur einer HUE Bridge wird ausgelesen und kann per Sprache bedient werden|
@@ -291,7 +295,7 @@ Der Titelsprung funkioniert nur bei laufender Playlist
 |Generic Gateway|Ermöglicht selbst die Kommunikation zwischen Aragon anderen Geräten entsprechend einer Regel (RestfulAPI, http Befehle, …) festzulegen|
 |YOUVI by PEAKnx|Unterstützt die Bedienung der YOUVI Visualisierung per Sprache|
 |[SVS by Jung](#svs)|Unterstützt die Bedienung des Smart Visu Servers von Jung per Sprache|
-|LUXORliving by Theben|Unterstützt die Bedienung und die Abfrage einer LUXORliving Installation von Theben per Sprache (KNX Installation ganz ohne ETS)|
+
 |Option ENOCEAN|Diese Option ermöglicht zusätzlich zu einem der oben festgelegten Standard Gateways auch die Verwendung von Sensoren und Aktoren, die den Enocean Standard unterstützen|
 
 ***
@@ -342,6 +346,36 @@ Dies ist die einzige Funktion, welche die Steuerung und -abfrage eines Raumtempe
 
 ***
 
+<h2 id="luxorliving">LUXORliving by Theben</h2>
+
+![luxorliving.jpg](./_images/luxorliving.jpg)
+
+Wir gehen davon aus, dass vor Inbetriebnahme der Sprachsteuerung der Theben IP1 mittels der Software LUXURplug konfiguriert wurde. Es ist zu beachten, dass nicht alle vom IP1 angebotenen Funktionen auch für die Sprachsteuerung und -abfrage verwendet werden können. Hier eine Auflistung der möglichen Funktionen:
+
+- **Schalten**
+Funktion wird zum Schalten für Licht interpretiert (z.B. *"schalte das Licht im Wohnzimmer ein/aus"*). 
+
+    > **Hinweis:** - Der Name des Lichtes wird exklusiv für die ganze Installation erkannt, d.h. man muss den Raumnamen nicht dazusagen, sofern es das Gerät nur einmal in der Installation gibt.
+
+    > **Achtung:** Sofern in der Installation Aggregate oder schaltbare Steckdosen vorhanden sind, die nicht mit dem Befehl "Schalte das Licht ein/aus" ein/ausgeschaltet werden sollen, können diese in der [Blacklist](#blacklist) aufgeführt werden. 
+
+- **Dimmen**
+Funktion wird für das Dimmen des Lichts verwendet. Der Sprachbefehl ermöglicht *schalten*, *relatives dimmen* (z.B. *"mach es heller"*), *absolutes dimmen auf einen bestimmten Wert* (z.B. *"stelle das Licht auf 50%"*), und *Abfragen des Zustandes* (z.B. *"wie ist das Licht?"*). 
+
+    > **Hinweis:** - Der Name des Lichtes wird exklusiv für die ganze Installation erkannt, d.h. man muss den Raumnamen nicht dazusagen, sofern es das Gerät nur einmal in der Installation gibt.
+
+- **Jalousiebedienung**
+Diese Funktion wird angewendet für die Steuerung und -abfrage einer Jalousie per Sprache. 
+    > **Hinweis:** - Der Name Rollladen ist ein allgemeiner Platzhalter für den Behang und darf nicht für einzelne Antriebe verwendet werden. Mit dem Platzhalter "Rollladen" können mehrere Antriebe gemeinsam gesteuert werden wie "Öffne alle Rollladen im Schlafzimmer" oder "schliesse alle Rollladen im ganzen Haus".
+
+- **Szenenauslöser**
+...sind sehr leistungsfähige Funktionen. Sie werden in LUXORplug definiert. Anschließend kann in LUXORplay festgelegt werden, welche Funktionen mit diesem Namen ausgelöst werden. (z.B. *"Hole den Aufzug"*, *"aktiviere gelb"* oder *"gute Nacht"*). 
+Szenenauslöser können direkt mit dem festgelegten Namen auch ohne den Zusatzbefehl wie "aktiviere" ausgelöst werden. Es muss ggf lediglich der zugeordnete Raum mit angesprochen werden.
+
+> **Hinweis:** In der Sprachsteuerung kann ausschließlich der Name zum Auslösen einer Szene verwendet, der in LUXORplug festgelegt wurde. Eine Namensänderung der Szene in LUXORplay kann nicht berücksichtigt werden.
+
+> **Achtung:** Nach dem Befehl "LUXORplay vorbereiten" in der Applikation LUXORplug ist ein Trainieren der neu definierten Worte im ARAGON Master durchzuführen.
+***
 <h2 id="x1">X1 by Gira</h2>
 
 ![GIRA_X1.jpg](./_images/GIRA_X1.jpg)
@@ -706,13 +740,7 @@ Aragon bietet vier Superzenen an (hier eine Auflistung mit einigen Kommandoalter
 
 **Deaktivierung von Superszenen:**
 
-Viele KNX Applikationen verwenden bereits die Namen der Superszenen. Sofern die Superszenen dann deaktiviert werden sollen, nehmen Sie bitte folgende Modifikation im Main Flow unter NodeRed vor:
-
-![activate-ss.JPG](./_images/activate-ss.JPG)
-
-![pfeil.JPG](./_images/pfeil.JPG)
-
-![deactivate-ss.JPG](./_images/deactivate-ss.JPG)
+Viele KNX Applikationen verwenden bereits die Namen der Superszenen. Sofern die Superszenen dann deaktiviert werden sollen, sind diese im Dialog Nr.3 "Über" -> "Sprachassistent installieren" anzukreuzen. 
 
 **Befehle für Szenen**
 Ausgenommen der globalen Superszenen bezieht sich das Kommando der Szene immer auf den Raum, zu dem der Satellite konfiguriert wurde.
