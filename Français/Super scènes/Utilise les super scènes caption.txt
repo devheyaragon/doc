@@ -1,6 +1,6 @@
 # Video Reference
 # Title: utiliser les super scènes dans Aragon
-# Filename: https://doc.heyaragon.com/start/doc/Fran%C3%A7ais/Commandes%20vocales/Contr%C3%B4ler%20les%20lumi%C3%A8res%20caption.mp4
+# Filename: https://doc.heyaragon.com/start/doc/Fran%C3%A7ais/Super%20sc%C3%A8nes/Utilise%20les%20super%20sc%C3%A8nes%20caption.mp4
 # Description: Les super-scènes sont des commandes vocales personnalisables qui automatisent plusieurs actions dans votre maison.
 
 # Captions
