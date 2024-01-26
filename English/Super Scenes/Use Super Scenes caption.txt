@@ -1,0 +1,129 @@
+# Video Reference
+# Title: Use Super Scenes
+# Filename: https://doc.heyaragon.com/start/doc/English/Super%20Scenes/Use%20Super%20Scenes%20caption.mp4
+# Description: Tutorial on using Aragon Super Scenes with Aragon to simplify your daily routines and enhance your home automation experience.
+
+# Captions
+1
+00:00:00,250 --> 00:00:04,428
+Welcome to our tutorial on how to use the Super Scenes
+feature in Aragon.
+
+2
+00:00:04,428 --> 00:00:07,282
+This video is designed to help both professional
+
+3
+00:00:07,282 --> 00:00:11,321
+installers and end users understand and utilize this
+powerful tool.
+
+4
+00:00:11,321 --> 00:00:16,682
+Super Scenes are customizable voice commands that
+automate multiple actions in your home.
+
+5
+00:00:16,682 --> 00:00:22,670
+They can be set up to respond to phrases like "Good
+Morning", "Good Night", "I'm Home" or "I'm Leaving".
+
+6
+00:00:22,670 --> 00:00:25,733
+Each command can trigger a series of actions, such as
+
+7
+00:00:25,733 --> 00:00:30,329
+toggling lights, adjusting the thermostat, or
+activating security systems.
+
+8
+00:00:30,329 --> 00:00:33,183
+To set up a Super Scenes, you'll need to select the
+
+9
+00:00:33,183 --> 00:00:38,963
+When-option and enter up to three voice commands that
+will be executed when this command is spoken.
+
+10
+00:00:38,963 --> 00:00:43,697
+You can even set different variations of the command
+depending on the time of day.
+
+11
+00:00:43,697 --> 00:00:46,761
+For example, the "I'm Home" command could turn on the
+
+12
+00:00:46,761 --> 00:00:52,888
+lights and start the coffee maker in the morning, but
+play soft music and open the blinds in the afternoon.
+
+13
+00:00:52,888 --> 00:00:58,118
+Aragon offers four pre-set Super Scenes, but these can
+be easily edited or customized.
+
+14
+00:00:58,118 --> 00:01:04,135
+To do this, simply write the command understood by
+Aragon in plain text into one of the command lines.
+
+15
+00:01:04,135 --> 00:01:07,216
+You can also set Aragon to speak a text after calling
+
+16
+00:01:07,216 --> 00:01:12,517
+the Super Scenes, providing auditory confirmation that
+the command has been executed.
+
+17
+00:01:12,517 --> 00:01:17,461
+To have Aragon speak a text, enter the keyword 'SAY',
+followed by the desired text.
+
+18
+00:01:17,461 --> 00:01:23,120
+Remember, the Super Scenes feature is designed to be
+user-friendly and easily customizable.
+
+19
+00:01:23,120 --> 00:01:26,129
+Whether you're a professional installer or an end
+
+20
+00:01:26,129 --> 00:01:31,001
+user, you can tailor these commands to suit your
+specific needs and preferences.
+
+21
+00:01:31,001 --> 00:01:33,703
+And that's how you use Super Scenes with Aragon to
+
+22
+00:01:33,703 --> 00:01:37,921
+simplify your daily routines and enhance your home
+automation experience.
+
+23
+00:01:38,121 --> 00:01:39,939
+Thank you for watching!
+
+# Text
+Welcome to our tutorial on how to use the Super Scenes feature in Aragon. This video is designed to help both professional installers and end users understand and utilize this powerful tool.
+
+Super Scenes are customizable voice commands that automate multiple actions in your home. They can be set up to respond to phrases like "Good Morning", "Good Night", "I'm Home" or "I'm Leaving". 
+
+Each command can trigger a series of actions, such as toggling lights, adjusting the thermostat, or activating security systems.
+
+To set up a Super Scenes, you'll need to select the When-option and enter up to three voice commands that will be executed when this command is spoken. You can even set different variations of the command depending on the time of day. For example, the "I'm Home" command could turn on the lights and start the coffee maker in the morning, but play soft music and open the blinds in the afternoon.
+
+Aragon offers four pre-set Super Scenes, but these can be easily edited or customized. To do this, simply write the command understood by Aragon in plain text into one of the command lines. 
+
+You can also set Aragon to speak a text after calling the Super Scenes, providing auditory confirmation that the command has been executed. To have Aragon speak a text, enter the keyword 'SAY', followed by the desired text.
+
+Remember, the Super Scenes feature is designed to be user-friendly and easily customizable. Whether you're a professional installer or an end user, you can tailor these commands to suit your specific needs and preferences.
+
+And that's how you use Super Scenes with Aragon to simplify your daily routines and enhance your home automation experience. Thank you for watching!
