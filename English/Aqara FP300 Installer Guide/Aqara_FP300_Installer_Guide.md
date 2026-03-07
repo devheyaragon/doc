@@ -76,6 +76,19 @@ Before permanently fixing the sensor, use painter's tape or the magnetic mount t
 
 ---
 
+### Important: Understanding Z2M UI Behavior
+
+**The FP300 is a battery-powered sleeping device.** When you change a parameter value in the Z2M Exposes tab, the change is **immediately sent** to the device, but the sensor only processes it when it next wakes up — which can take **several minutes** depending on room activity.
+
+**To force immediate feedback after changing settings:**
+1. Walk up to the sensor
+2. **Press the button once** (short press)
+3. The device wakes immediately and processes all pending commands within a few seconds
+
+The Z2M UI will update automatically once the sensor reports back. No "Apply" button is required — each toggle/dropdown sends its own command instantly.
+
+---
+
 ### Step 1 — Set Detection Mode
 
 | Z2M Parameter | Recommended Value | Notes |
@@ -91,8 +104,10 @@ Use `both` only if fast light-on response (< 1 sec) is a hard requirement. For a
 
 | Z2M Parameter | Value | Notes |
 |---|---|---|
-| `motion_sensitivity` | See room profiles below | Core detection tuning |
+| `motion_sensitivity` | See room profiles below | **Controls mmWave radar sensitivity** (not PIR) — core detection tuning |
 | `ai_sensitivity_adaptive` | `ON` | Allows the sensor to self-tune over time |
+
+> **Parameter naming clarification:** Despite the name `motion_sensitivity`, this parameter controls the **mmWave radar** sensitivity for stationary presence detection. It remains the primary tuning parameter even when `presence_detection_options` is set to `mmwave` only.
 
 ---
 
@@ -247,9 +262,11 @@ Scenario: single occupant seated at desk for extended periods; light automation 
 
 | Action | Function |
 |---|---|
-| **Single short press** | Checks Zigbee hub connection and verifies pairing status |
-| **Hold for 5+ seconds** | Factory reset / re-pairing (also used to switch Zigbee ↔ Thread) |
+| **Single short press** | Forces immediate wake-up; processes pending Z2M commands instantly |
+| **Hold for 5+ seconds** | Factory reset / re-pairing (also switches Zigbee ↔ Thread) |
 | **Short press 10 times** | Forces network rejoin |
+
+> **Tip:** After changing any settings in Z2M, press the button once to force immediate feedback rather than waiting several minutes for the device to wake naturally.
 
 ---
 
@@ -258,8 +275,9 @@ Scenario: single occupant seated at desk for extended periods; light automation 
 | Symptom | Likely Cause | Fix |
 |---|---|---|
 | Ghost detections at night | PIR reacting to thermal changes or drafts | Switch to `mmwave` only; enable `ai_interference_source_selfidentification` |
-| False absences while sitting still | Sensitivity too low or `absence_delay_timer` too short | Increase `motion_sensitivity`; raise timer to ≥ 60 sec |
+| False absences while sitting still | Sensitivity too low or timer too short | Increase `motion_sensitivity`; raise `absence_delay_timer` to ≥ 60 sec |
 | Through-wall detections | Detection range not restricted | Disable `detection_range` bands beyond room boundary |
-| Persistent false detections after full setup | Spatial Learning was run with room occupied | Re-run Spatial Learning with room completely empty |
+| Persistent false detections after full setup | Spatial Learning run with room occupied | Re-run Spatial Learning with room completely empty |
 | No presence detected close to sensor | Near-field dead zone (< 1 m) | Reposition sensor; keep `detection_range_0` – `_3` disabled |
-| Sensor reports absent immediately after leaving | `absence_delay_timer` too short | Increase to appropriate room-type value |
+| Sensor reports absent immediately after leaving | `absence_delay_timer` too short | Increase to room-type appropriate value |
+| Z2M settings not updating in UI | Device is asleep and hasn't processed command yet | Press button once to force immediate wake-up and processing |

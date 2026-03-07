@@ -76,6 +76,19 @@ Avant de fixer définitivement le capteur, tester la position avec du ruban de m
 
 ---
 
+### Important : Comprendre le comportement de l'interface Z2M
+
+**Le FP300 est un appareil sur batterie en mode veille.** Lorsque vous modifiez une valeur de paramètre dans l'onglet Exposes de Z2M, la modification est **immédiatement envoyée** à l'appareil, mais le capteur ne la traite que lors de son prochain réveil — ce qui peut prendre **plusieurs minutes** selon l'activité de la pièce.
+
+**Pour forcer un retour immédiat après modification des paramètres :**
+1. Se rendre près du capteur
+2. **Appuyer une fois sur le bouton** (pression courte)
+3. L'appareil se réveille immédiatement et traite toutes les commandes en attente en quelques secondes
+
+L'interface Z2M se met à jour automatiquement dès que le capteur répond. Aucun bouton « Appliquer » n'est requis — chaque basculement/menu déroulant envoie instantanément sa propre commande.
+
+---
+
 ### Étape 1 — Définir le mode de détection
 
 | Paramètre Z2M | Valeur recommandée | Remarques |
@@ -91,8 +104,10 @@ Utiliser `both` uniquement si une réaction lumineuse très rapide (< 1 sec) est
 
 | Paramètre Z2M | Valeur | Remarques |
 |---|---|---|
-| `motion_sensitivity` | Voir profils de pièces ci-dessous | Réglage fondamental de la détection |
+| `motion_sensitivity` | Voir profils de pièces ci-dessous | **Contrôle la sensibilité du radar mmWave** (pas le PIR) — réglage fondamental de la détection |
 | `ai_sensitivity_adaptive` | `ON` | Permet l'auto-optimisation dans le temps |
+
+> **Clarification sur le nom du paramètre :** Malgré son nom `motion_sensitivity`, ce paramètre contrôle la **sensibilité du radar mmWave** pour la détection de présence statique. Il reste le paramètre de réglage principal même lorsque `presence_detection_options` est réglé sur `mmwave` uniquement.
 
 ---
 
@@ -247,9 +262,11 @@ Scénario : une personne assise à un bureau pendant de longues périodes ; auto
 
 | Action | Fonction |
 |---|---|
-| **Pression courte unique** | Vérifie la connexion au hub Zigbee et le statut de couplage |
+| **Pression courte unique** | Force un réveil immédiat ; traite les commandes Z2M en attente instantanément |
 | **Maintien 5+ secondes** | Réinitialisation usine / nouveau couplage (aussi pour basculer Zigbee ↔ Thread) |
 | **10 pressions courtes** | Force la reconnexion au réseau |
+
+> **Astuce :** Après avoir modifié des paramètres dans Z2M, appuyer une fois sur le bouton pour forcer un retour immédiat au lieu d'attendre plusieurs minutes que l'appareil se réveille naturellement.
 
 ---
 
@@ -263,3 +280,4 @@ Scénario : une personne assise à un bureau pendant de longues périodes ; auto
 | Fausses détections persistantes après configuration complète | Spatial Learning effectué avec la pièce occupée | Relancer le Spatial Learning avec la pièce complètement vide |
 | Pas de détection près du capteur | Zone morte en champ proche (< 1 m) | Repositionner le capteur ; maintenir `detection_range_0` – `_3` désactivés |
 | Le capteur signale « absent » immédiatement après départ | `absence_delay_timer` trop court | Augmenter à la valeur appropriée selon le type de pièce |
+| Les paramètres Z2M ne se mettent pas à jour dans l'interface | L'appareil est en veille et n'a pas encore traité la commande | Appuyer une fois sur le bouton pour forcer un réveil et un traitement immédiats |

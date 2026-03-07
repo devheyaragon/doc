@@ -76,6 +76,19 @@ Vor der dauerhaften Befestigung den Sensor mit Malerkrepp oder der Magnethalteru
 
 ---
 
+### Wichtig: Verhalten der Z2M-Oberfläche verstehen
+
+**Der FP300 ist ein batteriebetriebenes Gerät im Schlafmodus.** Wenn Sie einen Parameterwert im Exposes-Tab von Z2M ändern, wird die Änderung **sofort gesendet**, aber der Sensor verarbeitet sie erst beim nächsten Aufwachen — das kann je nach Raumaktivität **mehrere Minuten** dauern.
+
+**So erzwingen Sie sofortiges Feedback nach Einstellungsänderungen:**
+1. Zum Sensor gehen
+2. **Knopf einmal drücken** (kurzer Druck)
+3. Das Gerät wacht sofort auf und verarbeitet alle ausstehenden Befehle innerhalb weniger Sekunden
+
+Die Z2M-Oberfläche aktualisiert sich automatisch, sobald der Sensor zurückmeldet. Ein „Anwenden"-Button ist nicht erforderlich — jeder Schalter/jede Auswahlliste sendet sofort ihren eigenen Befehl.
+
+---
+
 ### Schritt 1 — Erkennungsmodus festlegen
 
 | Z2M-Parameter | Empfohlener Wert | Hinweise |
@@ -91,8 +104,10 @@ Vor der dauerhaften Befestigung den Sensor mit Malerkrepp oder der Magnethalteru
 
 | Z2M-Parameter | Wert | Hinweise |
 |---|---|---|
-| `motion_sensitivity` | Siehe Raumprofile unten | Grundlegende Erkennungseinstellung |
+| `motion_sensitivity` | Siehe Raumprofile unten | **Steuert mmWave-Radar-Empfindlichkeit** (nicht PIR) — grundlegende Erkennungseinstellung |
 | `ai_sensitivity_adaptive` | `ON` | Ermöglicht automatische Selbstoptimierung über Zeit |
+
+> **Hinweis zur Parameterbenennung:** Trotz des Namens `motion_sensitivity` steuert dieser Parameter die **mmWave-Radar-Empfindlichkeit** für die Erkennung statischer Anwesenheit. Er bleibt der primäre Einstellparameter, auch wenn `presence_detection_options` auf `mmwave` gesetzt ist.
 
 ---
 
@@ -247,9 +262,11 @@ Szenario: Einzelperson am Schreibtisch über längere Zeit; Lichtautomatisierung
 
 | Aktion | Funktion |
 |---|---|
-| **Einmal kurz drücken** | Prüft Zigbee-Hub-Verbindung und Kopplungsstatus |
+| **Einmal kurz drücken** | Erzwingt sofortiges Aufwachen; verarbeitet ausstehende Z2M-Befehle sofort |
 | **5+ Sekunden halten** | Werksreset / Neu-Kopplung (auch zum Wechsel Zigbee ↔ Thread) |
 | **10x kurz drücken** | Erzwingt Netzwerk-Wiederverbindung |
+
+> **Tipp:** Nach Änderungen in Z2M den Knopf einmal drücken, um sofortiges Feedback zu erzwingen, anstatt mehrere Minuten zu warten, bis das Gerät von selbst aufwacht.
 
 ---
 
@@ -263,3 +280,4 @@ Szenario: Einzelperson am Schreibtisch über längere Zeit; Lichtautomatisierung
 | Dauernde Fehlerkennungen nach vollständiger Einrichtung | Spatial Learning mit besetztem Raum durchgeführt | Spatial Learning mit vollständig leerem Raum wiederholen |
 | Keine Erkennung nahe am Sensor | Nahbereichs-Totzone (< 1 m) | Sensor neu positionieren; `detection_range_0` – `_3` deaktiviert lassen |
 | Sensor meldet sofort „abwesend" nach dem Verlassen | `absence_delay_timer` zu kurz | Auf raumtypgerechten Wert erhöhen |
+| Z2M-Einstellungen aktualisieren sich nicht in der Oberfläche | Gerät schläft und hat Befehl noch nicht verarbeitet | Knopf einmal drücken, um sofortiges Aufwachen und Verarbeitung zu erzwingen |
