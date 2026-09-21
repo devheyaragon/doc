@@ -82,19 +82,18 @@ peut causer des problèmes.
 
 ## ChatGPT
 
-Les connecteurs personnalisés sont disponibles dans les paramètres de
-connecteurs du **mode développeur** de ChatGPT. Utilisez la même URL de
-serveur (avec `/mcp`) et choisissez l'enregistrement OAuth
-automatique/dynamique, comme ci-dessus.
+**Activez d'abord le mode développeur :** dans [ChatGPT](https://chatgpt.com/),
+ouvrez **Settings → Security and login** et activez **Developer mode** —
+les connecteurs personnalisés n'apparaissent qu'une fois cette option
+activée. (Les libellés de menu sont indiqués ici en anglais, leur
+traduction exacte dans l'interface française de ChatGPT n'étant pas
+confirmée.) Utilisez ensuite la même URL de serveur (avec `/mcp`) et
+choisissez l'enregistrement OAuth automatique/dynamique, comme ci-dessus.
 
-**Exigence de forfait :** avec un forfait personnel ChatGPT Plus ou Pro,
-les connecteurs MCP personnalisés peuvent être limités à la lecture de
-l'état (par exemple, lister les appareils) sans pouvoir rien modifier —
-allumer ou éteindre une lumière peut alors échouer silencieusement. Le
-contrôle complet (lecture et écriture) nécessite un forfait ChatGPT
-Business, Enterprise ou Edu. Si les commandes semblent se connecter et
-lire correctement mais ne contrôlent rien en pratique, vérifiez d'abord
-votre forfait avant de penser à un problème de configuration.
+**Exigence de forfait :** testé et confirmé fonctionnel avec un forfait
+personnel ChatGPT **Free**, contrôle complet inclus (pas seulement la
+lecture de l'état) — un forfait payant ne devrait pas être nécessaire
+pour cela.
 
 **Si la création du connecteur échoue à la première tentative** avec une
 erreur du type « ne prend pas en charge Dynamic Client Registration » :
@@ -104,16 +103,15 @@ tentative sans aucun autre changement — cela semble venir du fait que
 ChatGPT lui-même ne termine pas son processus de découverte la première
 fois, plutôt que d'un problème avec votre serveur ou votre adresse.
 
+**Lors de la toute première utilisation, juste après l'installation et la
+connexion :** utilisez le bouton **« Try in chat »** sur la page du
+plugin Aragon, sous **Installed Plugins**.
+
 **Si une commande dans votre propre langue ne fonctionne pas du premier
 coup** (« Jag kunde inte tända lamporna just nu — anslutningen till
 hemstyrningen misslyckades » / « impossible d'allumer les lumières pour le
 moment — la connexion au système domotique a échoué »), essayez la même
-demande une fois en anglais, puis réessayez dans votre propre langue. Il a
-été observé que la première commande non anglaise échoue puis fonctionne
-immédiatement ensuite — y compris pour d'autres commandes dans votre
-propre langue — une fois qu'une commande en anglais est passée. Si une
-commande continue d'échouer après cela, il faut alors le considérer comme
-un vrai problème plutôt que cet effet de préchauffage.
+demande une fois en anglais, puis réessayez dans votre propre langue.
 
 ## Perplexity
 
@@ -147,8 +145,6 @@ avec Aragon Control MCP**, à considérer donc comme non confirmé plutôt
 que comme une garantie. Si vous l'essayez, les mêmes étapes devraient
 s'appliquer : saisissez votre URL de serveur avec `/mcp` à la fin et
 choisissez l'enregistrement automatique/dynamique du client OAuth.
-Merci de nous faire savoir ce qu'il se passe si vous testez cela, afin
-que cette section puisse être mise à jour avec un résultat confirmé.
 
 ## Autres assistants
 

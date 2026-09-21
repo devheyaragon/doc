@@ -72,17 +72,15 @@ problems.
 
 ## ChatGPT
 
-Custom connectors are available under ChatGPT's **Developer Mode**
-connector settings. Use the same server URL (with `/mcp`) and choose
-automatic/dynamic OAuth registration, same as above.
+**Enable Developer mode first:** in [ChatGPT](https://chatgpt.com/), open
+**Settings → Security and login** and turn on **Developer mode** —
+custom connectors only appear once this is on. Then use the same server
+URL (with `/mcp`) and choose automatic/dynamic OAuth registration, same
+as above.
 
-**Plan requirement:** on a personal ChatGPT Plus or Pro plan, custom MCP
-connectors may be limited to reading status (for example, listing
-devices) without being able to change anything — turning a light on or
-off may silently not work. Full control (read and write) requires a
-ChatGPT Business, Enterprise, or Edu plan. If commands seem to connect
-and read fine but don't actually control anything, check your plan
-before assuming something is wrong with the setup.
+**Plan requirement:** tested and confirmed working on a personal ChatGPT
+**Free** plan, including full control (not just reading status) — you
+should not need a paid plan for this.
 
 **If creating the connector fails on the first attempt** with an error
 like "doesn't support Dynamic Client Registration": delete the connector
@@ -91,15 +89,15 @@ immediately on a second attempt with no other change — it appears to be
 ChatGPT itself not completing its discovery process the first time,
 rather than anything wrong with your server or address.
 
+**The first time you use it, right after installing and connecting:**
+use the **"Try in chat"** button on the Aragon plugin's page under
+**Installed Plugins**.
+
 **If a command in your own language doesn't work at first** ("Jag kunde
 inte tända lamporna just nu — anslutningen till hemstyrningen
 misslyckades" / "couldn't turn on the lights — the connection to the home
 system failed"), try the same request once in English, then try your own
-language again. This has been observed to fail on the first non-English
-command, then work immediately afterward — including for further commands
-in your own language — once one English command has gone through. If a
-command keeps failing after that, it's worth treating as a real issue
-rather than this warm-up effect.
+language again.
 
 ## Perplexity
 
@@ -128,9 +126,7 @@ URL — so this may not require a paid SuperGrok plan, despite earlier
 assumptions. **This has not yet been tested end-to-end against Aragon
 Control MCP**, so treat it as unconfirmed rather than a guarantee. If you
 try it, the same steps should apply: enter your server URL with `/mcp` on
-the end and choose automatic/dynamic OAuth client registration. Please
-let us know what happens if you test this, so this section can be
-updated with a confirmed result.
+the end and choose automatic/dynamic OAuth client registration.
 
 ## Other assistants
 
