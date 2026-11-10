@@ -48,14 +48,16 @@ Never shared:
 
 ## Step 1: Switch it on
 
-1. Open the Maestro page and go to **Remote Connect → Support access**.
+1. Open the Maestro page and choose **System → Support access** in the menu
+   (the section sits under Remote Connection).
 2. Click **Turn on for 48 hours** and enter your owner password.
 3. The card shows until when it is on, and your connector address with a
    copy button.
 
 You can click **Turn off now** at any time. The assistant then loses access
 at once. Turning it on again starts a new 48-hour window and signs out any
-assistant that was connected before: it has to sign in again.
+assistant that was connected before: it has to sign in again. Changing the
+owner password in the Aragon Control MCP section does the same.
 
 ## Step 2: Connect your assistant
 
@@ -123,8 +125,11 @@ report after a fix to show what changed.
   with your owner password.
 - **Reconnect does not help:** remove the connector in Claude and add it
   again.
+- **The card says "Remote Connect is not connected":** the Maestro is not
+  connected to Tailscale right now. Support access works again by itself as
+  soon as Remote Connect is connected; there is no need to turn it off and on.
 - **The address does not answer at all:** Remote Connect must be set up and
-  reachable. Check the Remote Connect status on the Maestro page.
+  reachable. Check the Remote Connection status on the Maestro page.
 
 ## Limits
 
