@@ -27,7 +27,8 @@ et se désactive de lui-même au bout de 48 heures.
 
 L'assistant voit des informations système : états, versions, réglages sans
 leurs valeurs secrètes, et lignes de journal. Avec Claude, ces informations
-vont à Anthropic ; avec un autre assistant, à l'entreprise qui le fournit.
+vont à Anthropic ; avec un autre assistant, à l'entreprise qui le fournit ;
+dans le chat Aragon, au service d'IA cloud.
 
 Jamais partagés :
 
@@ -120,6 +121,22 @@ vérifications ne font que lire, Claude peut les lancer sans demander. Pour
 approuver chacune, ouvrez les paramètres du connecteur dans Claude et réglez
 les outils voulus, par exemple **Recent errors** et **Support report**, sur
 **Approbation requise** (dans l'interface anglaise **Needs approval**).
+
+## Dans le chat Aragon (avec l'IA cloud)
+
+Les mêmes vérifications fonctionnent aussi dans la page de chat du Maestro,
+sans Claude, lorsque l'IA cloud est activée. Cela ne dépend pas de
+l'interrupteur Accès support et ne nécessite pas Remote Connect.
+
+1. Ouvrez le chat depuis le menu du Maestro, puis ouvrez **Serveurs MCP**.
+2. Activez **Aragon System** et démarrez une **Nouvelle conversation**.
+3. Posez votre question comme à l'étape 3.
+
+Tant qu'il est activé, chaque message envoyé à l'IA cloud coûte un peu plus,
+car les descriptions des vérifications accompagnent chaque message. Pour
+arrêter, désactivez-le et démarrez une nouvelle conversation ; ouvrir le chat
+depuis le menu du Maestro le désactive à nouveau. Tant que les vérifications
+sont proposées, le chat ne peut pas ouvrir de pages web.
 
 ## Envoyer un rapport au support Aragon
 

@@ -29,7 +29,7 @@ kein Gerät. Er ist aus, bis Du ihn einschaltest, und schaltet sich nach
 Der Assistent sieht Systeminformationen: Zustände, Versionen, Einstellungen
 ohne ihre geheimen Werte, und Protokollzeilen. Über Claude gehen diese
 Informationen an Anthropic; über einen anderen Assistenten an dessen
-Anbieter.
+Anbieter; im Aragon-Chat an den Cloud-KI-Dienst.
 
 Nie geteilt werden:
 
@@ -119,6 +119,22 @@ Claude sie ohne Nachfrage ausführen. Wenn Du jede einzeln freigeben möchtest,
 öffne die Einstellungen des Connectors in Claude und stelle die gewünschten
 Werkzeuge, zum Beispiel **Recent errors** und **Support report**, auf
 **Genehmigung erforderlich** (in der englischen Oberfläche **Needs approval**).
+
+## Im Aragon-Chat (mit Cloud-KI)
+
+Dieselben Prüfungen funktionieren auch auf der Chat-Seite des Maestro, ohne
+Claude, wenn die Cloud-KI eingeschaltet ist. Das hängt nicht vom Schalter
+Support-Zugang ab und braucht kein Remote Connect.
+
+1. Öffne den Chat über das Maestro-Menü und dann **MCP-Server**.
+2. Schalte **Aragon System** ein und starte ein **Neues Gespräch**.
+3. Stelle Deine Frage wie in Schritt 3.
+
+Solange es eingeschaltet ist, kostet jede Nachricht an die Cloud-KI etwas
+mehr, weil die Beschreibungen der Prüfungen mit jeder Nachricht mitgehen. Zum
+Beenden schalte es aus und starte ein neues Gespräch; wenn Du den Chat über
+das Maestro-Menü öffnest, ist es wieder aus. Solange die Prüfungen angeboten
+werden, kann der Chat keine Webseiten öffnen.
 
 ## Einen Bericht an den Aragon-Support senden
 

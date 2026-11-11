@@ -100,8 +100,10 @@ Scaleway rechnet nach Nutzung ab. Preise im Oktober 2026, ohne Steuern:
 - Kostenloses Kontingent: die ersten 1.000.000 Token und 60 Audiominuten.
 
 Ein Sprachbefehl braucht etwa 5.000 Token und einige Sekunden Audio, das
-sind rund 0,004 €. Bei 50 Befehlen am Tag sind das etwa 6 € im Monat. Mit
-**Immer den Cloud-KI-Server verwenden** zählt jeder Befehl.
+sind rund 0,004 €. Nur die Befehle, die der Maestro nicht selbst versteht,
+gehen an den Dienst; bei 50 Sprachbefehlen am Tag sind das etwa 1 € im
+Monat (unsere Schätzung). Mit **Immer den Cloud-KI-Server verwenden**
+zählt jeder Befehl.
 
 Scaleway kann den Dienst nicht bei einem Höchstbetrag stoppen, aber Sie
 können in der Scaleway-Konsole **Billing alerts** einrichten und werden

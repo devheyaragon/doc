@@ -27,7 +27,8 @@ device. It is off until you switch it on, and it switches itself off after
 
 The assistant sees system information: states, versions, settings without
 their secret values, and log lines. Through Claude this information goes to
-Anthropic; through another assistant, to that assistant's company.
+Anthropic; through another assistant, to that assistant's company; in the
+Aragon chat, to the cloud AI service.
 
 Never shared:
 
@@ -107,6 +108,21 @@ checked, what is normal and what is not, and link to the right Aragon guide.
 may run them without asking. To approve each one, open the connector's
 settings in Claude and set the tools you want to see, for example
 **Recent errors** and **Support report**, to **Needs approval**.
+
+## In the Aragon chat (with Cloud AI)
+
+The same checks also work in the Maestro's own chat page, without Claude,
+when Cloud AI is on. This does not depend on the Support access switch and
+does not need Remote Connect.
+
+1. Open the chat from the Maestro menu, then open **MCP Servers**.
+2. Turn on **Aragon System** and start a **New chat**.
+3. Ask your question as in Step 3.
+
+While it is on, each message to the cloud AI costs a little more, because the
+descriptions of the checks go with every message. To stop, turn it off and
+start a new chat; opening the chat from the Maestro menu turns it off again.
+While the checks are offered, the chat cannot open web pages.
 
 ## Sending a report to Aragon support
 

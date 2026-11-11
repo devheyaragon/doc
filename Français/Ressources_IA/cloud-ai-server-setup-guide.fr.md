@@ -98,9 +98,10 @@ Scaleway facture à l'usage. Prix en octobre 2026, hors taxes :
 - Offre gratuite : les premiers 1 000 000 tokens et 60 minutes d'audio.
 
 Une commande vocale utilise environ 5 000 tokens et quelques secondes
-d'audio, soit environ 0,004 €. À 50 commandes par jour, cela fait environ
-6 € par mois. Avec **Toujours utiliser le serveur IA cloud**, chaque
-commande compte.
+d'audio, soit environ 0,004 €. Seules les commandes que le Maestro ne
+comprend pas lui-même sont envoyées au service ; à 50 commandes vocales
+par jour, cela fait environ 1 € par mois (notre estimation). Avec
+**Toujours utiliser le serveur IA cloud**, chaque commande compte.
 
 Scaleway ne peut pas arrêter le service à un plafond de dépenses, mais vous
 pouvez configurer des **Billing alerts** dans la console Scaleway pour être
