@@ -101,9 +101,10 @@ Scaleway rechnet nach Nutzung ab. Preise im Oktober 2026, ohne Steuern:
 
 Ein Sprachbefehl braucht etwa 5.000 Token und einige Sekunden Audio, das
 sind rund 0,004 €. Nur die Befehle, die der Maestro nicht selbst versteht,
-gehen an den Dienst; bei 50 Sprachbefehlen am Tag sind das etwa 1 € im
-Monat (unsere Schätzung). Mit **Immer den Cloud-KI-Server verwenden**
-zählt jeder Befehl.
+gehen an den Dienst; Sprachbefehle kosten so etwa 1–2 € im Monat (unsere
+Schätzung). Jede Frage im AI Chat kostet etwa 0,02 €. Mit **Immer den
+Cloud-KI-Server verwenden** zählt jeder Befehl: etwa 6 € im Monat bei 50
+Befehlen am Tag.
 
 Scaleway kann den Dienst nicht bei einem Höchstbetrag stoppen, aber Sie
 können in der Scaleway-Konsole **Billing alerts** einrichten und werden

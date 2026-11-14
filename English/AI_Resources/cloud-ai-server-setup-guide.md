@@ -86,11 +86,12 @@ Scaleway bills by use. Prices in October 2026, before tax:
   million input tokens and €2.25 per million output tokens.
 - Free tier: the first 1,000,000 tokens and 60 minutes of audio are free.
 
-One voice command uses about 5,000 tokens and a few seconds of audio,
-which comes to roughly €0.004. Only the commands the Maestro does not
-understand by itself go to the service, so at 50 voice commands a day it
-costs about €1 a month (our estimate). With **Always use the cloud AI
-server** on, every command counts.
+One voice command uses about 5,000 tokens and a few seconds of audio, which
+comes to roughly €0.004. Only the commands the Maestro does not understand
+by itself go to the service, so voice commands cost about €1–2 a month (our
+estimate). Each AI Chat question costs about €0.02. With **Always use the
+cloud AI server** on, every command counts: about €6 a month at 50 commands
+a day.
 
 Scaleway cannot stop the service at a spending limit, but you can set
 **billing alerts** in the Scaleway console to be warned by e-mail. Current
