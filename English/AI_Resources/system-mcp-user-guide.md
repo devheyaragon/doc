@@ -21,6 +21,7 @@ device. It is off until you switch it on, and it switches itself off after
 | Speech | How many voice commands went to Cloud AI, how fast the answers came, retries (counts only) |
 | KNX gateway | Gateway type and address, whether the connection works, the devices and rooms Aragon loaded from it |
 | Satellites | Each satellite's room, wake word, firmware and network connection; satellites the Maestro cannot find |
+| Setup | The setup steps of the user guide, each with this Maestro's status, and the next step to do |
 | Guides | Aragon's own guides and videos, so the answer can point you to the right page |
 
 ## What is shared, and what never is
@@ -100,6 +101,8 @@ describe the problem as you would to a person. For example:
 - "Since the last update something is broken. What changed?"
 - "Was anything unusual on my Maestro yesterday between 18:00 and 22:00?"
 - "How do I change the wake word of a satellite?"
+- "Help me set up the Aragon system: what are the steps, and what is still to
+  do?"
 
 The assistant chooses which checks to run. Good answers say what was
 checked, what is normal and what is not, and link to the right Aragon guide.
@@ -115,14 +118,15 @@ The same checks also work in the Maestro's own chat page, without Claude,
 when Cloud AI is on. This does not depend on the Support access switch and
 does not need Remote Connect.
 
-1. Open the chat from the Maestro menu, then open **MCP Servers**.
-2. Turn on **Aragon System** and start a **New chat**.
-3. Ask your question as in Step 3.
+1. Open the chat from the Maestro menu. **Aragon System** is already on in
+   every new chat.
+2. Ask your question as in Step 3.
 
-While it is on, each message to the cloud AI costs a little more, because the
-descriptions of the checks go with every message. To stop, turn it off and
-start a new chat; opening the chat from the Maestro menu turns it off again.
-While the checks are offered, the chat cannot open web pages.
+Because the descriptions of the checks go with every message, each message to
+the cloud AI costs a little more. While the checks are offered, the chat
+cannot open web pages. To use a chat without them, open **MCP Servers**, turn
+**Aragon System** off and start a **New chat**. Opening the chat from the
+Maestro menu turns it on again.
 
 ## Sending a report to Aragon support
 

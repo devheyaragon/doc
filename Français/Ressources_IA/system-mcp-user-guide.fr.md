@@ -21,6 +21,7 @@ et se désactive de lui-même au bout de 48 heures.
 | Parole | Nombre de commandes vocales envoyées à l'IA cloud, rapidité des réponses, nouvelles tentatives (nombres uniquement) |
 | Passerelle KNX | Type et adresse de la passerelle, état de la connexion, les appareils et pièces qu'Aragon en a chargés |
 | Satellites | Pièce, mot d'activation, firmware et connexion réseau de chaque satellite ; les satellites que le Maestro ne trouve pas |
+| Mise en service | Les étapes de mise en service du guide de l'utilisateur, chacune avec l'état de ce Maestro, et la prochaine étape |
 | Guides | Les guides et vidéos d'Aragon, pour que la réponse vous renvoie à la bonne page |
 
 ## Ce qui est partagé, et ce qui ne l'est jamais
@@ -111,6 +112,8 @@ décrivez le problème comme vous le feriez à une personne. Par exemple :
 - « Y a-t-il eu quelque chose d'inhabituel sur mon Maestro hier entre 18 h et
   22 h ? »
 - « Comment changer le mot d'activation d'un satellite ? »
+- « Aide-moi à mettre en service le système Aragon : quelles sont les étapes,
+  et que reste-t-il à faire ? »
 
 L'assistant choisit lui-même les vérifications à lancer. Une bonne réponse
 indique ce qui a été vérifié, ce qui est normal et ce qui ne l'est pas, et
@@ -128,15 +131,15 @@ Les mêmes vérifications fonctionnent aussi dans la page de chat du Maestro,
 sans Claude, lorsque l'IA cloud est activée. Cela ne dépend pas de
 l'interrupteur Accès support et ne nécessite pas Remote Connect.
 
-1. Ouvrez le chat depuis le menu du Maestro, puis ouvrez **Serveurs MCP**.
-2. Activez **Aragon System** et démarrez une **Nouvelle conversation**.
-3. Posez votre question comme à l'étape 3.
+1. Ouvrez le chat depuis le menu du Maestro. **Aragon System** est déjà activé
+   dans chaque nouvelle conversation.
+2. Posez votre question comme à l'étape 3.
 
-Tant qu'il est activé, chaque message envoyé à l'IA cloud coûte un peu plus,
-car les descriptions des vérifications accompagnent chaque message. Pour
-arrêter, désactivez-le et démarrez une nouvelle conversation ; ouvrir le chat
-depuis le menu du Maestro le désactive à nouveau. Tant que les vérifications
-sont proposées, le chat ne peut pas ouvrir de pages web.
+Comme les descriptions des vérifications accompagnent chaque message, chaque
+message envoyé à l'IA cloud coûte un peu plus. Tant que les vérifications sont
+proposées, le chat ne peut pas ouvrir de pages web. Pour une conversation sans
+elles, ouvrez **Serveurs MCP**, désactivez **Aragon System** et démarrez une
+**Nouvelle conversation**. Ouvrir le chat depuis le menu du Maestro le réactive.
 
 ## Envoyer un rapport au support Aragon
 

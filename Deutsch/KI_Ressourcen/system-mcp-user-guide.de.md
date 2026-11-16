@@ -22,6 +22,7 @@ kein Gerät. Er ist aus, bis Du ihn einschaltest, und schaltet sich nach
 | Sprache | Wie viele Sprachbefehle an die Cloud-KI gingen, wie schnell die Antworten kamen, Wiederholungen (nur Zahlen) |
 | KNX-Gateway | Gateway-Typ und Adresse, ob die Verbindung funktioniert, die Geräte und Räume, die Aragon davon geladen hat |
 | Satelliten | Raum, Aktivierungswort, Firmware und Netzwerkverbindung jedes Satelliten; Satelliten, die der Maestro nicht findet |
+| Einrichtung | Die Schritte der Inbetriebnahme aus dem Handbuch, jeder mit dem Stand dieses Maestro, und der nächste Schritt |
 | Anleitungen | Aragons eigene Anleitungen und Videos, damit die Antwort Dich auf die richtige Seite verweisen kann |
 
 ## Was geteilt wird, und was nie
@@ -109,6 +110,8 @@ erklären würdest. Zum Beispiel:
 - "War gestern zwischen 18:00 und 22:00 Uhr etwas Ungewöhnliches auf meinem
   Maestro?"
 - "Wie ändere ich das Aktivierungswort eines Satelliten?"
+- "Hilf mir, das Aragon-System einzurichten: Welche Schritte gibt es, und was
+  ist noch zu tun?"
 
 Der Assistent wählt selbst, welche Prüfungen er ausführt. Gute Antworten
 sagen, was geprüft wurde, was normal ist und was nicht, und verweisen auf die
@@ -126,15 +129,16 @@ Dieselben Prüfungen funktionieren auch auf der Chat-Seite des Maestro, ohne
 Claude, wenn die Cloud-KI eingeschaltet ist. Das hängt nicht vom Schalter
 Support-Zugang ab und braucht kein Remote Connect.
 
-1. Öffne den Chat über das Maestro-Menü und dann **MCP-Server**.
-2. Schalte **Aragon System** ein und starte ein **Neues Gespräch**.
-3. Stelle Deine Frage wie in Schritt 3.
+1. Öffne den Chat über das Maestro-Menü. **Aragon System** ist in jedem neuen
+   Gespräch bereits eingeschaltet.
+2. Stelle Deine Frage wie in Schritt 3.
 
-Solange es eingeschaltet ist, kostet jede Nachricht an die Cloud-KI etwas
-mehr, weil die Beschreibungen der Prüfungen mit jeder Nachricht mitgehen. Zum
-Beenden schalte es aus und starte ein neues Gespräch; wenn Du den Chat über
-das Maestro-Menü öffnest, ist es wieder aus. Solange die Prüfungen angeboten
-werden, kann der Chat keine Webseiten öffnen.
+Weil die Beschreibungen der Prüfungen mit jeder Nachricht mitgehen, kostet
+jede Nachricht an die Cloud-KI etwas mehr. Solange die Prüfungen angeboten
+werden, kann der Chat keine Webseiten öffnen. Für ein Gespräch ohne sie öffne
+**MCP-Server**, schalte **Aragon System** aus und starte ein **Neues
+Gespräch**. Wenn Du den Chat über das Maestro-Menü öffnest, ist es wieder
+eingeschaltet.
 
 ## Einen Bericht an den Aragon-Support senden
 
